@@ -1,0 +1,48 @@
+
+boolean
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+
+tf_idf
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+
+bm25
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+
+vector-space
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+
+pagerank
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+
+class-match-measure
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+
+semantic-similarity
+http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+
+bioportal
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+
+solr
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
+http://purl.obolibrary.org/obo/DOID_0110454	dilated cardiomyopathy 1S
+http://purl.obolibrary.org/obo/DOID_0110307	hypertrophic cardiomyopathy 1
+
+ols
+http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
+

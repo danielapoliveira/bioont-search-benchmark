@@ -1,0 +1,90 @@
+
+boolean
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+
+tf_idf
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+
+bm25
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+
+vector-space
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+
+pagerank
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+
+class-match-measure
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+
+bioportal
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12047	Carboplatin/Flavopiridol
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12127	Carboplatin/Erlotinib
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37616	Carboplatin/Lobradimil
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37614	Carboplatin/Ixabepilone
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37545	Azacitidine/Carboplatin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37564	Bortezomib/Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+
+ols
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/DRON_00026729	Carboplatin Injectable Solution
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+http://purl.obolibrary.org/obo/DRON_00077979	Carboplatin 10 MG/ML Injectable Solution [Paraplatin]
+http://purl.obolibrary.org/obo/DRON_00044309	Carboplatin 5 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00054427	Carboplatin 10 MG/ML Injectable Solution
+http://purl.obolibrary.org/obo/DRON_00718512	00703424891
+http://purl.obolibrary.org/obo/DRON_00704700	47335015140
+http://purl.obolibrary.org/obo/DRON_00704715	47335028440
+http://purl.obolibrary.org/obo/DRON_00704720	47335030040
+

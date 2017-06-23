@@ -1,0 +1,121 @@
+
+boolean
+http://purl.obolibrary.org/obo/GO_2000386	positive regulation of ovarian follicle development
+http://purl.obolibrary.org/obo/FMA_18655	Basal lamina of ovarian follicle
+http://purl.obolibrary.org/obo/GO_0008070	maternal determination of dorsal/ventral axis, ovarian follicular epithelium, germ-line encoded
+http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6733	intrahepatic bile duct cystadenoma
+http://purl.obolibrary.org/obo/GO_0035471	luteinizing hormone signaling pathway involved in ovarian follicle development
+http://purl.obolibrary.org/obo/OAE_0004298	premature ovarian failure AE
+http://www.orpha.net/ORDO/Orphanet_400022	Rare female infertility due to an anomaly of ovarian function of genetic origin
+http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
+
+tf_idf
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
+http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
+http://purl.obolibrary.org/obo/MP_0011127	abnormal secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MP_0011128	increased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
+
+bm25
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_6733	intrahepatic bile duct cystadenoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
+http://purl.obolibrary.org/obo/DOID_5305	malignant ovarian clear cell neoplasm
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
+http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
+http://purl.obolibrary.org/obo/UBERON_0001145	ovarian vein
+http://purl.obolibrary.org/obo/UBERON_0008847	ovarian ligament
+http://purl.obolibrary.org/obo/UBERON_2001263	ovarian follicle stage I
+http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle
+http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
+http://purl.obolibrary.org/obo/UBERON_2001265	ovarian follicle stage II
+http://purl.obolibrary.org/obo/UBERON_0001190	ovarian artery
+http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
+
+pagerank
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
+http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
+http://purl.obolibrary.org/obo/MP_0011127	abnormal secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MP_0011128	increased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_6733	intrahepatic bile duct cystadenoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
+http://purl.obolibrary.org/obo/DOID_5305	malignant ovarian clear cell neoplasm
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_6733	intrahepatic bile duct cystadenoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
+http://purl.obolibrary.org/obo/DOID_5305	malignant ovarian clear cell neoplasm
+
+bioportal
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40075	Ovarian Endometrioid Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4511	Ovarian Serous Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4512	Ovarian Mucinous Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126310	Ovarian Seromucinous Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30039	Mouse Ovarian Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7278	Ovarian Papillary Cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+
+solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_3914	serous cystadenoma of ovary
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30039	Mouse Ovarian Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7278	Ovarian Papillary Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40075	Ovarian Endometrioid Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4511	Ovarian Serous Cystadenoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4512	Ovarian Mucinous Cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+http://purl.obolibrary.org/obo/DOID_7191	ovarian endometrioid cystadenoma
+
+ols
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C2972	Cystadenoma
+http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
+http://purl.obolibrary.org/obo/DOID_7191	ovarian endometrioid cystadenoma
+http://purl.obolibrary.org/obo/DOID_3267	mucinous ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+http://purl.obolibrary.org/obo/DOID_5746	ovarian serous cystadenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_305	serous cystadenoma
+http://purl.obolibrary.org/obo/DOID_2634	cystadenoma
+

@@ -1,0 +1,121 @@
+
+boolean
+http://purl.obolibrary.org/obo/GO_2000386	positive regulation of ovarian follicle development
+http://purl.obolibrary.org/obo/FMA_18655	Basal lamina of ovarian follicle
+http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
+http://purl.obolibrary.org/obo/GO_0008070	maternal determination of dorsal/ventral axis, ovarian follicular epithelium, germ-line encoded
+http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
+http://purl.obolibrary.org/obo/GO_0035471	luteinizing hormone signaling pathway involved in ovarian follicle development
+http://purl.obolibrary.org/obo/OAE_0004298	premature ovarian failure AE
+http://www.orpha.net/ORDO/Orphanet_400022	Rare female infertility due to an anomaly of ovarian function of genetic origin
+http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
+
+tf_idf
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
+http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
+http://purl.obolibrary.org/obo/MP_0011127	abnormal secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MP_0011128	increased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
+
+bm25
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7588	mixed endodermal sinus neoplasm and teratoma of the testis
+http://purl.obolibrary.org/obo/DOID_5563	malignant teratoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7362	teratoma of CNS with malignant transformation
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
+http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
+http://purl.obolibrary.org/obo/UBERON_0001145	ovarian vein
+http://purl.obolibrary.org/obo/UBERON_0008847	ovarian ligament
+http://purl.obolibrary.org/obo/UBERON_2001263	ovarian follicle stage I
+http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle
+http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
+http://purl.obolibrary.org/obo/UBERON_2001265	ovarian follicle stage II
+http://purl.obolibrary.org/obo/UBERON_0001190	ovarian artery
+http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
+
+pagerank
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
+http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
+http://purl.obolibrary.org/obo/MP_0011127	abnormal secondary ovarian follicle number
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MP_0011128	increased secondary ovarian follicle number
+http://purl.obolibrary.org/obo/ZFA_0001110	ovarian follicle
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7588	mixed endodermal sinus neoplasm and teratoma of the testis
+http://purl.obolibrary.org/obo/DOID_5563	malignant teratoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7362	teratoma of CNS with malignant transformation
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
+http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
+http://purl.obolibrary.org/obo/DOID_7588	mixed endodermal sinus neoplasm and teratoma of the testis
+http://purl.obolibrary.org/obo/DOID_5563	malignant teratoma
+http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
+http://purl.obolibrary.org/obo/DOID_7362	teratoma of CNS with malignant transformation
+
+bioportal
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
+http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6554	Childhood Ovarian Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30041	Mouse Benign Ovarian Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6547	Childhood Ovarian Immature Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8112	Mature Ovarian Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8745	Stage III Ovarian Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8111	Immature Ovarian Teratoma
+
+solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
+http://purl.obolibrary.org/obo/DOID_5207	monodermal teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6548	Childhood Ovarian Mature Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6547	Childhood Ovarian Immature Teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6554	Childhood Ovarian Teratoma
+http://purl.obolibrary.org/obo/DOID_6314	ovarian fetiform teratoma
+http://purl.obolibrary.org/obo/DOID_6315	ovarian solid teratoma
+http://purl.obolibrary.org/obo/DOID_5567	ovarian germ cell teratoma
+
+ols
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
+http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
+http://purl.obolibrary.org/obo/NCIT_C3403	Teratoma
+http://purl.obolibrary.org/obo/DOID_5118	ovarian cystic teratoma
+http://purl.obolibrary.org/obo/DOID_5567	ovarian germ cell teratoma
+http://purl.obolibrary.org/obo/DOID_6315	ovarian solid teratoma
+http://purl.obolibrary.org/obo/DOID_6314	ovarian fetiform teratoma
+http://purl.obolibrary.org/obo/DOID_5207	monodermal teratoma
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+

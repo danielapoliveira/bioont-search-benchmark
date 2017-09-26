@@ -21,6 +21,18 @@ Finally, to run the benchmark code use the following commands:
 
 The results will be saved in different directories of userinput.
 
+## Bulk Loading Ontologies
+
+The previous method has the disadvantage of not being able to load large ontologies into the local Virtuoso so an alternate method is provided in the directory [script](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script). The script downloads the ontologies and bulk loads them via iSQL to the Virtuoso server. 
+
+This method works with a bash script which means it's only available in Linux machines.
+
+The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but before running the benchmark, edit [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) and change the first three parameters to correspond to your Virtuoso server port, user and password.
+To run the benchmark script and code, in the same directory as [userinput](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput), run:
+
+    $ script/run-benchmark.sh
+
+
 
 
 

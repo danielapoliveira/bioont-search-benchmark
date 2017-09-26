@@ -11,10 +11,8 @@ import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.*;
+import java.util.*;
 
 /**
  * Created by Daniela Oliveira.
@@ -28,7 +26,13 @@ public class SolrSearch {
         results = new LinkedList<>();
     }
 
-    public LinkedList<SearchResult> search(String term, String q){
+    public LinkedList<SearchResult> search(String term, String q) throws IOException {
+        List<String> validAcronyms = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("userinput/acronyms.txt")));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            validAcronyms.add(line.trim());
+        }
         //String solrUrl = "http://localhost:8983/solr/ontology";
         SolrClient solrServer = new HttpSolrClient(Configuration.getProperty(Configuration.SOLR_INSTANCE));
         SolrQuery query = new SolrQuery();
@@ -46,25 +50,28 @@ public class SolrSearch {
 
         for(SolrDocument item : list) {
             SearchResult s = new SearchResult();
-            s.setAcronym(item.get("ontology_prefix").toString());
-            s.setIri(item.get("iri").toString());
-            s.setScore(item.get("score").toString());
-            s.setLabel(item.get("label").toString());
-            try {
-                s.setDefinition(item.get("description").toString());
-            } catch (NullPointerException e){
+            String acronym = item.get("ontology_prefix").toString();
+            if(validAcronyms.contains(acronym)) {
+                s.setAcronym(acronym);
+                s.setIri(item.get("iri").toString());
+                s.setScore(item.get("score").toString());
+                s.setLabel(item.get("label").toString());
+                try {
+                    s.setDefinition(item.get("description").toString());
+                } catch (NullPointerException e) {
 
-            }
-            if(q.equals("label:")){
-                s.setWeight(FieldWeight.LABEL);
-            }
-            else if (q.equals("synonym:")){
-                s.setWeight(FieldWeight.EXACT_SYNONYM);
-            }
-            else
-                s.setWeight(FieldWeight.DEFINITION);
+                }
+                if (q.equals("label:")) {
+                    s.setWeight(FieldWeight.LABEL);
+                }
+                else if (q.equals("synonym:")) {
+                    s.setWeight(FieldWeight.EXACT_SYNONYM);
+                }
+                else
+                    s.setWeight(FieldWeight.DEFINITION);
 
-            results.add(s);
+                results.add(s);
+            }
         }
         return results;
     }

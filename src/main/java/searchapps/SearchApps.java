@@ -41,10 +41,11 @@ public class SearchApps {
         acroUsed.addAll(syn.getAcronyms());
         allResults.put("solr", mergedResults);
 
+        int tries = 10;
+
         //Bioportal search
         Search bio = new Search();
         LinkedList<SearchResult> bioResults = new LinkedList<>();
-        int tries = 10;
         for (int j = 0; j <= tries; j++) {
             try {
                 bioResults = bio.bioportalSearch(term, validAcronyms);
@@ -75,6 +76,23 @@ public class SearchApps {
         }
         olsResults = removeDups(olsResults);
         allResults.put("ols", olsResults);
+
+        //Zooma search
+        Search zooma = new Search();
+        LinkedList<SearchResult> zoomaResults = new LinkedList<>();
+        for (int j = 0; j <= tries; j++) {
+            try {
+                zoomaResults = zooma.zoomaSearch(term, validAcronyms);
+                break;
+            } catch (NullPointerException e) {
+                System.out.println("Zooma timeout and retry...");
+                Thread.sleep(TimeUnit.MINUTES.toMillis(15));
+            }
+            if (j == 10)
+                System.exit(-1);
+        }
+        zoomaResults = removeDups(zoomaResults);
+        allResults.put("zooma", zoomaResults);
 
 
         return allResults;

@@ -67,6 +67,7 @@ public class Test {
         if (loadData) {
             QuadStore qd = QuadStore.getDefaultStore();
             ArrayList<String> store = qd.getExistingLoadedOntology();
+            /*
             BufferedReader br = new BufferedReader(new FileReader(urisFile));
             String line;
             //Read File Line By Line
@@ -74,10 +75,10 @@ public class Test {
             while ((line = br.readLine()) != null) {
                 if (!store.contains(line))
                     graphs.add(line);
-            }
+            }*/
 
             LoadDataClass ldc = new LoadDataClass(preprocessingPath);
-            ldc.loadData(graphs);
+            ldc.loadData(store);
         }
 
         /********************

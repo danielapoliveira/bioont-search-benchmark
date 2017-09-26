@@ -1,27 +1,27 @@
 
 boolean
-http://www.ebi.ac.uk/efo/EFO_1000046	papillary lung adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
 http://www.ebi.ac.uk/efo/EFO_0000478	esophageal adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C43344	Carcinoma ex Eccrine Spiradenoma
 http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000482	obsolete_pleomorphic breast carcinoma
-http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
-http://purl.obolibrary.org/obo/MP_0002957	increased intestinal adenocarcinoma incidence
-http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/HP_0040274	Adenocarcinoma of the small intestine
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
+http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
+http://purl.obolibrary.org/obo/NCIT_C85889	Stage I Merkel Cell Carcinoma
+http://purl.obolibrary.org/obo/MP_0000621	increased salivary adenocarcinoma incidence
+http://www.ebi.ac.uk/efo/EFO_1000022	obsolete_cervical squamous cell carcinoma
+http://purl.obolibrary.org/obo/NCIT_C130234	Castration-Resistant Prostate Carcinoma
 
 tf_idf
-http://purl.obolibrary.org/obo/DOID_4905	pancreatic carcinoma
+http://purl.obolibrary.org/obo/MPATH_157	pseudoepithelioma/pseudocarcinoma
+http://purl.obolibrary.org/obo/MPATH_447	squamous cell carcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_282	infiltrating duct carcinoma
+http://purl.obolibrary.org/obo/MPATH_283	intraductal carcinoma
+http://purl.obolibrary.org/obo/MPATH_288	islet cell carcinoma
+http://purl.obolibrary.org/obo/MPATH_289	lobular carcinoma
+http://purl.obolibrary.org/obo/MPATH_273	bronchioloalveolar carcinoma
+http://purl.obolibrary.org/obo/MPATH_839	anaplastic hepatocellular carcinoma
+http://purl.obolibrary.org/obo/MPATH_485	carcinoma in situ
 http://purl.obolibrary.org/obo/DOID_686	liver carcinoma
-http://purl.obolibrary.org/obo/DOID_4074	pancreas adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9261	nasopharynx carcinoma
-http://purl.obolibrary.org/obo/DOID_8687	skin carcinoma in situ
-http://purl.obolibrary.org/obo/MPATH_549	carcinoma
-http://purl.obolibrary.org/obo/DOID_2513	basal cell carcinoma
-http://purl.obolibrary.org/obo/DOID_4015	spindle cell carcinoma
-http://purl.obolibrary.org/obo/DOID_684	hepatocellular carcinoma
-http://purl.obolibrary.org/obo/DOID_3963	thyroid carcinoma
 
 bm25
 http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
@@ -31,82 +31,85 @@ http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
 http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
 http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
+http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
 http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
 
 vector-space
-http://www.ebi.ac.uk/efo/EFO_1000167	Cervical Large Cell Neuroendocrine Carcinoma
-http://www.ebi.ac.uk/efo/EFO_1000058	nasopharyngeal squamous cell carcinoma
-http://purl.obolibrary.org/obo/BTO_0002844	breast invasive ductal carcinoma cell
-http://www.ebi.ac.uk/efo/EFO_1000046	papillary lung adenocarcinoma
-http://www.ebi.ac.uk/efo/EFO_0000466	endometrioid carcinoma
-http://www.ebi.ac.uk/efo/EFO_0000478	esophageal adenocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000494	Primary Peritoneal Serous Adenocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000482	obsolete_pleomorphic breast carcinoma
-http://www.ebi.ac.uk/efo/EFO_1000317	Lacrimal Gland Adenoid Cystic Carcinoma
-http://www.orpha.net/ORDO/Orphanet_97290	Familial papillary thyroid carcinoma with renal papillary neoplasia
+http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
+http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
+http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
+http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
+http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
+http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
 
 pagerank
-http://purl.obolibrary.org/obo/DOID_4905	pancreatic carcinoma
+http://purl.obolibrary.org/obo/MPATH_157	pseudoepithelioma/pseudocarcinoma
+http://purl.obolibrary.org/obo/MPATH_447	squamous cell carcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_282	infiltrating duct carcinoma
+http://purl.obolibrary.org/obo/MPATH_283	intraductal carcinoma
+http://purl.obolibrary.org/obo/MPATH_288	islet cell carcinoma
+http://purl.obolibrary.org/obo/MPATH_289	lobular carcinoma
+http://purl.obolibrary.org/obo/MPATH_273	bronchioloalveolar carcinoma
+http://purl.obolibrary.org/obo/MPATH_839	anaplastic hepatocellular carcinoma
+http://purl.obolibrary.org/obo/MPATH_485	carcinoma in situ
 http://purl.obolibrary.org/obo/DOID_686	liver carcinoma
-http://purl.obolibrary.org/obo/DOID_4074	pancreas adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9261	nasopharynx carcinoma
-http://purl.obolibrary.org/obo/DOID_4015	spindle cell carcinoma
-http://purl.obolibrary.org/obo/DOID_684	hepatocellular carcinoma
-http://purl.obolibrary.org/obo/DOID_3963	thyroid carcinoma
-http://purl.obolibrary.org/obo/DOID_1749	squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_5742	pancreatic acinar cell adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_8687	skin carcinoma in situ
 
 class-match-measure
-http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
-http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
-http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
-http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
+http://purl.obolibrary.org/obo/HP_0002890	Thyroid carcinoma
+http://purl.obolibrary.org/obo/HP_0002672	Gastrointestinal carcinoma
+http://purl.obolibrary.org/obo/HP_0006739	Squamous cell carcinoma of the skin
+http://purl.obolibrary.org/obo/HP_0040274	Adenocarcinoma of the small intestine
+http://purl.obolibrary.org/obo/HP_0030394	Fallopian tube carcinoma
+http://purl.obolibrary.org/obo/HP_0006771	Duodenal adenocarcinoma
+http://purl.obolibrary.org/obo/HP_0002862	Bladder carcinoma
+http://purl.obolibrary.org/obo/HP_0030075	Ductal carcinoma in situ
+http://purl.obolibrary.org/obo/HP_0011459	Esophageal carcinoma
+http://purl.obolibrary.org/obo/HP_0030443	Anal margin basal cell carcinoma
 
 semantic-similarity
-http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
-http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
-http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
-http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
+http://purl.obolibrary.org/obo/NCIT_C43344	Carcinoma ex Eccrine Spiradenoma
+http://purl.obolibrary.org/obo/NCIT_C85889	Stage I Merkel Cell Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C130234	Castration-Resistant Prostate Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C23071	Non-Keratinizing Carcinoma of the Mouse Pharynx
+http://purl.obolibrary.org/obo/NCIT_C96493	Rectal Micropapillary Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C91202	Bladder Carcinoma by AJCC v7 Stage
+http://purl.obolibrary.org/obo/NCIT_C60325	Rat Adenosquamous Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C43345	Ductal Eccrine Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C4068	Trabecular Adenocarcinoma
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
 
 bioportal
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2916	Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
 http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
 http://purl.obolibrary.org/obo/MP_0002038	increased carcinoma incidence
 
 solr
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2916	Carcinoma
-http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
+http://purl.obolibrary.org/obo/NCIT_C27949	Metaplastic Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C60366	Rat Carcinoma
+http://purl.obolibrary.org/obo/DOID_4451	renal carcinoma
+http://purl.obolibrary.org/obo/DOID_4531	mucoepidermoid carcinoma
 http://www.ebi.ac.uk/efo/EFO_0006772	undifferentiated carcinoma
-http://purl.obolibrary.org/obo/DOID_4939	ureter carcinoma
-http://purl.obolibrary.org/obo/DOID_1294	vulva carcinoma
-http://www.ebi.ac.uk/efo/EFO_0005575	obsolete_penis carcinoma
-http://www.ebi.ac.uk/efo/EFO_0005553	eccrine sweat gland cancer
-http://www.ebi.ac.uk/efo/EFO_1000058	nasopharyngeal squamous cell carcinoma
 
 ols
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
 http://purl.obolibrary.org/obo/MPATH_549	carcinoma
-http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/MP_0002038	increased carcinoma incidence
 

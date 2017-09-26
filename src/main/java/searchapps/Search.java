@@ -39,6 +39,7 @@ public class Search {
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
+            //System.out.println(result);
             String purl = result.get("iri").toString().replace("\"", "");
             s.setIri(purl);
 
@@ -57,16 +58,37 @@ public class Search {
         return search;
     }
 
+    public LinkedList<SearchResult> zoomaSearch(String term,List<String> validAcronyms){
+        //System.out.println(term);
+        LinkedList<SearchResult> search = new LinkedList<>();
+        api.setURL("http://www.ebi.ac.uk/spot/zooma/v2/api/");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "services/annotate?propertyValue="+term+"&filter=ontologies:[CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WBPHENOTYPE,XAO,ZFA]"));
+        for(JsonNode result : searchResult)
+        {
+            SearchResult s = new SearchResult();
+            String purl = result.get("semanticTags").toString().replace("[", "").replace("]", "").replace("\"", "");
+
+            s.setIri(purl);
+            s.setLabel(result.get("annotatedProperty").get("propertyValue").toString().replace("\"", ""));
+            search.add(s);
+        }
+        return search;
+    }
+
     public LinkedList<SearchResult> bioportalSearch(String term, List<String> validAcronyms) {
 
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURLandKey("http://data.bioontology.org", Configuration.getProperty(Configuration.BIOPORTAL_APIKEY));
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+"))+ "&pagesize=30").get("collection");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100")).get("collection");
 
         for(JsonNode result : searchResult) {
-            
             SearchResult s = new SearchResult();
             String purl = result.get("@id").toString().replace("\"", "");
+            if(purl.contains("http://purl.org/sig/ont/fma/fma"))
+                purl = purl.replace("http://purl.org/sig/ont/fma/fma","http://purl.obolibrary.org/obo/FMA_");
+            if(purl.contains("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#")) {
+                purl = purl.replace("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#", "http://purl.obolibrary.org/obo/NCIT_");
+            }
             s.setIri(purl);
             if(result.get("prefLabel") != null)
                 s.setLabel(result.get("prefLabel").toString().replace("\"", ""));

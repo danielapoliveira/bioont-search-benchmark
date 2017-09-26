@@ -27,6 +27,7 @@ public class OntologyPersistance {
 		logger.info(urlString+ " loading ...");
 		boolean insertCheck = store.insert(urlString);
 
+
 		if(insertCheck == false)
 		{
 			insertCheck = store.loadGraph(urlString);
@@ -56,5 +57,28 @@ public class OntologyPersistance {
 		}
 		return insertCheck;
 	}
+
+	public void insertMetadata(String urlString, List<String> identifiers){
+        //add metadata about this ontology (i.e. graph iri, identifier and date of load into store)
+        metadata.addMetadata(urlString, identifiers);
+
+        //get a list of ontologies that has been imported by ontology in hand.
+        ArrayList<String> ontologiesList = io.getImportOntologies(urlString);
+
+        //if there are some ontologies that are imported by this ontology
+        if (ontologiesList.size() >0){
+
+            //for each imported ontology
+            for (int i = 0; i<ontologiesList.size() ; i++){
+                logger.info( urlString + "		imports		" + ontologiesList.get(i));
+
+                // load this ontology into virtuoso repository and add its metadata into store using this recursive function.
+                List<String> importOntologiesId = new ArrayList<>();
+                loadOntologyIntoVirtuosoRespository(ontologiesList.get(i), importOntologiesId);
+            }
+            metadata.addImportsMetadata(urlString, ontologiesList);
+        }
+    }
+
 }
 

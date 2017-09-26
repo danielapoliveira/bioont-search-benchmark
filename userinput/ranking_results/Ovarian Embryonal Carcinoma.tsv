@@ -1,27 +1,27 @@
 
 boolean
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
 http://www.ebi.ac.uk/efo/EFO_0000478	esophageal adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C43344	Carcinoma ex Eccrine Spiradenoma
 http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
-http://www.orpha.net/ORDO/Orphanet_97290	Familial papillary thyroid carcinoma with renal papillary neoplasia
 http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
-http://www.ebi.ac.uk/efo/EFO_1000240	Endometrial Squamous Cell Carcinoma
 http://purl.obolibrary.org/obo/MP_0000621	increased salivary adenocarcinoma incidence
-http://www.ebi.ac.uk/efo/EFO_0000430	ductal adenocarcinoma
+http://www.ebi.ac.uk/efo/EFO_1000022	obsolete_cervical squamous cell carcinoma
+http://purl.obolibrary.org/obo/NCIT_C130234	Castration-Resistant Prostate Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C23071	Non-Keratinizing Carcinoma of the Mouse Pharynx
 
 tf_idf
-http://purl.obolibrary.org/obo/DOID_3095	germ cell and embryonal cancer
-http://purl.obolibrary.org/obo/DOID_686	liver carcinoma
-http://purl.obolibrary.org/obo/DOID_4074	pancreas adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_4905	pancreatic carcinoma
-http://purl.obolibrary.org/obo/DOID_9261	nasopharynx carcinoma
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
-http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
-http://purl.obolibrary.org/obo/DOID_8687	skin carcinoma in situ
-http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
+http://purl.obolibrary.org/obo/MPATH_710	embryonal rhabdomyosarcoma
+http://purl.obolibrary.org/obo/MPATH_157	pseudoepithelioma/pseudocarcinoma
+http://purl.obolibrary.org/obo/MPATH_447	squamous cell carcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_282	infiltrating duct carcinoma
+http://purl.obolibrary.org/obo/MPATH_283	intraductal carcinoma
+http://purl.obolibrary.org/obo/MPATH_288	islet cell carcinoma
+http://purl.obolibrary.org/obo/MPATH_289	lobular carcinoma
+http://purl.obolibrary.org/obo/MPATH_273	bronchioloalveolar carcinoma
+http://purl.obolibrary.org/obo/MPATH_839	anaplastic hepatocellular carcinoma
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
 
 bm25
 http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
@@ -31,91 +31,96 @@ http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
 http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
 http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
+http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
 http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
 
 vector-space
-http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
+http://purl.obolibrary.org/obo/VT_0001130	ovarian folliculogenesis trait
+http://purl.obolibrary.org/obo/VT_0002682	mature ovarian follicle quantity
+http://purl.obolibrary.org/obo/VT_0010401	ovarian follicle size trait
+http://purl.obolibrary.org/obo/VT_0001131	ovarian follicle morphology trait
+http://purl.obolibrary.org/obo/VT_0010043	ovarian follicle physiology trait
 http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
+http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
 http://purl.obolibrary.org/obo/UBERON_0001145	ovarian vein
 http://purl.obolibrary.org/obo/UBERON_0008847	ovarian ligament
 http://purl.obolibrary.org/obo/UBERON_2001263	ovarian follicle stage I
-http://purl.obolibrary.org/obo/UBERON_0003982	mature ovarian follicle
-http://purl.obolibrary.org/obo/UBERON_0003981	primordial ovarian follicle
-http://purl.obolibrary.org/obo/UBERON_2001265	ovarian follicle stage II
-http://purl.obolibrary.org/obo/UBERON_0001190	ovarian artery
-http://purl.obolibrary.org/obo/UBERON_0000037	tertiary ovarian follicle
 
 pagerank
-http://purl.obolibrary.org/obo/DOID_3095	germ cell and embryonal cancer
-http://purl.obolibrary.org/obo/DOID_686	liver carcinoma
-http://purl.obolibrary.org/obo/DOID_4074	pancreas adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_4905	pancreatic carcinoma
-http://purl.obolibrary.org/obo/DOID_9261	nasopharynx carcinoma
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
-http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
-http://purl.obolibrary.org/obo/DOID_4015	spindle cell carcinoma
-http://purl.obolibrary.org/obo/DOID_684	hepatocellular carcinoma
+http://purl.obolibrary.org/obo/MPATH_710	embryonal rhabdomyosarcoma
+http://purl.obolibrary.org/obo/MPATH_157	pseudoepithelioma/pseudocarcinoma
+http://purl.obolibrary.org/obo/MPATH_447	squamous cell carcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_282	infiltrating duct carcinoma
+http://purl.obolibrary.org/obo/MPATH_283	intraductal carcinoma
+http://purl.obolibrary.org/obo/MPATH_288	islet cell carcinoma
+http://purl.obolibrary.org/obo/MPATH_289	lobular carcinoma
+http://purl.obolibrary.org/obo/MPATH_273	bronchioloalveolar carcinoma
+http://purl.obolibrary.org/obo/MPATH_839	anaplastic hepatocellular carcinoma
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
 
 class-match-measure
-http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
-http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
-http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
-http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
+http://purl.obolibrary.org/obo/HP_0006743	Embryonal rhabdomyosarcoma
+http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
+http://purl.obolibrary.org/obo/HP_0002890	Thyroid carcinoma
+http://purl.obolibrary.org/obo/HP_0002672	Gastrointestinal carcinoma
+http://purl.obolibrary.org/obo/HP_0006739	Squamous cell carcinoma of the skin
+http://purl.obolibrary.org/obo/HP_0040274	Adenocarcinoma of the small intestine
+http://purl.obolibrary.org/obo/HP_0030394	Fallopian tube carcinoma
+http://purl.obolibrary.org/obo/HP_0006771	Duodenal adenocarcinoma
+http://purl.obolibrary.org/obo/HP_0002862	Bladder carcinoma
+http://purl.obolibrary.org/obo/HP_0030075	Ductal carcinoma in situ
 
 semantic-similarity
-http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_9011	larynx carcinoma in situ
-http://purl.obolibrary.org/obo/DOID_5886	mixed embryonal carcinoma and teratoma with seminoma of the testis
-http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
-http://purl.obolibrary.org/obo/DOID_6975	bladder urothelial papillary carcinoma
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_6999	lung recurrent squamous cell carcinoma
-http://purl.obolibrary.org/obo/DOID_8718	carcinoma in situ of respiratory system
-http://purl.obolibrary.org/obo/DOID_7050	thymus basaloid carcinoma
-http://purl.obolibrary.org/obo/DOID_4688	laryngeal mucoepidermoid carcinoma
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
+http://purl.obolibrary.org/obo/NCIT_C43344	Carcinoma ex Eccrine Spiradenoma
+http://purl.obolibrary.org/obo/NCIT_C130234	Castration-Resistant Prostate Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C23071	Non-Keratinizing Carcinoma of the Mouse Pharynx
+http://purl.obolibrary.org/obo/NCIT_C96493	Rectal Micropapillary Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C91202	Bladder Carcinoma by AJCC v7 Stage
+http://purl.obolibrary.org/obo/NCIT_C60325	Rat Adenosquamous Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C43345	Ductal Eccrine Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C4068	Trabecular Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C40051	Malignant Ovarian Endometrioid Tumor
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
 
 bioportal
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8108	Ovarian Embryonal Carcinoma
-http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
-http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6546	Childhood Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30049	Mouse Ovarian Embryonal Carcinoma
-http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8728	Stage III Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8729	Stage IV Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8734	Stage I Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8725	Stage II Ovarian Embryonal Carcinoma
-
-solr
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8108	Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C30049	Mouse Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
 http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
 http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
 http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8725	Stage II Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8729	Stage IV Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8728	Stage III Ovarian Embryonal Carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8734	Stage I Ovarian Embryonal Carcinoma
-
-ols
-http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
-http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
-http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8729	Stage IV Ovarian Embryonal Carcinoma
 http://purl.obolibrary.org/obo/DOID_3308	embryonal carcinoma
 http://www.ebi.ac.uk/efo/EFO_0004986	embryonal carcinoma
-http://purl.obolibrary.org/obo/MPATH_313	embryonal carcinoma
-http://purl.obolibrary.org/obo/DOID_8275	intratubular embryonal carcinoma
-http://purl.obolibrary.org/obo/DOID_5680	embryonal testis carcinoma
-http://purl.obolibrary.org/obo/DOID_6162	childhood embryonal testis carcinoma
-http://www.ebi.ac.uk/efo/EFO_1000565	Testicular Embryonal Carcinoma
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8734	Stage I Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8729	Stage IV Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8725	Stage II Ovarian Embryonal Carcinoma
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8725	Stage II Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8729	Stage IV Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8734	Stage I Ovarian Embryonal Carcinoma
 

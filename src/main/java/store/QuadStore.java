@@ -7,21 +7,24 @@ package store;
 
 
 import java.io.*;
+import java.net.URL;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
 
 import com.hp.hpl.jena.graph.GraphUtil;
+import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.graph.Triple;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
-import virtuoso.jena.driver.VirtGraph;
-import virtuoso.jena.driver.VirtuosoQueryExecution;
-import virtuoso.jena.driver.VirtuosoQueryExecutionFactory;
-import virtuoso.jena.driver.VirtuosoUpdateFactory;
-import virtuoso.jena.driver.VirtuosoUpdateRequest;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.Statement;
+import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+import virtuoso.jena.driver.*;
 import test.Configuration;
 
 
@@ -33,109 +36,110 @@ import test.Configuration;
  */
 public class QuadStore {
 
-	/** Default instance of the triple store */
-	private static QuadStore defaultStore;
+    /** Default instance of the triple store */
+    private static QuadStore defaultStore;
 
-	/** Default logger */
-	private Logger logger;
+    /** Default logger */
+    private Logger logger;
 
-	/** Sesame repository for the quad store*/
-	private VirtGraph  metagraph = null;
+    /** Sesame repository for the quad store*/
+    private VirtGraph  metagraph = null;
 
-	private VirtGraph connection = null;
+    private VirtGraph connection = null;
 
-	private String connectionURL = null;
+    private String connectionURL = null;
 
-	private String username = null;
+    private String username = null;
 
-	private String password = null;
+    private String password = null;
 
-	/** Sesame Repository connection */
-	//private RepositoryConnection connection= null;
-	/**
-	 * Gets default triple store instance to avoid synchronization faults 
-	 */
-	public static QuadStore getDefaultStore() {
-		if(defaultStore==null) {
-			defaultStore = new QuadStore();
-		}
-		return defaultStore;
-	}
+    /** Sesame Repository connection */
+    //private RepositoryConnection connection= null;
+    /**
+     * Gets default triple store instance to avoid synchronization faults
+     */
+    public static QuadStore getDefaultStore() {
+        if(defaultStore==null) {
+            defaultStore = new QuadStore();
+        }
+        return defaultStore;
+    }
 
-	/**
-	 * Initializes this triple store
-	 */
-	private QuadStore() {
-		logger = Logger.getLogger(getClass().getName());
+    /**
+     * Initializes this triple store
+     */
+    private QuadStore() {
+        logger = Logger.getLogger(getClass().getName());
 
-		connectionURL = "jdbc:virtuoso://" + Configuration.getProperty(Configuration.VIRTUOSO_INSTANCE) + ":" + Configuration.getProperty(Configuration.VIRTUOSO_PORT);
-		logger.info("Connection URL :" + connectionURL);
+        connectionURL = "jdbc:virtuoso://" + Configuration.getProperty(Configuration.VIRTUOSO_INSTANCE) + ":" + Configuration.getProperty(Configuration.VIRTUOSO_PORT);
+        logger.info("Connection URL :" + connectionURL);
 
-		username = Configuration.getProperty(Configuration.VIRTUOSO_USERNAME);
-		logger.info("VIRTUOSO USER :" + username);
+        username = Configuration.getProperty(Configuration.VIRTUOSO_USERNAME);
+        logger.info("VIRTUOSO USER :" + username);
 
-		password = Configuration.getProperty(Configuration.VIRTUOSO_PASSWORD);
-		logger.info("VIRTUOSO PASSWORD :" + password);
+        password = Configuration.getProperty(Configuration.VIRTUOSO_PASSWORD);
+        logger.info("VIRTUOSO PASSWORD :" + password);
 
-		String metadata = Configuration.getProperty(Configuration.STORE_METADATA);
-		logger.info("VIRTUOSO CONTEXT PATH :" + metadata);
+        String metadata = Configuration.getProperty(Configuration.STORE_METADATA);
+        logger.info("VIRTUOSO CONTEXT PATH :" + metadata);
 
-		//VirtGraph graph = new VirtGraph ("Example2", "jdbc:virtuoso://localhost:1111", "dba", "dba");
+        //VirtGraph graph = new VirtGraph ("Example2", "jdbc:virtuoso://localhost:1111", "dba", "dba");
 
-		//graph = new VirtGraph(context, connectionURL, username , password );
+        //graph = new VirtGraph(context, connectionURL, username , password );
 
-		metagraph = new VirtGraph(metadata, connectionURL, username , password );
-		connection = new VirtGraph(connectionURL, username , password );
+        metagraph = new VirtGraph(metadata, connectionURL, username , password );
+        connection = new VirtGraph(connectionURL, username , password );
 
-		logger.info("Connection established . . . ");
-
-
-	}
-
-	public VirtGraph getConnection(){
-
-		return connection;
-	}
-
-	public void insertMetaGraphData(List<Triple> triple) {
-		//logger.info("Loading data from : " + strurl);
-		//try {
-
-		GraphUtil.add(metagraph,triple);
-		//metagraph.getBulkUpdateHandler().add(triple);
-		logger.info("Triple loaded successfully");
-		//} catch (Exception e) {
-		//	logger.severe("Error[" + e + "]");
-		//}
-		//logger.info("TDB triple store initialized");
-	}
+        logger.info("Connection established . . . ");
 
 
-	public boolean loadGraph(String uri){
-		boolean flag = false;
-		String loadString  = "LOAD <"+uri+">  INTO <"+uri+"> ";
-		try {
-			VirtuosoUpdateRequest vur = VirtuosoUpdateFactory.create(loadString, connection);
-			vur.exec();
-			flag = true;
-			logger.info("File loaded successfully");
-		} catch (Exception e){
+    }
 
-		}
-		return flag;
-	}
+    public VirtGraph getConnection(){
+
+        return connection;
+    }
+
+    public void insertMetaGraphData(List<Triple> triple) {
+        //logger.info("Loading data from : " + strurl);
+        //try {
+
+        GraphUtil.add(metagraph,triple);
+        //metagraph.getBulkUpdateHandler().add(triple);
+        logger.info("Triple loaded successfully");
+        //} catch (Exception e) {
+        //	logger.severe("Error[" + e + "]");
+        //}
+        //logger.info("TDB triple store initialized");
+    }
 
 
-	/**
-	 * Inserts RDF data into virtuoso QUAD store 
-	 *
-	 * @param filepath Input file or directory path
-	 * @return Number of triples inserted into this triple store 
-	 */
-	public void insert(File filepath) {
-		logger.info("Loading data from file: " + filepath);
+    public boolean loadGraph(String uri){
+        boolean flag = false;
+        String loadString  = "LOAD <"+uri+">  INTO <"+uri+"> ";
+        try {
+            VirtuosoUpdateRequest vur = VirtuosoUpdateFactory.create(loadString, connection);
+            vur.exec();
+            flag = true;
+            logger.info("File loaded successfully");
+        } catch (Exception e){
 
-		//Model model = new TDBModel();
+
+        }
+        return flag;
+    }
+
+
+    /**
+     * Inserts RDF data into virtuoso QUAD store
+     *
+     * @param filepath Input file or directory path
+     * @return Number of triples inserted into this triple store
+     */
+    public void insert(File filepath) {
+        logger.info("Loading data from file: " + filepath);
+
+        //Model model = new TDBModel();
 //		boolean directory = filepath.isDirectory();
 //		
 //		if(directory) {	 
@@ -159,48 +163,47 @@ public class QuadStore {
 //			}
 //		}
 //        logger.info("TDB triple store initialized");
-	}
+    }
 
-	/**
-	 * Inserts RDF data into virtuoso QUAD store from a url
-	 *
-	 * @param strurl Input file or directory path
-	 * @return Number of triples inserted into this triple store 
-	 */
-	public boolean insert(String strurl) {
-		VirtGraph _graph = new VirtGraph(strurl, connectionURL, username , password );
+    /**
+     * Inserts RDF data into virtuoso QUAD store from a url
+     *
+     * @param strurl Input file or directory path
+     * @return Number of triples inserted into this triple store
+     */
+    public boolean insert(String strurl) {
+        VirtGraph _graph = new VirtGraph(strurl, connectionURL, username , password );
 
-		logger.info("Loading data from : " + strurl);
-		boolean flag = false;
-		try {
+        logger.info("Loading data from : " + strurl);
+        boolean flag = false;
+        try {
 
-			_graph.read(strurl, OntMediaType.MIME_RDF_XML);
-			//graph.read(strurl, OntMediaType.MIME_RDF_XML);
-			flag = true;
-			if(flag == true) {
+            _graph.read(new URL(strurl).toString(), OntMediaType.MIME_RDF_XML);
+            //graph.read(strurl, OntMediaType.MIME_RDF_XML);
+            flag = true;
+            if(flag == true) {
 
-			} else {
+            } else {
 
-			}
-			logger.info("File loaded successfully");
-		} catch (Exception e) {
+            }
+            logger.info("File loaded successfully");
+        } catch (Exception e) {
+            flag = false;
+            logger.severe("Error[" + e + "]");
+        } finally{
+            _graph.close();
+        }
+        logger.info("TDB triple store initialized");
+        return flag;
+    }
 
-			flag = false;
-			logger.severe("Error[" + e + "]");
-		} finally{
-			_graph.close();
-		}
-		logger.info("TDB triple store initialized");
-		return flag;
-	}
-
-	/**
-	 * Executes given Graph type query
-	 *
-	 * @param query The SPARQL construct or describe query
-	 * @return The resulting graph as a string
-	 */
-	public Model execConstruct(String query, boolean inf) {
+    /**
+     * Executes given Graph type query
+     *
+     * @param query The SPARQL construct or describe query
+     * @return The resulting graph as a string
+     */
+    public Model execConstruct(String query, boolean inf) {
 
 //        Model queryModel = TDBFactory.createModel();
 //        if(inf==true){
@@ -208,43 +211,43 @@ public class QuadStore {
 //        	queryModel = ontModel;
 //        }else{queryModel = orthoModel; }
 
-		//Query sparql = QueryFactory.create(query);
-		//VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
+        //Query sparql = QueryFactory.create(query);
+        //VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
 
-		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (query, connection);
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (query, connection);
 
-		Model _model = null;
-		logger.info("Query parsed successfully");
-		try {
+        Model _model = null;
+        logger.info("Query parsed successfully");
+        try {
 
-			_model = (Model) vqe.execConstruct();
+            _model = (Model) vqe.execConstruct();
 
-		} catch (Exception exp) {
-			logger.info("Can't process describe query because of "+exp);
-		} finally {
-			vqe.close();
-		}
-		return _model;
-	}
+        } catch (Exception exp) {
+            logger.info("Can't process describe query because of "+exp);
+        } finally {
+            vqe.close();
+        }
+        return _model;
+    }
 
-	public ResultSet execSelect(String query, boolean inf) {
+    public ResultSet execSelect(String query, boolean inf) {
 
-		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (query, connection);
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (query, connection);
 
-		logger.info("Query parsed successfully");
+        logger.info("Query parsed successfully");
 
-		ResultSet results =null;
+        ResultSet results =null;
 
-		try {
-			results =  vqe.execSelect();
-			//logger.info("Result Set contains :" + results.getResultVars().toString() + results.getRowNumber());
-		} catch (Exception exp) {
-			logger.info("Can't process select query because of "+exp);
-		} finally {
-			vqe.close();
-		}
-		return results;
-	}
+        try {
+            results =  vqe.execSelect();
+            //logger.info("Result Set contains :" + results.getResultVars().toString() + results.getRowNumber());
+        } catch (Exception exp) {
+            logger.info("Can't process select query because of "+exp);
+        } finally {
+            vqe.close();
+        }
+        return results;
+    }
 
 //	public GraphQueryResult execGraphQuery(String query) throws RepositoryException, MalformedQueryException {
 //		
@@ -277,14 +280,14 @@ public class QuadStore {
 //		return qResult;
 //	}
 
-	/**
-	 * Executes given Tuple type query
-	 *
-	 * @param query The SPARQL Select query
-	 * @return The resulting tuples as a string
-	 * @throws MalformedQueryException
-	 * @throws RepositoryException
-	 */
+    /**
+     * Executes given Tuple type query
+     *
+     * @param query The SPARQL Select query
+     * @return The resulting tuples as a string
+     * @throws MalformedQueryException
+     * @throws RepositoryException
+     */
 
 
 //	public String execTupleQuery(String query) throws RepositoryException, MalformedQueryException {
@@ -307,11 +310,11 @@ public class QuadStore {
 //		return str;
 //	}
 
-	/**
-	 * Executes given boolean type query
-	 *
-	 * @return The resulting boolean
-	 */
+    /**
+     * Executes given boolean type query
+     *
+     * @return The resulting boolean
+     */
 
 //	public boolean execBooleanQuery(String query) throws RepositoryException, MalformedQueryException {
 //		
@@ -329,37 +332,37 @@ public class QuadStore {
 //		}
 //		return str;
 //	}
-	private static File[] getFileList(String dirPath) {
-		File dir = new File(dirPath);
+    private static File[] getFileList(String dirPath) {
+        File dir = new File(dirPath);
 
-		return dir.listFiles();
-	}
-	public ArrayList<String> getExistingLoadedOntology(){
+        return dir.listFiles();
+    }
+    public ArrayList<String> getExistingLoadedOntology(){
 
-		//System.out.println("  *  * * * * GET EXISTING ONTOLOGIES * * * * * * ");
-		ArrayList<String> list = new ArrayList<String>();
+        //System.out.println("  *  * * * * GET EXISTING ONTOLOGIES * * * * * * ");
+        ArrayList<String> list = new ArrayList<String>();
 
-		String sparql = "SELECT DISTINCT ?graph "
-				+ " WHERE {GRAPH ?graph {?subject ?property ?object}} ORDER BY (?graph)";
+        String sparql = "SELECT DISTINCT ?graph "
+                + " WHERE {GRAPH ?graph {?subject ?property ?object}} ORDER BY (?graph)";
 
-		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
-		try {
-			ResultSet results =  vqe.execSelect();
-			while (results.hasNext()) {
-				QuerySolution result = results.nextSolution();
-				String graph = result.get("graph").toString();
-				list.add(graph);
-			}
-		}   catch(Exception e){
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
+        try {
+            ResultSet results =  vqe.execSelect();
+            while (results.hasNext()) {
+                QuerySolution result = results.nextSolution();
+                String graph = result.get("graph").toString();
+                list.add(graph);
+            }
+        }   catch(Exception e){
 
-		} finally{
-			vqe.close();
-		}
+        } finally{
+            vqe.close();
+        }
 
-		return list;
-	}
+        return list;
+    }
 
-	public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 		/*String sparql = "DROP SILENT ALL";
 		QuadStore store = QuadStore.getDefaultStore();
 		VirtGraph connection = store.getConnection();
@@ -367,18 +370,18 @@ public class QuadStore {
 		VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
 		vqe.execSelect();*/
 
-		QuadStore qd = new QuadStore();
-		ArrayList<String> store = qd.getExistingLoadedOntology();
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("filename.txt"))));
-		String line;
-		//Read File Line By Line
-		while ((line = br.readLine()) != null)   {
-			if(!store.contains(line))
-				qd.insert(line);
-		}
+        QuadStore qd = new QuadStore();
+        ArrayList<String> store = qd.getExistingLoadedOntology();
+        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("filename.txt"))));
+        String line;
+        //Read File Line By Line
+        while ((line = br.readLine()) != null)   {
+            if(!store.contains(line))
+                qd.insert(line);
+        }
 
 
-	}
+    }
 
 
 }

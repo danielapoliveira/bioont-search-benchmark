@@ -39,20 +39,27 @@ public class CalculateRankings {
 
     public HashMap<String,HashMap<String,List<List<String>>>> search(String queryFile,String resultPath) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(queryFile))));
-        String query;
+
         HashMap<String,HashMap<String,List<List<String>>>> finalMap = new HashMap<>();
+
+
+        String query;
+        HashMap<String, Double> classMatchScoreMap = new HashMap<String, Double>();
         while ((query = br.readLine()) != null) {
+            QueryStringParser stringParser = new QueryStringParser();
+            ArrayList<String> queryWords = stringParser.parserQueryString(query);
+
             finalMap.put(query, new HashMap<>());
             logger.info("Query words: "+query);
             String fileName = resultPath + query + ".tsv";
             MeasureDAO measureDao = new MeasureDAO();
 
-            QueryStringParser stringParser = new QueryStringParser();
-            ArrayList<String> queryWords = stringParser.parserQueryString(query);
+
 
             FileWriter writer = new FileWriter(fileName);
 
             Model model = measureDao.getSearchResults(queryWords);
+
             BooleanModel rankModel = new BooleanModel();
             ArrayList<ResultFormatter> rankedClassList = rankModel.getRankedClasses(model);
             HashMap<String, ArrayList<String>> map = getTopTen(rankedClassList);
@@ -160,13 +167,15 @@ public class CalculateRankings {
             map.clear();
 
             System.out.println("Starting CMM...");
+
             ClassMatchMeasure rankModel5 = new ClassMatchMeasure(path);
-            rankedClassList = rankModel5.getRankedClasses(model, queryWords);
+            rankedClassList = rankModel5.getRankedClasses(model, queryWords,classMatchScoreMap);
             map = getTopTen(rankedClassList);
             rankedClassList.clear();
             writer.append("class-match-measure");
             writer.append('\n');
             finalMap.get(query).put("class-match-measure", new ArrayList<>());
+
             for (int count = 0; count < map.get("iri").size(); count++) {
                 writer.append(map.get("iri").get(count) + "\t");
                 writer.append(map.get("label").get(count));
@@ -245,7 +254,7 @@ public class CalculateRankings {
 				writer.append('\n');
 				map.clear();*/
 
-            System.out.println("Searching BioPortal, Solr and OLS...");
+            /*System.out.println("Searching BioPortal, Solr and OLS...");
             SearchApps sa = new SearchApps();
             HashMap<String, LinkedList<SearchResult>> searchAppsResults = sa.search(query);
             for(String app : searchAppsResults.keySet()){
@@ -264,16 +273,26 @@ public class CalculateRankings {
                     i++;
                 }
                 writer.append("\n");
-            }
+            }*/
             writer.close();
         }
         return finalMap;
     }
 
 
-    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> list){
+    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList){
 
+        ArrayList<String> noDupsList = new ArrayList<>();
+        ArrayList<ResultFormatter> list = new ArrayList<>();
+        for(int i=0; i<inputList.size();i++){
+            ResultFormatter searchFacet = (ResultFormatter)inputList.get(i);
+            String iri = searchFacet.getTermIRI();
+            if(!noDupsList.contains(iri)){
+                noDupsList.add(iri);
+                list.add(searchFacet);
+            }
 
+        }
         ArrayList<String> strings = new ArrayList<String>();
         ArrayList<String> labels = new ArrayList<>();
         HashMap<String,ArrayList<String>> map = new HashMap<>();

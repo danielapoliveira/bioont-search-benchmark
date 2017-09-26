@@ -1,4 +1,8 @@
 #!/bin/bash
+$port=1111
+$user=dba
+$password=dba
+
 mkdir ontologies
 wget -P ontologies -i userinput/uris.txt
 
@@ -11,7 +15,7 @@ do
  echo -e  "$filename" > ${path}${filename}.graph
 done
 
-isql 1152 dba dba <<EOF
+isql $port $user $password <<EOF
 DELETE FROM DB.DBA.load_list;
 ld_dir('ontologies','*.owl', NULL);
 rdf_loader_run(log_enable=>3);

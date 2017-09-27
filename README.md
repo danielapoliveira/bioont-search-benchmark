@@ -5,17 +5,17 @@ To run this project you will need to download and install the following:
 * [Virtuoso Jena Provider](https://github.com/srdc/virt-jena)
 * [Virtuoso](https://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/)
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
-    * Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS).
-    * Delete the contents of the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).
-    * Copy all contents of the [ontology_property_files](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/ontology_property_files) directory into the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).
-    * Build OLS by running `mvn clean package` in the root of the OLS repositorty.
-    * Download and extract Solr (only [version 5.2.1](http://archive.apache.org/dist/lucene/solr/5.2.1/) was tested) to the root of the bioont repository.
-    * Create a directory to store the Solr indexes in the root of the bioont repository, e.g. `solr_index`
-    * Start solr with:
+    1. Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS).
+    2. Delete the contents of the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).
+    3. Copy all contents of the [ontology_property_files](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/ontology_property_files) directory into the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).
+    4. Build OLS by running `mvn clean package` in the root of the OLS repositorty.
+    5. Download and extract Solr (only [version 5.2.1](http://archive.apache.org/dist/lucene/solr/5.2.1/) was tested) to the root of the bioont repository.
+    6. Create a directory to store the Solr indexes in the root of the bioont repository, e.g. `solr_index`
+    7. Start solr with:
    
     `$ solr-5.2.1/bin/solr -Dsolr.solr.home=$PWD/OLS/ols-solr/src/main/solr-5-config -Dsolr.data.dir=$PWD/solr_index`
     
-    * Build the Solr indexes from the root of the bioont repository with:
+    8. Build the Solr indexes from the root of the bioont repository with:
     
     `$ scripts/index.sh`    
     

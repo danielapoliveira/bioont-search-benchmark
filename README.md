@@ -13,7 +13,7 @@ If you wish to use the code with a customised set of ontologies you will need to
 
 To change the query terms used in the benchmark edit the file [userinput/test_terms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/test_terms.txt) and introduce one query term per line.
 
-Finally, to run the benchmark code use the following commands:
+Finally, to run the benchmark code use the following commands in the root of the project:
 
     $ mvn clean
     $ mvn package
@@ -27,14 +27,14 @@ The previous method has the disadvantage of not being able to load large ontolog
 
 This method works with a bash script which means it's only available in Linux machines.
 
-The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but modify the [Configuration](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) so that the variable `ontologies.load` is `false` and do:
+The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but modify the [Configuration](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) so that the variable `ontologies.load` is `false` and, in the root of the project, do:
 
     $ mvn clean
     $ mvn package
     
 Then edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user and password.
  
- Finally, run the benchmark script, in the same directory as [userinput](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput), with:
+ Finally, run the benchmark script, in the root of the project, with:
 
     $ script/run-benchmark.sh
 

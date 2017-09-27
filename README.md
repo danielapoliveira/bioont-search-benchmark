@@ -27,8 +27,14 @@ The previous method has the disadvantage of not being able to load large ontolog
 
 This method works with a bash script which means it's only available in Linux machines.
 
-The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but before running the benchmark, edit [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) and change the first three parameters to correspond to your Virtuoso server port, user and password.
-To run the benchmark script and code, in the same directory as [userinput](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput), run:
+The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but modify the [Configuration](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) so that the variable `ontologies.load` is `false` and do:
+
+    $ mvn clean
+    $ mvn package
+    
+Then edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user and password.
+ 
+ Finally, run the benchmark script, in the same directory as [userinput](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput), with:
 
     $ script/run-benchmark.sh
 

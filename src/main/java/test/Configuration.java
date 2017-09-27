@@ -46,6 +46,8 @@ public class Configuration {
 
     public static final String SAVE_PATH = "save.path";
 
+    public static final String LOAD_ONTOLOGIES = "ontologies.load";
+
 	/** Default instance of this class */
 	private static Configuration instance;
 

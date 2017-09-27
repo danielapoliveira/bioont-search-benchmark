@@ -24,4 +24,4 @@ checkpoint;
 EXIT;
 EOF
 
-java -jar script/bioont.jar
+java -jar target/bioont-1.0-SNAPSHOT-shaded.jar

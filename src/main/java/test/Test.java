@@ -60,6 +60,14 @@ public class Test {
         String evaluationPath = savePath + "/evaluation/";
         createDir(evaluationPath);
 
+        String load_string = Configuration.getProperty(Configuration.LOAD_ONTOLOGIES);
+
+        if (load_string.equalsIgnoreCase("true") || load_string.equalsIgnoreCase("false")) {
+            loadData = Boolean.valueOf(load_string);
+        } else {
+            throw new IllegalArgumentException("ontologies.load in the configuration file requires a boolean value.");
+        }
+
 
         /********************
          * Load data        *

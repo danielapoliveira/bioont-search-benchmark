@@ -1,126 +1,15 @@
 
 boolean
-http://purl.obolibrary.org/obo/NCIT_C6550	Childhood Ovarian Dysgerminoma
-http://purl.obolibrary.org/obo/NCIT_C94821	Stage I Borderline Ovarian Surface Epithelial-Stromal Tumor
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
-http://www.orpha.net/ORDO/Orphanet_400022	Rare female infertility due to an anomaly of ovarian function of genetic origin
-http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_2025	gestational choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C122585	Borderline Ovarian Serous Tumor-Micropapillary Variant/Non-Invasive Low Grade Ovarian Serous Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C22779	Mouse Endometrioid Cystic Ovarian Tumors of Borderline Malignancy with Squamous Differentiation
-http://purl.obolibrary.org/obo/DOID_7099	ovarian dermoid cyst with squamous cell carcinoma
 
 tf_idf
-http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
-http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
-http://purl.obolibrary.org/obo/MPATH_455	choriocarcinoma
-http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
-http://purl.obolibrary.org/obo/MPATH_330	ovarian stromal tumor
-http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
-http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
-http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
 
 bm25
-http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
-http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
-http://purl.obolibrary.org/obo/DOID_8188	uterine corpus choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
-http://purl.obolibrary.org/obo/DOID_4527	ovarian angiosarcoma
-http://purl.obolibrary.org/obo/DOID_2025	gestational choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7023	borderline ovarian serous neoplasm with microinvasion
-http://purl.obolibrary.org/obo/DOID_5551	choriocarcinoma of the testis
-http://purl.obolibrary.org/obo/DOID_4555	ovarian large-cell neuroendocrine carcinoma
 
 vector-space
-http://purl.obolibrary.org/obo/VT_0001130	ovarian folliculogenesis trait
-http://purl.obolibrary.org/obo/VT_0002682	mature ovarian follicle quantity
-http://purl.obolibrary.org/obo/VT_0010401	ovarian follicle size trait
-http://purl.obolibrary.org/obo/VT_0001131	ovarian follicle morphology trait
-http://purl.obolibrary.org/obo/VT_0010043	ovarian follicle physiology trait
-http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
-http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
-http://purl.obolibrary.org/obo/UBERON_0001145	ovarian vein
-http://purl.obolibrary.org/obo/UBERON_0008847	ovarian ligament
-http://purl.obolibrary.org/obo/UBERON_2001263	ovarian follicle stage I
 
 pagerank
-http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
-http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
-http://purl.obolibrary.org/obo/MPATH_455	choriocarcinoma
-http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
-http://purl.obolibrary.org/obo/MPATH_330	ovarian stromal tumor
-http://purl.obolibrary.org/obo/MP_0011129	decreased secondary ovarian follicle number
-http://purl.obolibrary.org/obo/MA_0003064	periovarian fat pad
-http://purl.obolibrary.org/obo/MA_0003036	ovarian bursa
 
 class-match-measure
-http://purl.obolibrary.org/obo/HP_0025318	Ovarian carcinoma
-http://purl.obolibrary.org/obo/HP_0012886	Hemorrhagic ovarian cyst
-http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
-http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
-http://purl.obolibrary.org/obo/HP_0008209	Premature ovarian insufficiency
-http://purl.obolibrary.org/obo/HP_0100768	Choriocarcinoma
-http://purl.obolibrary.org/obo/HP_0100615	Ovarian neoplasm
-http://purl.obolibrary.org/obo/HP_0000138	Ovarian cyst
-http://purl.obolibrary.org/obo/HP_0000149	Ovarian gonadoblastoma
-http://purl.obolibrary.org/obo/HP_0006774	Ovarian papillary adenocarcinoma
 
 semantic-similarity
-http://purl.obolibrary.org/obo/NCIT_C6550	Childhood Ovarian Dysgerminoma
-http://purl.obolibrary.org/obo/NCIT_C6259	Stage IIIB Ovarian Cancer
-http://purl.obolibrary.org/obo/NCIT_C94821	Stage I Borderline Ovarian Surface Epithelial-Stromal Tumor
-http://purl.obolibrary.org/obo/NCIT_C113351	Ovarian Failure
-http://purl.obolibrary.org/obo/NCIT_C5231	Ovarian Leydig Cell Tumor
-http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C122585	Borderline Ovarian Serous Tumor-Micropapillary Variant/Non-Invasive Low Grade Ovarian Serous Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C22658	Mouse Ovarian Germinal Epithelium
-http://purl.obolibrary.org/obo/NCIT_C22779	Mouse Endometrioid Cystic Ovarian Tumors of Borderline Malignancy with Squamous Differentiation
-http://purl.obolibrary.org/obo/NCIT_C40087	Benign Ovarian Transitional Cell Tumor
-
-zooma
-http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_5550	choriocarcinoma of ovary
-
-bioportal
-http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8731	Stage II Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8732	Stage III Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8730	Stage I Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8733	Stage IV Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C6549	Childhood Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C40442	Gestational Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7665	non-gestational ovarian choriocarcinoma
-
-solr
-http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C39991	Non-Gestational Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C40442	Gestational Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8733	Stage IV Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8732	Stage III Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8731	Stage II Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8730	Stage I Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7665	non-gestational ovarian choriocarcinoma
-
-ols
-http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_5550	choriocarcinoma of ovary
-http://purl.obolibrary.org/obo/DOID_7665	non-gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8730	Stage I Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8731	Stage II Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8732	Stage III Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C8733	Stage IV Ovarian Choriocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C40442	Gestational Ovarian Choriocarcinoma
 

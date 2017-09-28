@@ -1,126 +1,15 @@
 
 boolean
-http://purl.obolibrary.org/obo/NCIT_C10765	Carboplatin/Etoposide/Ifosfamide/Milodistim
-http://purl.obolibrary.org/obo/NCIT_C10559	Carboplatin/Diethyldithiocarbamate
-http://purl.obolibrary.org/obo/NCIT_C10741	Carboplatin/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C11191	Carboplatin/Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10668	Carboplatin/Cisplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10939	Carboplatin/Etoposide/Mitoxantrone/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10818	Carboplatin/Cytarabine/Hydroxyurea
-http://purl.obolibrary.org/obo/NCIT_C11232	Carboplatin/Epirubicin/Vincristine
-http://purl.obolibrary.org/obo/NCIT_C37620	Carboplatin/Paclitaxel/Trastuzumab
-http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
 
 tf_idf
-http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C63402	Carboplatin-Taxol Regimen
-http://purl.obolibrary.org/obo/NCIT_C63413	Carboplatin-Taxol-Bevacizumab Regimen
-http://purl.obolibrary.org/obo/NCIT_C63410	Gemcitabine-Carboplatin Regimen
-http://purl.obolibrary.org/obo/NCIT_C125601	Carboplatin/Etoposide/Melphalan Regimen
-http://purl.obolibrary.org/obo/NCIT_C129579	Carboplatin-Etoposide-Vincristine Regimen
-http://purl.obolibrary.org/obo/NCIT_C136283	Carboplatin/Nab-paclitaxel Regimen
-http://purl.obolibrary.org/obo/NCIT_C136281	Bevacizumab/Carboplatin/Pemetrexed Regimen
-http://purl.obolibrary.org/obo/NCIT_C63631	Docetaxel-Carboplatin Regimen
-http://purl.obolibrary.org/obo/NCIT_C63763	Carboplatin-Paclitaxel-Etoposide Regimen
 
 bm25
-http://purl.obolibrary.org/obo/NCIT_C10765	Carboplatin/Etoposide/Ifosfamide/Milodistim
-http://purl.obolibrary.org/obo/NCIT_C10559	Carboplatin/Diethyldithiocarbamate
-http://purl.obolibrary.org/obo/NCIT_C10741	Carboplatin/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C11191	Carboplatin/Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10668	Carboplatin/Cisplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10939	Carboplatin/Etoposide/Mitoxantrone/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10818	Carboplatin/Cytarabine/Hydroxyurea
-http://purl.obolibrary.org/obo/NCIT_C11232	Carboplatin/Epirubicin/Vincristine
-http://purl.obolibrary.org/obo/NCIT_C37620	Carboplatin/Paclitaxel/Trastuzumab
-http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
 
 vector-space
-http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
-http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
-http://purl.obolibrary.org/obo/NCIT_C10765	Carboplatin/Etoposide/Ifosfamide/Milodistim
-http://purl.obolibrary.org/obo/NCIT_C10559	Carboplatin/Diethyldithiocarbamate
-http://purl.obolibrary.org/obo/NCIT_C10741	Carboplatin/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C11191	Carboplatin/Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10668	Carboplatin/Cisplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10939	Carboplatin/Etoposide/Mitoxantrone/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10818	Carboplatin/Cytarabine/Hydroxyurea
-http://purl.obolibrary.org/obo/NCIT_C11232	Carboplatin/Epirubicin/Vincristine
 
 pagerank
-http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C63402	Carboplatin-Taxol Regimen
-http://purl.obolibrary.org/obo/NCIT_C63413	Carboplatin-Taxol-Bevacizumab Regimen
-http://purl.obolibrary.org/obo/NCIT_C63410	Gemcitabine-Carboplatin Regimen
-http://purl.obolibrary.org/obo/NCIT_C125601	Carboplatin/Etoposide/Melphalan Regimen
-http://purl.obolibrary.org/obo/NCIT_C129579	Carboplatin-Etoposide-Vincristine Regimen
-http://purl.obolibrary.org/obo/NCIT_C136283	Carboplatin/Nab-paclitaxel Regimen
-http://purl.obolibrary.org/obo/NCIT_C136281	Bevacizumab/Carboplatin/Pemetrexed Regimen
-http://purl.obolibrary.org/obo/NCIT_C63631	Docetaxel-Carboplatin Regimen
-http://purl.obolibrary.org/obo/NCIT_C63763	Carboplatin-Paclitaxel-Etoposide Regimen
 
 class-match-measure
-http://purl.obolibrary.org/obo/NCIT_C10765	Carboplatin/Etoposide/Ifosfamide/Milodistim
-http://purl.obolibrary.org/obo/NCIT_C10559	Carboplatin/Diethyldithiocarbamate
-http://purl.obolibrary.org/obo/NCIT_C10741	Carboplatin/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C11191	Carboplatin/Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10668	Carboplatin/Cisplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10939	Carboplatin/Etoposide/Mitoxantrone/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10818	Carboplatin/Cytarabine/Hydroxyurea
-http://purl.obolibrary.org/obo/NCIT_C11232	Carboplatin/Epirubicin/Vincristine
-http://purl.obolibrary.org/obo/NCIT_C37620	Carboplatin/Paclitaxel/Trastuzumab
-http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
 
 semantic-similarity
-http://purl.obolibrary.org/obo/NCIT_C10765	Carboplatin/Etoposide/Ifosfamide/Milodistim
-http://purl.obolibrary.org/obo/NCIT_C10559	Carboplatin/Diethyldithiocarbamate
-http://purl.obolibrary.org/obo/NCIT_C10741	Carboplatin/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C11191	Carboplatin/Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10668	Carboplatin/Cisplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10939	Carboplatin/Etoposide/Mitoxantrone/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10818	Carboplatin/Cytarabine/Hydroxyurea
-http://purl.obolibrary.org/obo/NCIT_C11232	Carboplatin/Epirubicin/Vincristine
-http://purl.obolibrary.org/obo/NCIT_C37620	Carboplatin/Paclitaxel/Trastuzumab
-http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
-
-zooma
-http://purl.obolibrary.org/obo/GO_0097328	Response to platinum-based chemotherapy (carboplatin)
-http://purl.obolibrary.org/obo/GO_0097328,http://purl.obolibrary.org/obo/GO_0097327	Adverse response to chemotherapy (neutropenia/leucopenia) (carboplatin)
-http://purl.obolibrary.org/obo/GO_0097328,http://purl.obolibrary.org/obo/GO_1901555,http://purl.obolibrary.org/obo/GO_0097327	Adverse response to chemotherapy (neutropenia/leucopenia) (paclitaxel + carboplatin)
-
-bioportal
-http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
-http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
-http://purl.obolibrary.org/obo/NCIT_C12047	Carboplatin/Flavopiridol
-http://purl.obolibrary.org/obo/NCIT_C10662	Carboplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C11458	Carboplatin/Docetaxel
-http://purl.obolibrary.org/obo/NCIT_C9924	Carboplatin/Sargramostim
-http://purl.obolibrary.org/obo/NCIT_C11822	Carboplatin/Pyrazoloacridine
-http://purl.obolibrary.org/obo/NCIT_C10250	Carboplatin/Vinblastine
-http://purl.obolibrary.org/obo/NCIT_C10191	Carboplatin/Vincristine
-http://purl.obolibrary.org/obo/NCIT_C9792	Carboplatin/Cisplatin
-
-solr
-http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
-http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
-http://purl.obolibrary.org/obo/NCIT_C9924	Carboplatin/Sargramostim
-http://purl.obolibrary.org/obo/NCIT_C9532	Carboplatin/Cyclophosphamide
-http://purl.obolibrary.org/obo/NCIT_C37616	Carboplatin/Lobradimil
-http://purl.obolibrary.org/obo/NCIT_C37614	Carboplatin/Ixabepilone
-http://purl.obolibrary.org/obo/NCIT_C37564	Bortezomib/Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C37545	Azacitidine/Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C11822	Carboplatin/Pyrazoloacridine
-http://purl.obolibrary.org/obo/NCIT_C11779	Carboplatin/Fludarabine
-
-ols
-http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
-http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C37564	Bortezomib/Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C37614	Carboplatin/Ixabepilone
-http://purl.obolibrary.org/obo/NCIT_C37616	Carboplatin/Lobradimil
-http://purl.obolibrary.org/obo/NCIT_C9532	Carboplatin/Cyclophosphamide
-http://purl.obolibrary.org/obo/NCIT_C9924	Carboplatin/Sargramostim
-http://purl.obolibrary.org/obo/NCIT_C9782	Bleomycin/Carboplatin
-http://purl.obolibrary.org/obo/NCIT_C9792	Carboplatin/Cisplatin
-http://purl.obolibrary.org/obo/NCIT_C9807	Carboplatin/Fluorouracil
 

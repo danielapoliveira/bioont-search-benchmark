@@ -3,7 +3,9 @@ This is a Maven project and contains source code in Java and ground truth data f
 
 To run this project you will need to download and install the following:
 * A Linux machine (these directions were written to work with Linux and the code has only been tested in this OS).
-* [Virtuoso Jena Provider](https://github.com/srdc/virt-jena)
+* [Virtuoso Jena Provider](https://github.com/srdc/virt-jena):
+    1. Clone the virt-jena repository inside the benchmark directory.
+    2. Inside the virt-jena new directory do `mvn clean install`
 * [Virtuoso](https://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/)
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
     1. Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS).
@@ -26,10 +28,7 @@ If you wish to use the code with a customised set of ontologies you will need to
 
 To change the query terms used in the benchmark edit the file [userinput/test_terms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/test_terms.txt) and introduce one query term per line.
 
-Finally, go to the benchmark directory and build with:
-
-    $ mvn clean
-    $ mvn package
+Finally, go to the benchmark directory and build with `mvn clean package`.
     
 Then run the code from the root of the bioont repository with:
 

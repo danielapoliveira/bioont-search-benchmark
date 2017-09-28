@@ -8,7 +8,7 @@ ONTO_DB=$VIRT_DB/tmp_ontologies
 mkdir -p $ONTO_DB
 wget -P $ONTO_DB -i userinput/uris.txt
 
-for i in ontologies/*.owl;
+for i in $ONTO_DB/*.owl;
 do
  filename="${i##*/}"
  path="${i%/*}/" 

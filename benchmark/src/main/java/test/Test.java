@@ -92,7 +92,7 @@ public class Test {
             QuadStore qd = QuadStore.getDefaultStore();
             ArrayList<String> store = qd.getExistingLoadedOntology();
             LoadDataClass ldc = new LoadDataClass(preprocessingPath);
-            ldc.loadData(store);
+            ldc.loadMetaData(store);
         }
 
         /********************

@@ -1,11 +1,13 @@
 #|/bin/bash
 
-PYTHON=python2
-
 for i in OLS/ols-apps/ols-solr-app/src/main/resources/*.properties;
 do
- p=$($PYTHON scripts/split.py $i) 
+ p=${p##*-}
+ p=${p%%.properties}
  echo $p
- (java -Xmx6g -jar -Dspring.profiles.active=$p OLS/ols-apps/ols-solr-app/target/ols-solr-app.jar && $PYTHON scripts/appendToFile.py $p false) ||
- $PYTHON appendToFile.py $p true
+ if java -Xmx6g -jar -Dspring.profiles.active=$p OLS/ols-apps/ols-solr-app/target/ols-solr-app.jar; then
+  echo $p >> properties_loaded.txt
+ else
+  echo $p >> properties_error.txt
+ fi
 done

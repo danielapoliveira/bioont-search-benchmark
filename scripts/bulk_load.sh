@@ -6,14 +6,13 @@ VIRT_DB=$PWD/virt_database
 
 ONTO_DB=$VIRT_DB/tmp_ontologies
 mkdir -p $ONTO_DB
-wget -P $ONTO_DB -i userinput/uris.txt
+wget -N -P $ONTO_DB -i userinput/uris.txt
 
 for i in $ONTO_DB/*.owl;
 do
  filename="${i##*/}"
  path="${i%/*}/" 
  echo $filename
- echo $path
  echo -e  "$filename" > ${path}${filename}.graph
 done
 

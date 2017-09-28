@@ -88,6 +88,12 @@ public class Test {
             LoadDataClass ldc = new LoadDataClass(preprocessingPath);
             ldc.loadData(store);
         }
+        else{
+            QuadStore qd = QuadStore.getDefaultStore();
+            ArrayList<String> store = qd.getExistingLoadedOntology();
+            LoadDataClass ldc = new LoadDataClass(preprocessingPath);
+            ldc.loadData(store);
+        }
 
         /********************
          * Calculations     *

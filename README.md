@@ -2,6 +2,7 @@
 This is a Maven project and contains source code in Java and ground truth data for a biomedical ontology search.
 
 To run this project you will need to download and install the following:
+* A Linux machine (these directions were written to work with Linux and the code has only been tested in this OS).
 * [Virtuoso Jena Provider](https://github.com/srdc/virt-jena)
 * [Virtuoso](https://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/)
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
@@ -19,9 +20,9 @@ To run this project you will need to download and install the following:
     
     `$ scripts/index.sh`    
     
-You will need a version of Solr and Virtuoso running at same time. Then open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
+Start Virtuoso and keep Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
 
-If you wish to use the code with a customised set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) and add the acronym for those ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt). 
+If you wish to use the code with a customised set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) and repeat the Solr steps starting from (iii). You will also need to add the acronym for those ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).
 
 To change the query terms used in the benchmark edit the file [userinput/test_terms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/test_terms.txt) and introduce one query term per line.
 
@@ -36,8 +37,6 @@ The results will be saved in different directories of userinput.
 ## Bulk Loading Ontologies
 
 The previous method has the disadvantage of not being able to load large ontologies into the local Virtuoso so an alternate method is provided in the directory [scripts](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/scripts). The script downloads the ontologies and bulk loads them via iSQL to the Virtuoso server. 
-
-This method works with a bash script which means it's only available in Linux machines.
 
 The pre-requisites are the same: you should install a Solr server and Virtuoso and they have to be running. Follow the remaining steps, but modify the [Configuration](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) so that the variable `ontologies.load` is `false` and, in the root of the project, do:
 

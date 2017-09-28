@@ -28,7 +28,7 @@ To run this project you will need the following:
 ## Running the benchmark
 Keep Virtuoso and Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
 
-Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=virt_database`).
+Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=$PWD/virt_database`).
 
 To run the benchmark do the following:
 

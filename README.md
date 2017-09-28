@@ -2,7 +2,7 @@
 This is a Maven project that contains source code in Java and ground truth data for a biomedical ontology benchmark.
 
 To run this project you will need the following:
-* A Linux machine (these directions were written and tested in Linux).
+* A Linux machine.
 * [Virtuoso Jena Provider](https://github.com/srdc/virt-jena):
     1. Clone the virt-jena repository inside the benchmark directory.
     2. Inside the new virt-jena directory do `mvn clean install`
@@ -31,10 +31,11 @@ Keep Virtuoso and Solr running. Open the file [userinput/config.properties](http
 Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=virt_database`).
 
 To run the benchmark do the following:
-    1.In the [benchmark](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/benchmark) directory build the project with `mvn clean package`.
-    2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/run-benchmark.sh`. 
-    3. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
-    4. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
+
+1. In the [benchmark](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/benchmark) directory build the project with `mvn clean package`.
+2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/run-benchmark.sh`. 
+3. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
+4. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
 
 # Customising input data
 If you wish to use the benchmark with a different set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) with the exact some structure and repeat the Solr steps starting from (iii). You will also need to add the acronym for those new ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).

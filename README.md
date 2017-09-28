@@ -10,7 +10,7 @@ To run this project you will need the following:
     1. Create a directory in the root of the bioont repository to store of Virtuoso database, e.g. `virt_database`
     2. Change the virtuoso.ini parameters according to your machine requirements and put the file in your Virtuoso database directory.
     3. Start the Virtuoso server in your database directory.
-    4. Edit the [bulk_loadk.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/bulk_load.sh) script and change the first four parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=$PWD/virt_database`).
+    4. Edit the [bulk_load.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/bulk_load.sh) script and change the first four parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=$PWD/virt_database`).
     5. In the root directory of the repository, bulk load the ontologies into Virtuoso with `scripts/bulk_load.sh`. 
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
     1. Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS) into the bioont repository.

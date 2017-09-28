@@ -34,7 +34,7 @@ public class Evaluation {
             }
 
             HashMap<String,List<List<String>>> map = entry.getValue();
-            groundTruth = parseGroundTruthFile(new File(groundPath+term.toLowerCase()+"_mean.tsv"));
+            groundTruth = parseGroundTruthFile(new File(groundPath+term.toLowerCase()+".tsv"));
             for(Map.Entry<String,List<List<String>>> entry2 : map.entrySet()){
                 float relevant = 0;
                 String algorithm = entry2.getKey();
@@ -75,7 +75,7 @@ public class Evaluation {
             double mapkFinal = apk / resultsFile.keySet().size();
             mapkMap.put(entry.getKey(),mapkFinal);
         }
-        FileWriter writer = new FileWriter(path+"evaluationK"+ k +"_mean.tsv");
+        FileWriter writer = new FileWriter(path+"evaluationK"+ k +".tsv");
         writer.write("\t\tndcg\tpak\tapk\tmap\n");
         for(Map.Entry<String,HashMap<String,HashMap<String,Double>>> entry : evaluationMap.entrySet()){
             writer.write(entry.getKey().trim()+"\t");

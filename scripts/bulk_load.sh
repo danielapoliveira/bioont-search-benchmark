@@ -34,4 +34,6 @@ checkpoint;
 EXIT;
 EOF
 
-echo DONE!
+echo
+echo DONE
+echo

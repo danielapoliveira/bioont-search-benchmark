@@ -53,11 +53,11 @@ public class Test {
         String queriesFile = Configuration.getProperty(Configuration.QUERY_FILENAME);
         String savePath = Configuration.getProperty(Configuration.SAVE_PATH);
 
-        String preprocessingPath = savePath + "/ranking_models/";
+        String preprocessingPath = savePath + "ranking_models/";
         createDir(preprocessingPath);
-        String resultsPath = savePath + "/ranking_results/";
+        String resultsPath = savePath + "ranking_results/";
         createDir(resultsPath);
-        String evaluationPath = savePath + "/evaluation/";
+        String evaluationPath = savePath + "evaluation/";
         createDir(evaluationPath);
 
         String load_string = Configuration.getProperty(Configuration.LOAD_ONTOLOGIES);

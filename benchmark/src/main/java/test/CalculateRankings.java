@@ -254,7 +254,7 @@ public class CalculateRankings {
 				writer.append('\n');
 				map.clear();*/
 
-            /*System.out.println("Searching BioPortal, Solr and OLS...");
+            System.out.println("Searching BioPortal, Solr and OLS...");
             SearchApps sa = new SearchApps();
             HashMap<String, LinkedList<SearchResult>> searchAppsResults = sa.search(query);
             for(String app : searchAppsResults.keySet()){
@@ -273,7 +273,7 @@ public class CalculateRankings {
                     i++;
                 }
                 writer.append("\n");
-            }*/
+            }
             writer.close();
         }
         return finalMap;

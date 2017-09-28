@@ -33,7 +33,7 @@ Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-sear
 To run the benchmark do the following:
 
 1. In the [benchmark](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/benchmark) directory build the project with `mvn clean package`.
-2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/run-benchmark.sh`. 
+2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/bulk_load.sh`. 
 3. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
 4. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
 

@@ -43,10 +43,8 @@ public class Configuration {
     public static final String URIS_FILENAME = "uris.file";
 
     public static final String QUERY_FILENAME = "query.file";
-
-    public static final String SAVE_PATH = "save.path";
-
-    public static final String LOAD_ONTOLOGIES = "ontologies.load";
+	
+	public static final String SAVE_PATH = "save.path";
 
 	/** Default instance of this class */
 	private static Configuration instance;

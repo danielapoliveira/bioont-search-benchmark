@@ -31,7 +31,14 @@ http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
 http://purl.obolibrary.org/obo/NCIT_C11934	Carboplatin/Irinotecan
 
 solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1282	Carboplatin
 http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37614	Carboplatin/Ixabepilone
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12009	Carboplatin/Epirubicin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12047	Carboplatin/Flavopiridol
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C11934	Carboplatin/Irinotecan
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C11924	Calcitriol/Carboplatin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12127	Carboplatin/Erlotinib
 http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
 
 ols

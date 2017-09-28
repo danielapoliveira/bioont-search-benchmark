@@ -31,16 +31,16 @@ http://purl.obolibrary.org/obo/NCIT_C6549	Childhood Ovarian Choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
 
 solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4515	Ovarian Choriocarcinoma
 http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_5550	choriocarcinoma of ovary
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8730	Stage I Ovarian Choriocarcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8732	Stage III Ovarian Choriocarcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8731	Stage II Ovarian Choriocarcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8733	Stage IV Ovarian Choriocarcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6549	Childhood Ovarian Choriocarcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40442	Gestational Ovarian Choriocarcinoma
 http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_7665	non-gestational ovarian choriocarcinoma
-http://purl.obolibrary.org/obo/MPATH_455	choriocarcinoma
-http://purl.obolibrary.org/obo/HP_0100768	Choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_3594	choriocarcinoma
-http://www.ebi.ac.uk/efo/EFO_0002893	choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_5553	pineal region choriocarcinoma
-http://purl.obolibrary.org/obo/DOID_5551	choriocarcinoma of the testis
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma

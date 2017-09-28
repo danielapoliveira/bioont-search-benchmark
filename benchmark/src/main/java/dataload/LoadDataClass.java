@@ -17,7 +17,7 @@ public class LoadDataClass {
         this.path = path;
     }
 
-    public void loadData(ArrayList<String> graphs) throws Exception {
+    /*public void loadData(ArrayList<String> graphs) throws Exception {
 
         OntologyPersistance ontoPersistance = new OntologyPersistance();
 
@@ -43,7 +43,7 @@ public class LoadDataClass {
             }
         }
         bw.close();
-    }
+    }*/
 
     public void loadMetaData(ArrayList<String> graphs) throws Exception {
 

@@ -60,35 +60,11 @@ public class Test {
         String evaluationPath = savePath + "evaluation/";
         createDir(evaluationPath);
 
-        String load_string = Configuration.getProperty(Configuration.LOAD_ONTOLOGIES);
-
-        if (load_string.equalsIgnoreCase("true") || load_string.equalsIgnoreCase("false")) {
-            loadData = Boolean.valueOf(load_string);
-        } else {
-            throw new IllegalArgumentException("ontologies.load in the configuration file requires a boolean value.");
-        }
-
-
 
         /********************
          * Load data        *
          *******************/
         if (loadData) {
-            QuadStore qd = QuadStore.getDefaultStore();
-            ArrayList<String> store = qd.getExistingLoadedOntology();
-            
-            BufferedReader br = new BufferedReader(new FileReader(urisFile));
-            String line;
-            //Read File Line By Line
-            ArrayList<String> graphs = new ArrayList<>();
-            while ((line = br.readLine()) != null) {
-                if (!store.contains(line))
-                    graphs.add(line);
-            }
-            LoadDataClass ldc = new LoadDataClass(preprocessingPath);
-            ldc.loadData(store);
-        }
-        else{
             QuadStore qd = QuadStore.getDefaultStore();
             ArrayList<String> store = qd.getExistingLoadedOntology();
             LoadDataClass ldc = new LoadDataClass(preprocessingPath);

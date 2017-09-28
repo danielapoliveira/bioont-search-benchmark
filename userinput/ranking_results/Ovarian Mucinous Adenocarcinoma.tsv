@@ -29,16 +29,16 @@ http://purl.obolibrary.org/obo/NCIT_C66775	Borderline Ovarian Mucinous Adenofibr
 http://purl.obolibrary.org/obo/NCIT_C40041	Ovarian Mucinous Cystadenofibroma
 
 solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5243	Ovarian Mucinous Adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3606	ovarian mucinous adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_0006462	ovarian mucinous adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_1000387	mucinuos carcinoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26712	Mucinous Adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3030	mucinous adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3713	ovary adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6278	ovarian mucinous malignant adenofibroma
 http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3691	anal colloid adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3707	endometrial mucinous adenocarcinoma
-http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma

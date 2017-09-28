@@ -29,16 +29,16 @@ http://purl.obolibrary.org/obo/NCIT_C6548	Childhood Ovarian Mature Teratoma
 http://purl.obolibrary.org/obo/NCIT_C7285	Ovarian Solid Teratoma
 
 solr
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C8110	Ovarian Teratoma
 http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
 http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
 http://purl.obolibrary.org/obo/HP_0025274	Ovarian dermoid cyst
 http://purl.obolibrary.org/obo/DOID_5207	monodermal teratoma
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6554	Childhood Ovarian Teratoma
 http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
 http://purl.obolibrary.org/obo/DOID_6314	ovarian fetiform teratoma
 http://purl.obolibrary.org/obo/DOID_6315	ovarian solid teratoma
 http://purl.obolibrary.org/obo/DOID_5118	ovarian cystic teratoma
-http://purl.obolibrary.org/obo/DOID_5567	ovarian germ cell teratoma
-http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma

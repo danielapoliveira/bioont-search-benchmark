@@ -1,5 +1,5 @@
 #!/bin/bash
-PORT=1111
+PORT=1151
 USER=dba
 PASSWORD=dba
 
@@ -17,11 +17,11 @@ done
 
 isql $PORT $USER $PASSWORD <<EOF
 DELETE FROM DB.DBA.load_list;
-ld_dir('ontologies','*.owl', NULL);
+ld_dir('$PWD/ontologies','*.owl', NULL);
 rdf_loader_run(log_enable=>3);
 wait_for_children;
 checkpoint;
 EXIT;
 EOF
 
-java -jar target/bioont-1.0-SNAPSHOT-shaded.jar
+java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar

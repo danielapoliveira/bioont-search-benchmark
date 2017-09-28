@@ -4,7 +4,7 @@ USER=dba
 PASSWORD=dba
 VIRT_DB=$PWD/virt_database
 
-ONTO_DB=VIRT_DB/tmp_ontologies
+ONTO_DB=$VIRT_DB/tmp_ontologies
 mkdir -p $ONTO_DB
 wget -P $ONTO_DB -i userinput/uris.txt
 

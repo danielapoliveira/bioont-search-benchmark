@@ -26,11 +26,14 @@ If you wish to use the code with a customised set of ontologies you will need to
 
 To change the query terms used in the benchmark edit the file [userinput/test_terms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/test_terms.txt) and introduce one query term per line.
 
-Finally, to run the benchmark code use the following commands in the root of the project:
+Finally, go to the benchmark directory and build with:
 
     $ mvn clean
     $ mvn package
-    $ java -jar target/bioont-1.0-SNAPSHOT-shaded.jar
+    
+Then run the code from the root of the bioont repository with:
+
+    $ java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar
 
 The results will be saved in different directories of userinput.
 

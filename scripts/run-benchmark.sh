@@ -2,8 +2,9 @@
 PORT=1151
 USER=dba
 PASSWORD=dba
+VIRT_DB=virt_database
 
-mkdir ontologies
+mkdir $VIRT_DB/tmp_ontologies
 wget -P ontologies -i userinput/uris.txt
 
 for i in ontologies/*.owl;
@@ -23,5 +24,3 @@ wait_for_children;
 checkpoint;
 EXIT;
 EOF
-
-java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar

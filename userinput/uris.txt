@@ -1,7 +1,7 @@
 http://purl.obolibrary.org/obo/chebi.owl
 http://edamontology.org/EDAM.owl
 http://purl.obolibrary.org/obo/hp.owl 
-http://purl.obolibrary.org/obo/uberon/ext.owl
+http://purl.obolibrary.org/obo/uberon.owl
 http://purl.obolibrary.org/obo/fma.owl
 http://www.ebi.ac.uk/efo/efo.owl
 http://purl.obolibrary.org/obo/pato.owl 

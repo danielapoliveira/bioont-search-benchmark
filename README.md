@@ -3,7 +3,6 @@ This is a Maven project that contains source code in Java and ground truth data 
 
 To run this project you will need the following:
 * A Linux machine (these directions were written and tested in Linux).
-* [Python 2](https://www.python.org/downloads/) installed.
 * [Virtuoso Jena Provider](https://github.com/srdc/virt-jena):
     1. Clone the virt-jena repository inside the benchmark directory.
     2. Inside the new virt-jena directory do `mvn clean install`

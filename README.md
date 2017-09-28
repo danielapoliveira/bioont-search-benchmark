@@ -25,20 +25,19 @@ To run this project you will need the following:
     
     `$ scripts/index.sh`    
     
-Start Virtuoso and keep Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
+## Running the benchmark
+Keep Virtuoso and Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
 
 Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=virt_database`).
 
-Then go to the benchmark directory and build with `mvn clean package`.
-
- Finally, run the benchmark script, in the root of the project, with:
-
-     $ script/run-benchmark.sh
-
-The results will be saved in different directories of userinput.
+To run the benchmark do the following:
+    1.In the [benchmark](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/benchmark) directory build the project with `mvn clean package`.
+    2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/run-benchmark.sh`. 
+    3. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
+    4. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
 
 # Customising input data
-If you wish to use the code with a customised set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) and repeat the Solr steps starting from (iii). You will also need to add the acronym for those ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).
+If you wish to use the benchmark with a different set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) with the exact some structure and repeat the Solr steps starting from (iii). You will also need to add the acronym for those new ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).
 
 To change the query terms used in the benchmark edit the file [userinput/test_terms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/test_terms.txt) and introduce one query term per line.
     

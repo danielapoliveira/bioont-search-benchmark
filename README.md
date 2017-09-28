@@ -7,7 +7,7 @@ To run this project you will need the following:
     1. Clone the virt-jena repository inside the benchmark directory.
     2. Inside the new virt-jena directory do `mvn clean install`
 * [Virtuoso](https://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/)
-    1. Create a directory in the root of the bioont repository to store of Virtuoso database.
+    1. Create a directory in the root of the bioont repository to store of Virtuoso database, e.g. `virt_database`
     2. Change the virtuoso.ini parameters according to your machine requirements and put the file in your Virtuoso database directory.
     3. Start the Virtuoso server in your database directory.
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
@@ -26,9 +26,8 @@ To run this project you will need the following:
     `$ scripts/index.sh`    
     
 Start Virtuoso and keep Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
-Open your `virtuoso.ini`file and add `$HOME/bioont-search-benchmark/ontologies` to the parameter `DirsAllowed`.
 
-Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user and password.
+Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=virt_database`).
 
 Then go to the benchmark directory and build with `mvn clean package`.
 

@@ -10,6 +10,8 @@ To run this project you will need the following:
     1. Create a directory in the root of the bioont repository to store of Virtuoso database, e.g. `virt_database`
     2. Change the virtuoso.ini parameters according to your machine requirements and put the file in your Virtuoso database directory.
     3. Start the Virtuoso server in your database directory.
+    4. Edit the [bulk_loadk.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/bulk_load.sh) script and change the first four parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=$PWD/virt_database`).
+    5. In the root directory of the repository, bulk load the ontologies into Virtuoso with `scripts/bulk_load.sh`. 
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
     1. Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS) into the bioont repository.
     2. Delete the contents of the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).
@@ -28,14 +30,11 @@ To run this project you will need the following:
 ## Running the benchmark
 Keep Virtuoso and Solr running. Open the file [userinput/config.properties](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/config.properties) and change the necessary parameters. Note that you will need to register in [BioPortal](https://bioportal.bioontology.org/) to obtain an [API key](https://bioportal.bioontology.org/help#Getting_an_API_key).
 
-Also edit the [run-benchmark.sh](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/script/run-benchmark.sh) script and change the first three parameters to correspond to your Virtuoso server port, user, password and the directory of the Virtuoso database (e.g `VIRT_DB=$PWD/virt_database`).
-
 To run the benchmark do the following:
 
 1. In the [benchmark](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/benchmark) directory build the project with `mvn clean package`.
-2. In the repository root directory, bulk load the ontologies into Virtuoso with `script/bulk_load.sh`. 
-3. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
-4. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
+2. Run the benchmark with `java -jar benchmark/target/bioont-1.0-SNAPSHOT-shaded.jar`
+3. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
 
 # Customising input data
 If you wish to use the benchmark with a different set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) with the exact some structure and repeat the Solr steps starting from (iii). You will also need to add the acronym for those new ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).

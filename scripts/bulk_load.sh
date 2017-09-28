@@ -1,5 +1,5 @@
 #!/bin/bash
-PORT=1151
+PORT=1111
 USER=dba
 PASSWORD=dba
 VIRT_DB=$PWD/virt_database

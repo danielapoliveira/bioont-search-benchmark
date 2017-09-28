@@ -7,6 +7,8 @@ To run this project you will need the following:
     1. Clone the virt-jena repository inside the benchmark directory.
     2. Inside the new virt-jena directory do `mvn clean install`
 * [Virtuoso](https://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/)
+    1. Change the virtuoso.ini parameters according to your machine requirements.
+    2. Start the Virtuoso server in the same directory as the .ini file.
 * [Solr](http://lucene.apache.org/solr/) - the use of OLS-SOLR spring boot application is advised for optimal compatibility (https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app). Follow these steps:
     1. Clone/download the [OLS git repository](https://github.com/EBISPOT/OLS).
     2. Delete the contents of the [resources directory](https://github.com/EBISPOT/OLS/tree/master/ols-apps/ols-solr-app/src/main/resources).

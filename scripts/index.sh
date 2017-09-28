@@ -1,6 +1,6 @@
 #|/bin/bash
 
-for i in OLS/ols-apps/ols-solr-app/src/main/resources/*.properties;
+for p in OLS/ols-apps/ols-solr-app/src/main/resources/*.properties;
 do
  p=${p##*-}
  p=${p%%.properties}

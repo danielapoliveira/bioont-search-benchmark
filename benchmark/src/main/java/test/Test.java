@@ -67,7 +67,7 @@ public class Test {
         } else {
             throw new IllegalArgumentException("ontologies.load in the configuration file requires a boolean value.");
         }
-
+		System.out.println(loadData);
 
         /********************
          * Load data        *

@@ -13,3 +13,44 @@ class-match-measure
 
 semantic-similarity
 
+zooma
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C7278	Ovarian Papillary Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C30039	Mouse Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4512	Ovarian Mucinous Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C126310	Ovarian Seromucinous Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C40075	Ovarian Endometrioid Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4511	Ovarian Serous Cystadenoma
+http://purl.obolibrary.org/obo/DOID_7191	ovarian endometrioid cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+
+solr
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_3914	serous cystadenoma of ovary
+http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+http://purl.obolibrary.org/obo/DOID_3267	mucinous ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_7191	ovarian endometrioid cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C2972	Cystadenoma
+http://purl.obolibrary.org/obo/MPATH_277	cystadenoma
+http://purl.obolibrary.org/obo/DOID_2634	cystadenoma
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C2972	Cystadenoma
+http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
+http://purl.obolibrary.org/obo/DOID_3267	mucinous ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_7191	ovarian endometrioid cystadenoma
+http://purl.obolibrary.org/obo/DOID_6405	ovarian papillary cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C7278	Ovarian Papillary Cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4512	Ovarian Mucinous Cystadenoma
+

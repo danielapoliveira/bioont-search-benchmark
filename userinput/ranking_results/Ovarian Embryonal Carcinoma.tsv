@@ -13,3 +13,44 @@ class-match-measure
 
 semantic-similarity
 
+zooma
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8734	Stage I Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8725	Stage II Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8729	Stage IV Ovarian Embryonal Carcinoma
+
+solr
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/MPATH_313	embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_3308	embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_0004986	embryonal carcinoma
+http://purl.obolibrary.org/obo/MP_0003579	increased ovarian carcinoma incidence
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
+http://purl.obolibrary.org/obo/DOID_5680	embryonal testis carcinoma
+http://purl.obolibrary.org/obo/DOID_6013	mediastinum embryonal carcinoma
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8725	Stage II Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8729	Stage IV Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8734	Stage I Ovarian Embryonal Carcinoma
+

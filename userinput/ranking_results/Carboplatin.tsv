@@ -13,3 +13,36 @@ class-match-measure
 
 semantic-similarity
 
+zooma
+http://purl.obolibrary.org/obo/GO_0097328	Response to platinum-based chemotherapy (carboplatin)
+http://purl.obolibrary.org/obo/GO_0097328,http://purl.obolibrary.org/obo/GO_0097327	Adverse response to chemotherapy (neutropenia/leucopenia) (carboplatin)
+http://purl.obolibrary.org/obo/GO_0097328,http://purl.obolibrary.org/obo/GO_1901555,http://purl.obolibrary.org/obo/GO_0097327	Adverse response to chemotherapy (neutropenia/leucopenia) (paclitaxel + carboplatin)
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C11402	Carboplatin/Thalidomide
+http://purl.obolibrary.org/obo/NCIT_C9782	Bleomycin/Carboplatin
+http://purl.obolibrary.org/obo/NCIT_C10250	Carboplatin/Vinblastine
+http://purl.obolibrary.org/obo/NCIT_C10191	Carboplatin/Vincristine
+http://purl.obolibrary.org/obo/NCIT_C11779	Carboplatin/Fludarabine
+http://purl.obolibrary.org/obo/NCIT_C10394	Carboplatin/Doxorubicin
+http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
+http://purl.obolibrary.org/obo/NCIT_C11934	Carboplatin/Irinotecan
+
+solr
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin
+
+ols
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/NCIT_C11330	Carboplatin/Floxuridine
+http://purl.obolibrary.org/obo/NCIT_C11158	Carboplatin/Filgrastim
+http://purl.obolibrary.org/obo/NCIT_C11402	Carboplatin/Thalidomide
+http://purl.obolibrary.org/obo/NCIT_C11499	Carboplatin/Melphalan
+http://purl.obolibrary.org/obo/NCIT_C11469	Carboplatin/Gemcitabine
+http://purl.obolibrary.org/obo/NCIT_C11458	Carboplatin/Docetaxel
+http://purl.obolibrary.org/obo/NCIT_C11513	Carboplatin/Temozolomide
+http://purl.obolibrary.org/obo/NCIT_C11558	Azacitidine/Carboplatin
+

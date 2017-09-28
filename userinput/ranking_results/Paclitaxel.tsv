@@ -13,3 +13,37 @@ class-match-measure
 
 semantic-similarity
 
+zooma
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C37842	Paclitaxel/Pegfilgrastim
+http://purl.obolibrary.org/obo/NCIT_C2649	DHA-Paclitaxel
+http://purl.obolibrary.org/obo/DRON_00731597	Paclitaxel Injection
+
+solr
+http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel
+http://purl.obolibrary.org/obo/GO_0042617	paclitaxel biosynthetic process
+http://purl.obolibrary.org/obo/GO_0042616	paclitaxel metabolic process
+http://purl.obolibrary.org/obo/GO_1901555	response to paclitaxel
+http://purl.obolibrary.org/obo/GO_1905705	cellular response to paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_63862	3'-N-debenzoyltaxol
+http://purl.obolibrary.org/obo/CHEBI_63859	6-hydroxypaclitaxel
+http://purl.obolibrary.org/obo/GO_0102923	3'-N-debenzoyl-2'-deoxytaxol N-benzoyltransferase activity
+http://purl.obolibrary.org/obo/CHEBI_4672	docetaxel anhydrous
+http://purl.obolibrary.org/obo/CHEBI_8093	phenylephrine
+
+ols
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/DRON_00731597	Paclitaxel Injection
+http://purl.obolibrary.org/obo/NCIT_C29256	Micellar Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1795	Paclitaxel Poliglumex
+http://purl.obolibrary.org/obo/NCIT_C61078	Paclitaxel Preparation
+http://purl.obolibrary.org/obo/NCIT_C11278	Flavopiridol/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11254	Epirubicin/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11247	Irinotecan/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11430	Gemcitabine/Paclitaxel
+

@@ -53,7 +53,7 @@ public class SolrSearch {
             String acronym = item.get("ontology_prefix").toString();
             if(validAcronyms.contains(acronym)) {
                 s.setAcronym(acronym);
-                s.setIri(item.get("iri").toString());
+                s.setIri(item.get("iri").toString().replace("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#","http://purl.obolibrary.org/obo/NCIT_"));
                 s.setScore(item.get("score").toString());
                 s.setLabel(item.get("label").toString());
                 try {

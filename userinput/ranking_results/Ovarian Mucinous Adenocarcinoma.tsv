@@ -1,17 +1,87 @@
 
 boolean
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
+http://purl.obolibrary.org/obo/NCIT_C6550	Childhood Ovarian Dysgerminoma
+http://www.ebi.ac.uk/efo/EFO_0000478	esophageal adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
+http://www.ebi.ac.uk/efo/EFO_0000430	ductal adenocarcinoma
+http://purl.obolibrary.org/obo/MP_0000621	increased salivary adenocarcinoma incidence
+http://purl.obolibrary.org/obo/NCIT_C22755	Serous Adenocarcinoma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C96493	Rectal Micropapillary Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C40099	Fallopian Tube Serous Adenocarcinoma
 
 tf_idf
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MPATH_220	apocrine adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_222	ceruminous adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_229	sebaceous adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
+http://purl.obolibrary.org/obo/MPATH_849	anaplastic mammary adenocarcinoma
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MPATH_269	adenocarcinoma in situ
 
 bm25
+http://purl.obolibrary.org/obo/DOID_3700	uterine ligament adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_8229	metastatic small intestinal adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6595	gastric tubular adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3603	mucinous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3029	colon mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3114	serous cystadenocarcinoma
+http://purl.obolibrary.org/obo/DOID_6232	ovarian biphasic or triphasic teratoma
+http://purl.obolibrary.org/obo/DOID_3695	adnexa adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_5590	aggressive digital papillary adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
 
 vector-space
+http://purl.obolibrary.org/obo/VT_0001130	ovarian folliculogenesis trait
+http://purl.obolibrary.org/obo/VT_0002682	mature ovarian follicle quantity
+http://purl.obolibrary.org/obo/VT_0001131	ovarian follicle morphology trait
+http://purl.obolibrary.org/obo/VT_0010401	ovarian follicle size trait
+http://purl.obolibrary.org/obo/VT_0010043	ovarian follicle physiology trait
+http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
+http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
+http://purl.obolibrary.org/obo/UBERON_0001145	ovarian vein
+http://purl.obolibrary.org/obo/UBERON_0008847	ovarian ligament
+http://purl.obolibrary.org/obo/UBERON_2001263	ovarian follicle stage I
 
 pagerank
+http://purl.obolibrary.org/obo/MPATH_760	ovarian bursal cyst
+http://purl.obolibrary.org/obo/MPATH_834	ovarian tubulostromal tumor
+http://purl.obolibrary.org/obo/MPATH_220	apocrine adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_222	ceruminous adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_229	sebaceous adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
+http://purl.obolibrary.org/obo/MPATH_849	anaplastic mammary adenocarcinoma
+http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
+http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
+http://purl.obolibrary.org/obo/MPATH_269	adenocarcinoma in situ
 
 class-match-measure
+http://purl.obolibrary.org/obo/HP_0025318	Ovarian carcinoma
+http://purl.obolibrary.org/obo/HP_0040276	Adenocarcinoma of the colon
+http://purl.obolibrary.org/obo/HP_0012887	Ovarian serous cystadenoma
+http://purl.obolibrary.org/obo/HP_0008209	Premature ovarian insufficiency
+http://purl.obolibrary.org/obo/HP_0006725	Pancreatic adenocarcinoma
+http://purl.obolibrary.org/obo/HP_0040274	Adenocarcinoma of the small intestine
+http://purl.obolibrary.org/obo/HP_0100615	Ovarian neoplasm
+http://purl.obolibrary.org/obo/HP_0006771	Duodenal adenocarcinoma
+http://purl.obolibrary.org/obo/HP_0000138	Ovarian cyst
+http://purl.obolibrary.org/obo/HP_0030411	Jejunal adenocarcinoma
 
 semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C21774	Solid Adenocarcinoma of the Mouse Pulmonary System
+http://purl.obolibrary.org/obo/NCIT_C6550	Childhood Ovarian Dysgerminoma
+http://purl.obolibrary.org/obo/NCIT_C133418	Pathologic Stage II Esophageal Adenocarcinoma AJCC v8
+http://purl.obolibrary.org/obo/NCIT_C94821	Stage I Borderline Ovarian Surface Epithelial-Stromal Tumor
+http://purl.obolibrary.org/obo/NCIT_C39835	Bladder Enteric Type Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C96915	Gallbladder Adenocarcinoma, Biliary Type
+http://purl.obolibrary.org/obo/NCIT_C22755	Serous Adenocarcinoma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C122585	Borderline Ovarian Serous Tumor-Micropapillary Variant/Non-Invasive Low Grade Ovarian Serous Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C96493	Rectal Micropapillary Adenocarcinoma
 
 zooma
 http://www.ebi.ac.uk/efo/EFO_0006462	ovarian mucinous adenocarcinoma
@@ -29,11 +99,11 @@ http://purl.obolibrary.org/obo/NCIT_C66775	Borderline Ovarian Mucinous Adenofibr
 http://purl.obolibrary.org/obo/NCIT_C40041	Ovarian Mucinous Cystadenofibroma
 
 solr
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C5243	Ovarian Mucinous Adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3606	ovarian mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_0006462	ovarian mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3606	ovarian mucinous adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_1000387	mucinuos carcinoma
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C26712	Mucinous Adenocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C26712	Mucinous Adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3030	mucinous adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3713	ovary adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_6278	ovarian mucinous malignant adenofibroma

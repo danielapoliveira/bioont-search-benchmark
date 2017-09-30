@@ -1,17 +1,87 @@
 
 boolean
+http://www.ebi.ac.uk/efo/EFO_0000660	polycystic ovary syndrome
+http://purl.obolibrary.org/obo/HP_0010462	Aplasia/Hypoplasia of the ovary
+http://purl.obolibrary.org/obo/FMA_18643	Tertiary follicle of left ovary
+http://purl.obolibrary.org/obo/MP_0013506	abnormal ovary apoptosis
+http://purl.obolibrary.org/obo/PO_0005023	plant ovary abaxial epidermis
+http://purl.obolibrary.org/obo/MP_0004853	abnormal ovary size
+http://purl.obolibrary.org/obo/FMA_18631	Tunica albuginea of right ovary
+http://purl.obolibrary.org/obo/FMA_75125	Free border of ovary
+http://purl.obolibrary.org/obo/PO_0025266	plant ovary locule
+http://purl.obolibrary.org/obo/FMA_70590	Primary follicular cell of ovary
 
 tf_idf
+http://purl.obolibrary.org/obo/MA_0002909	ovary antral follicle
+http://purl.obolibrary.org/obo/MA_0000384	ovary
+http://purl.obolibrary.org/obo/MA_0002991	ovary stroma
+http://purl.obolibrary.org/obo/MA_0003244	suspensory ligament of ovary
+http://purl.obolibrary.org/obo/MA_0003237	rete ovarii of ovary
+http://purl.obolibrary.org/obo/MA_0002908	ovary secondary follicle
+http://purl.obolibrary.org/obo/MA_0002907	ovary primary follicle
+http://purl.obolibrary.org/obo/MA_0001709	ovary mature follicle
+http://purl.obolibrary.org/obo/MA_0001708	ovary growing follicle
+http://purl.obolibrary.org/obo/MA_0001707	ovary follicle
 
 bm25
+http://purl.obolibrary.org/obo/DOID_6331	immature teratoma of ovary
+http://purl.obolibrary.org/obo/DOID_8336	childhood choriocarcinoma of the ovary
+http://purl.obolibrary.org/obo/DOID_6230	childhood teratoma of the ovary
+http://purl.obolibrary.org/obo/DOID_8023	myxoid liposarcoma of the ovary
+http://purl.obolibrary.org/obo/DOID_6898	ovary mixed epithelial carcinoma
+http://purl.obolibrary.org/obo/DOID_4059	ovary rhabdomyosarcoma
+http://purl.obolibrary.org/obo/DOID_6408	ovary papillary carcinoma
+http://purl.obolibrary.org/obo/DOID_7037	childhood immature teratoma of ovary
+http://purl.obolibrary.org/obo/DOID_2146	ovary sarcoma
+http://purl.obolibrary.org/obo/DOID_5117	dermoid cyst of ovary
 
 vector-space
+http://purl.obolibrary.org/obo/VT_0010375	ovary diameter
+http://purl.obolibrary.org/obo/VT_0002783	secretion by ovary trait
+http://purl.obolibrary.org/obo/VT_1000641	ovary mass
+http://purl.obolibrary.org/obo/VT_0003582	ovary development trait
+http://purl.obolibrary.org/obo/VT_0001127	ovary size trait
+http://purl.obolibrary.org/obo/VT_0001126	ovary morphology trait
+http://purl.obolibrary.org/obo/VT_0003507	ovary physiology trait
+http://purl.obolibrary.org/obo/VT_0005158	ovary cell quantity
+http://purl.obolibrary.org/obo/UBERON_0001304	germinal epithelium of ovary
+http://purl.obolibrary.org/obo/UBERON_0007180	atretic follicle of ovary
 
 pagerank
+http://purl.obolibrary.org/obo/MA_0002909	ovary antral follicle
+http://purl.obolibrary.org/obo/MA_0000384	ovary
+http://purl.obolibrary.org/obo/MA_0002991	ovary stroma
+http://purl.obolibrary.org/obo/MA_0003244	suspensory ligament of ovary
+http://purl.obolibrary.org/obo/MA_0003237	rete ovarii of ovary
+http://purl.obolibrary.org/obo/MA_0002908	ovary secondary follicle
+http://purl.obolibrary.org/obo/MA_0002907	ovary primary follicle
+http://purl.obolibrary.org/obo/MA_0001709	ovary mature follicle
+http://purl.obolibrary.org/obo/MA_0001708	ovary growing follicle
+http://purl.obolibrary.org/obo/MA_0001707	ovary follicle
 
 class-match-measure
+http://purl.obolibrary.org/obo/VT_0010375	ovary diameter
+http://purl.obolibrary.org/obo/VT_0002783	secretion by ovary trait
+http://purl.obolibrary.org/obo/VT_1000641	ovary mass
+http://purl.obolibrary.org/obo/VT_0003582	ovary development trait
+http://purl.obolibrary.org/obo/VT_0001127	ovary size trait
+http://purl.obolibrary.org/obo/VT_0001126	ovary morphology trait
+http://purl.obolibrary.org/obo/VT_0003507	ovary physiology trait
+http://purl.obolibrary.org/obo/VT_0005158	ovary cell quantity
+http://purl.obolibrary.org/obo/UBERON_0001304	germinal epithelium of ovary
+http://purl.obolibrary.org/obo/UBERON_0007180	atretic follicle of ovary
 
 semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C23339	Murine Ovary
+http://purl.obolibrary.org/obo/NCIT_C22770	Mucinous Adenocarcinofibroma of the Mouse Ovary; Mucinous Cystadenocarcinofibroma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22891	Malignant Lymphomas, Leukemias and Plasmacytoma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C63972	Choriocarcinoma of the Rat Ovary
+http://purl.obolibrary.org/obo/NCIT_C22782	Malignant Endometrioid Tumors of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22851	Hepatoid Yolk Sac Tumors of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22794	Clear Cell Adenofibroma of the Mouse Ovary; Clear Cell Cystadenofibroma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22755	Serous Adenocarcinoma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22767	Malignant Mucinous Tumors of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22852	Glandular Yolk Sac Tumors of the Mouse Ovary
 
 zooma
 http://purl.obolibrary.org/obo/UBERON_0000992	ovary
@@ -22,17 +92,12 @@ http://purl.obolibrary.org/obo/FMA_7209	Ovary
 http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/ZFA_0000403	ovary
 http://purl.obolibrary.org/obo/XAO_0000258	ovary
-http://purl.obolibrary.org/obo/MP_0001128	ovary hyperplasia
-http://purl.obolibrary.org/obo/MP_0001868	ovary inflammation
-http://purl.obolibrary.org/obo/MP_0002016	ovary cysts
-http://purl.obolibrary.org/obo/MP_0005158	ovary hypoplasia
-http://purl.obolibrary.org/obo/MP_0004832	enlarged ovary
 
 solr
 http://purl.obolibrary.org/obo/ZFA_0000403	ovary
 http://purl.obolibrary.org/obo/XAO_0000258	ovary
-http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12404	Ovary
 http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/NCIT_C12404	Ovary
 http://purl.obolibrary.org/obo/MA_0000384	ovary
 http://www.ebi.ac.uk/efo/EFO_0000973	obsolete_animal ovary
 http://purl.obolibrary.org/obo/HP_0008724	Hypoplasia of the ovary
@@ -45,8 +110,8 @@ http://purl.obolibrary.org/obo/NCIT_C12404	Ovary
 http://purl.obolibrary.org/obo/MA_0000384	ovary
 http://purl.obolibrary.org/obo/XAO_0000258	ovary
 http://purl.obolibrary.org/obo/UBERON_0000992	ovary
-http://purl.obolibrary.org/obo/FMA_7209	Ovary
 http://purl.obolibrary.org/obo/ZFA_0000403	ovary
+http://purl.obolibrary.org/obo/FMA_7209	Ovary
 http://purl.obolibrary.org/obo/VT_1000641	ovary mass
 http://purl.obolibrary.org/obo/VT_0010375	ovary diameter
 http://purl.obolibrary.org/obo/PO_0009072	plant ovary

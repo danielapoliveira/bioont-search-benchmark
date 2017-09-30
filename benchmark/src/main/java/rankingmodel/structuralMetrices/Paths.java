@@ -47,7 +47,7 @@ public class Paths {
 		    
 		    /** close record manager */
 		    recMan.close();
-		} catch (IOException e) {
+		 catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

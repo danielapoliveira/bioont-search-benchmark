@@ -39,19 +39,22 @@ public class Paths {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void save_adjacency_matrix_map(String sourceClass , HashMap<String, HashMap<String, ArrayList<String>>> outlinks) {
-			
+		// TODO Auto-generated method stub
+		try {
+
 			paths.put(sourceClass, outlinks);
-		    recMan.commit();
-		    
-		    /** close record manager */
-		    recMan.close();
-		 catch (IOException e) {
+			recMan.commit();
+
+			/** close record manager */
+			// recMan.close();
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
+
 	public void commit(){
 		try {
 			recMan.commit();

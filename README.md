@@ -42,6 +42,7 @@ To run the benchmark do the following:
 3. View the results in the [userinput/ranking_results](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_results) and [userinput/evaluation](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/evaluation) folders.
 
 * To restart the benchmark, delete the [userinput/ranking_models](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ranking_models) and run step (2) again.
+* If you don't want to load the ontology metadata and the preprocessing for the algorithms again and just want to re-run the benchmark, open the [Test class](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/benchmark/src/main/java/test/Test.java) and change the variables `loadData` and `preprocessing` to false. Then follow steps (1) and (2) again.
 
 # Customising input data
 If you wish to use the benchmark with a different set of ontologies you will need to create new [ontology configuration files](https://github.com/danielapoliveira/bioont-search-benchmark/tree/master/userinput/ontology_properties_files) with the exact some structure and repeat the Solr steps starting from (iii). You will also need to add the acronym for those new ontologies in [userinput/acronyms.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/acronyms.txt) and the URL for their download in [userinput/uris.txt](https://github.com/danielapoliveira/bioont-search-benchmark/blob/master/userinput/uris.txt).

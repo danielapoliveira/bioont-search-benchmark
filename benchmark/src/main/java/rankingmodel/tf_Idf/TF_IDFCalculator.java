@@ -124,7 +124,7 @@ public class TF_IDFCalculator {
 		} finally {
 			/*Close connection 
 			 * Very important to get connected next time*/
-			//map.closeConnection();
+			map.closeConnection();
 		}
 	}
 

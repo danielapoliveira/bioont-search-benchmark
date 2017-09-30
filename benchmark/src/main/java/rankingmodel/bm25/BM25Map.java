@@ -42,7 +42,7 @@ public class BM25Map {
             recMan.commit();
 
             /** close record manager */
-            //recMan.close();
+            recMan.close();
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

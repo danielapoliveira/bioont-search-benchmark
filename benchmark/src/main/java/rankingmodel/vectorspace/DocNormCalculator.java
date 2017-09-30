@@ -42,7 +42,7 @@ public class DocNormCalculator {
         } catch(Exception e) {
             logger.info("can not save doc norm because :" + e);
         }finally {
-            //diskmap.closeConnection();
+            diskmap.closeConnection();
         }
     }
 
@@ -82,7 +82,7 @@ public class DocNormCalculator {
         } catch (Exception e) {
             System.out.println( "can not find doc norm value becasue : " + e);
         } finally {
-            //docNormMap.closeConnection();
+            docNormMap.closeConnection();
         }
         return doc_norm;
     }

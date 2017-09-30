@@ -42,7 +42,7 @@ public class BM25Calculator {
         } catch(Exception e){
             logger.info(e.toString());
         } finally{
-            //diskmap.closeConnection();
+            diskmap.closeConnection();
         }
     }
 

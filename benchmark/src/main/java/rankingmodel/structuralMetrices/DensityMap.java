@@ -46,7 +46,7 @@ public class DensityMap {
             recMan.commit();
 
             /** close record manager */
-            // recMan.close();
+             recMan.close();
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

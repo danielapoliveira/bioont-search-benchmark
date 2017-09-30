@@ -254,7 +254,7 @@ public class SemanticSimilarityMeasure {
 		}catch (Exception e) {
 
 		} finally {
-			//	pathClass.closeConnection();
+				pathClass.closeConnection();
 		}
 		return count;
 	}

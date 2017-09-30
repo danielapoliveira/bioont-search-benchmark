@@ -43,14 +43,14 @@ public class Paths {
 	public void save_adjacency_matrix_map(String sourceClass , HashMap<String, HashMap<String, ArrayList<String>>> outlinks) {
 			
 			paths.put(sourceClass, outlinks);
-		    //recMan.commit();
+		    recMan.commit();
 		    
 		    /** close record manager */
 		    recMan.close();
-		//} catch (IOException e) {
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			//e.printStackTrace();
-		//}
+			e.printStackTrace();
+		}
 	}
 	public void commit(){
 		try {

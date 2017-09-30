@@ -29,7 +29,7 @@ To run this project you will need the following:
     
     `$ scripts/index.sh`  
     
-    * To restart the Solr indexes, stop Solr, delete everything inside the `solr_index` directory and run step (viii) again.
+    * To restart the Solr indexes, stop Solr, delete everything inside the `solr_index` directory and run step (vii) again.
 
     
 ## Running the benchmark

@@ -35,7 +35,7 @@ public class DoCalculations {
 
         if(pageRank) {
             PageRankTF_IDFMap prtf = new PageRankTF_IDFMap(path);
-            prtf.initializePageRankScore();
+           // prtf.initializePageRankScore();
             prtf.initializePageRankScoreForOntologyGraphs();
 
             AdjacencyMatrixComputations am = new AdjacencyMatrixComputations(path);

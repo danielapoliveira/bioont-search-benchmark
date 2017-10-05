@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class Test {
     //Choose to run the full framework or just part of it.
-    private static boolean loadData = true;
+    private static boolean loadData = false;
     private static boolean preprocess = true;
     private static boolean search = true;
     private static boolean evaluate = true;

@@ -145,7 +145,7 @@ public class PageRank {
          * ****************************************************************************/
         PageRankMap initialMapClass =  PageRankMap.getDefaultMap(path);
         total_num_nodes = initialMapClass.getTotalNumberOfNodes();
-
+	logger.info("total number of nodes: " + total_num_nodes);
 
         /******************************************************************************
          * Algorithm execution. It stops execution once convergence has occurred for given corpus
@@ -235,7 +235,7 @@ public class PageRank {
                 intermediate_rank_value = 	intermediate_rank_value + (rank_value_table.get(inlink_url)/ (outlinks.get(inlink_url)));
                 intermediate_rvt.put(source_url,intermediate_rank_value);
             }
-            System.out.println(rank_value_table);
+            //System.out.println(rank_value_table);
 			/* Special case for dangling node with no outbound link */
             System.out.println(source_url);
             if(outlinks.get(source_url)==0 ) {

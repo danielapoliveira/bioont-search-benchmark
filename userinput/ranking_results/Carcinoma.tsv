@@ -107,9 +107,9 @@ http://purl.obolibrary.org/obo/DOID_1294	vulva carcinoma
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
-http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
-http://purl.obolibrary.org/obo/DOID_305	carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://purl.obolibrary.org/obo/MPATH_549	carcinoma
 http://purl.obolibrary.org/obo/MP_0002038	increased carcinoma incidence
 

@@ -12,6 +12,9 @@ http://purl.obolibrary.org/obo/NCIT_C11462	Cisplatin/Dimesna/Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C10709	Ketoconazole/Paclitaxel
 
 tf_idf
+http://purl.obolibrary.org/obo/GO_0042617	paclitaxel biosynthetic process
+http://purl.obolibrary.org/obo/GO_0042616	paclitaxel metabolic process
+http://purl.obolibrary.org/obo/GO_1905705	cellular response to paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1795	Paclitaxel Poliglumex
 http://purl.obolibrary.org/obo/NCIT_C2688	Nab-paclitaxel
@@ -19,9 +22,6 @@ http://purl.obolibrary.org/obo/NCIT_C2649	DHA-Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C96934	Paclitaxel Ceribate
 http://purl.obolibrary.org/obo/NCIT_C99461	Paclitaxel Trevatide
 http://purl.obolibrary.org/obo/NCIT_C2631	Paclitaxel Liposome
-http://purl.obolibrary.org/obo/NCIT_C136242	Topotecan/Paclitaxel/Bevacizumab Regimen
-http://purl.obolibrary.org/obo/NCIT_C138032	AC Followed by Pertuzumab/Trastuzumab/Paclitaxel Regimen
-http://purl.obolibrary.org/obo/NCIT_C131213	Nab-paclitaxel/Rituximab-coated Nanoparticle AR160
 
 bm25
 http://purl.obolibrary.org/obo/NCIT_C10777	Filgrastim/Paclitaxel/Topotecan
@@ -48,6 +48,9 @@ http://purl.obolibrary.org/obo/NCIT_C11256	Paclitaxel/VX-710
 http://purl.obolibrary.org/obo/NCIT_C11111	Interferon Alfa/Interleukin-2/Paclitaxel
 
 pagerank
+http://purl.obolibrary.org/obo/GO_0042617	paclitaxel biosynthetic process
+http://purl.obolibrary.org/obo/GO_0042616	paclitaxel metabolic process
+http://purl.obolibrary.org/obo/GO_1905705	cellular response to paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1795	Paclitaxel Poliglumex
 http://purl.obolibrary.org/obo/NCIT_C2688	Nab-paclitaxel
@@ -55,9 +58,6 @@ http://purl.obolibrary.org/obo/NCIT_C2649	DHA-Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C96934	Paclitaxel Ceribate
 http://purl.obolibrary.org/obo/NCIT_C99461	Paclitaxel Trevatide
 http://purl.obolibrary.org/obo/NCIT_C2631	Paclitaxel Liposome
-http://purl.obolibrary.org/obo/NCIT_C136242	Topotecan/Paclitaxel/Bevacizumab Regimen
-http://purl.obolibrary.org/obo/NCIT_C138032	AC Followed by Pertuzumab/Trastuzumab/Paclitaxel Regimen
-http://purl.obolibrary.org/obo/NCIT_C131213	Nab-paclitaxel/Rituximab-coated Nanoparticle AR160
 
 class-match-measure
 http://purl.obolibrary.org/obo/NCIT_C10777	Filgrastim/Paclitaxel/Topotecan
@@ -89,8 +89,8 @@ http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
 bioportal
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
 http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C37842	Paclitaxel/Pegfilgrastim
-http://purl.obolibrary.org/obo/NCIT_C2649	DHA-Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C10909	Paclitaxel/Thiotepa
+http://purl.obolibrary.org/obo/NCIT_C10662	Carboplatin/Paclitaxel
 http://purl.obolibrary.org/obo/DRON_00731597	Paclitaxel Injection
 
 solr
@@ -110,10 +110,10 @@ http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
 http://purl.obolibrary.org/obo/DRON_00731597	Paclitaxel Injection
 http://purl.obolibrary.org/obo/NCIT_C29256	Micellar Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C37578	Bortezomib/Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C10476	Doxorubicin/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11278	Flavopiridol/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11254	Epirubicin/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11247	Irinotecan/Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C10687	Dexverapamil/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10688	Ifosfamide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10686	Cyclosporine/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10669	Paclitaxel/Topotecan
-http://purl.obolibrary.org/obo/NCIT_C10667	Altretamine/Paclitaxel
 

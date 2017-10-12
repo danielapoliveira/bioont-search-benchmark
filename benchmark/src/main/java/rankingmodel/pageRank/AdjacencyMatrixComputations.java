@@ -42,7 +42,7 @@ public class AdjacencyMatrixComputations {
         }catch(Exception e){
             logger.info(e.toString());
         } finally {
-            classInstance.closeConnection();
+            //classInstance.closeConnection();
         }
     }
 
@@ -63,7 +63,7 @@ public class AdjacencyMatrixComputations {
         }catch(Exception e){
             logger.info(e.toString());
         } finally {
-            classInstance.closeConnection();
+            //classInstance.closeConnection();
         }
     }
 

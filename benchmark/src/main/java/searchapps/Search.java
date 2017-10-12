@@ -34,8 +34,9 @@ public class Search {
 
     public LinkedList<SearchResult> olsSearch(String term,List<String> validAcronyms){
         LinkedList<SearchResult> search = new LinkedList<>();
-        api.setURL("http://www.ebi.ac.uk/ols/beta/api/");
+	api.setURL("http://www.ebi.ac.uk/ols/beta/api/");
         JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term + "&rows=25")).get("response").get("docs");
+        
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();

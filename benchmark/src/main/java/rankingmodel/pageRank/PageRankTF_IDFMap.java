@@ -65,7 +65,7 @@ public class PageRankTF_IDFMap {
  				}
  			}
  		}
- 		classInstance.closeConnection();
+ 		//classInstance.closeConnection();
  	  }
 	
 	
@@ -80,7 +80,7 @@ public class PageRankTF_IDFMap {
  				logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"initscore : " +initscore+"******************");	
  				classInstance.save_tf_Idf_map(graphIRI, initscore);
  				}
- 		classInstance.closeConnection();
+ 		//classInstance.closeConnection();
  	  }
 	
 	public ArrayList<String> getClassList(String graphIRI){

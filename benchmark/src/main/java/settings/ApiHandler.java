@@ -61,6 +61,32 @@ public class ApiHandler {
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("Authorization", "apikey token=" + API_KEY);
 			conn.setRequestProperty("Accept", "application/json");
+                        boolean redirect = false;
+
+	// normally, 3xx is redirect
+	int status = conn.getResponseCode();
+	if (status != HttpURLConnection.HTTP_OK) {
+		if (status == HttpURLConnection.HTTP_MOVED_TEMP
+			|| status == HttpURLConnection.HTTP_MOVED_PERM
+				|| status == HttpURLConnection.HTTP_SEE_OTHER)
+		redirect = true;
+	}
+               if (redirect) {
+
+		// get redirect url from "location" header field
+		String newUrl = conn.getHeaderField("Location");
+
+		
+		
+
+		// open the new connnection again
+		conn = (HttpURLConnection) new URL(newUrl).openConnection();
+		conn.setRequestMethod("GET");
+                        conn.setRequestProperty("Authorization", "apikey token=" + API_KEY);
+                        conn.setRequestProperty("Accept", "application/json");
+
+
+	}
 			rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 			while ((line = rd.readLine()) != null) {
 				result += line;

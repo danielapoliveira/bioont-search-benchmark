@@ -19,9 +19,9 @@ http://purl.obolibrary.org/obo/MPATH_222	ceruminous adenocarcinoma
 http://purl.obolibrary.org/obo/MPATH_229	sebaceous adenocarcinoma
 http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
 http://purl.obolibrary.org/obo/MPATH_849	anaplastic mammary adenocarcinoma
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
 http://purl.obolibrary.org/obo/MPATH_269	adenocarcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_225	eccrine gland adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_330	ovarian stromal tumor
 
 bm25
 http://purl.obolibrary.org/obo/DOID_3700	uterine ligament adenocarcinoma
@@ -38,8 +38,8 @@ http://purl.obolibrary.org/obo/DOID_0050934	ovarian clear cell carcinoma
 vector-space
 http://purl.obolibrary.org/obo/VT_0001130	ovarian folliculogenesis trait
 http://purl.obolibrary.org/obo/VT_0002682	mature ovarian follicle quantity
-http://purl.obolibrary.org/obo/VT_0001131	ovarian follicle morphology trait
 http://purl.obolibrary.org/obo/VT_0010401	ovarian follicle size trait
+http://purl.obolibrary.org/obo/VT_0001131	ovarian follicle morphology trait
 http://purl.obolibrary.org/obo/VT_0010043	ovarian follicle physiology trait
 http://purl.obolibrary.org/obo/UBERON_0012333	ovarian bursa
 http://purl.obolibrary.org/obo/UBERON_2001266	ovarian follicle stage III
@@ -55,9 +55,9 @@ http://purl.obolibrary.org/obo/MPATH_222	ceruminous adenocarcinoma
 http://purl.obolibrary.org/obo/MPATH_229	sebaceous adenocarcinoma
 http://purl.obolibrary.org/obo/MPATH_736	ovarian follicular cyst
 http://purl.obolibrary.org/obo/MPATH_849	anaplastic mammary adenocarcinoma
-http://purl.obolibrary.org/obo/MA_0002012	ovarian artery
-http://purl.obolibrary.org/obo/MA_0002186	ovarian vein
 http://purl.obolibrary.org/obo/MPATH_269	adenocarcinoma in situ
+http://purl.obolibrary.org/obo/MPATH_225	eccrine gland adenocarcinoma
+http://purl.obolibrary.org/obo/MPATH_330	ovarian stromal tumor
 
 class-match-measure
 http://purl.obolibrary.org/obo/HP_0025318	Ovarian carcinoma
@@ -94,9 +94,9 @@ http://purl.obolibrary.org/obo/NCIT_C26712	Mucinous Adenocarcinoma
 http://purl.obolibrary.org/obo/DOID_3030	mucinous adenocarcinoma
 http://purl.obolibrary.org/obo/NCIT_C7700	Ovarian Adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
-http://purl.obolibrary.org/obo/NCIT_C5242	Ovarian Mucinous Tumor
-http://purl.obolibrary.org/obo/NCIT_C66775	Borderline Ovarian Mucinous Adenofibroma
-http://purl.obolibrary.org/obo/NCIT_C40041	Ovarian Mucinous Cystadenofibroma
+http://www.ebi.ac.uk/efo/EFO_1000065	Acinar Prostate Mucinous Adenocarcinoma
+http://www.ebi.ac.uk/efo/EFO_1000236	Endometrial Mucinous Adenocarcinoma
+http://www.ebi.ac.uk/efo/EFO_1000386	Mucinous Gastric Adenocarcinoma
 
 solr
 http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
@@ -112,8 +112,8 @@ http://purl.obolibrary.org/obo/DOID_3691	anal colloid adenocarcinoma
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C5243	Ovarian Mucinous Adenocarcinoma
-http://purl.obolibrary.org/obo/DOID_3606	ovarian mucinous adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_0006462	ovarian mucinous adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_3606	ovarian mucinous adenocarcinoma
 http://www.ebi.ac.uk/efo/EFO_0006460	ovarian adenocarcinoma
 http://purl.obolibrary.org/obo/NCIT_C7700	Ovarian Adenocarcinoma
 http://purl.obolibrary.org/obo/NCIT_C40033	Malignant Ovarian Mucinous Tumor

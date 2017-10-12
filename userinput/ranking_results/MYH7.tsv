@@ -5,9 +5,9 @@ http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
 http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
 
 tf_idf
-http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
 http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
 http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
 
 bm25
 http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
@@ -20,9 +20,9 @@ http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
 http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
 
 pagerank
-http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
 http://purl.obolibrary.org/obo/OGG_3000004625	MYH7
 http://purl.obolibrary.org/obo/OGG_3000057644	MYH7B
+http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)
 
 class-match-measure
 http://www.orpha.net/ORDO/Orphanet_209185	Qualitative or quantitative defects of beta-myosin heavy chain (MYH7)

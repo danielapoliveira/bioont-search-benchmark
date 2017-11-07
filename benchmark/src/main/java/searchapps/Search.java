@@ -34,8 +34,8 @@ public class Search {
 
     public LinkedList<SearchResult> olsSearch(String term,List<String> validAcronyms){
         LinkedList<SearchResult> search = new LinkedList<>();
-        api.setURL("http://www.ebi.ac.uk/ols/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term + "&rows=25")).get("response").get("docs");
+        api.setURL("https://www.ebi.ac.uk/ols/api/");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25")).get("response").get("docs");
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
@@ -61,8 +61,8 @@ public class Search {
     public LinkedList<SearchResult> zoomaSearch(String term,List<String> validAcronyms){
         //System.out.println(term);
         LinkedList<SearchResult> search = new LinkedList<>();
-        api.setURL("http://www.ebi.ac.uk/spot/zooma/v2/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "services/annotate?propertyValue="+term+"&filter=ontologies:[CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WBPHENOTYPE,XAO,ZFA]"));
+        api.setURL("https://www.ebi.ac.uk/spot/zooma/v2/api/");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "services/annotate?propertyValue=" + term.toLowerCase() + "&filter=ontologies:[CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WBPHENOTYPE,XAO,ZFA]"));
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();

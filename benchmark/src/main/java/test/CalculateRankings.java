@@ -43,6 +43,7 @@ public class CalculateRankings {
         HashMap<String,HashMap<String,List<List<String>>>> finalMap = new HashMap<>();
 
 
+
         String query;
         HashMap<String, Double> classMatchScoreMap = new HashMap<String, Double>();
         while ((query = br.readLine()) != null) {
@@ -58,7 +59,7 @@ public class CalculateRankings {
 
             FileWriter writer = new FileWriter(fileName);
 
-            Model model = measureDao.getSearchResults(queryWords);
+           /* Model model = measureDao.getSearchResults(queryWords);
 
             BooleanModel rankModel = new BooleanModel();
             ArrayList<ResultFormatter> rankedClassList = rankModel.getRankedClasses(model);
@@ -208,7 +209,7 @@ public class CalculateRankings {
                 finalMap.get(query).get("semantic-similarity").add(tmpList);
             }
             writer.append('\n');
-            map.clear();
+            map.clear();*/
 
 
 				/*System.out.println("Starting DM...");
@@ -254,9 +255,9 @@ public class CalculateRankings {
 				writer.append('\n');
 				map.clear();*/
 
-            System.out.println("Searching BioPortal, Solr and OLS...");
             SearchApps sa = new SearchApps();
             HashMap<String, LinkedList<SearchResult>> searchAppsResults = sa.search(query);
+            System.out.println("Search finished.");
             for(String app : searchAppsResults.keySet()){
                 writer.append(app+"\n");
                 LinkedList<SearchResult> results = searchAppsResults.get(app);
@@ -280,14 +281,20 @@ public class CalculateRankings {
     }
 
 
-    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList){
-
+    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList) throws IOException {
+        List<String> validAcronyms = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            validAcronyms.add(line.trim());
+        }
         ArrayList<String> noDupsList = new ArrayList<>();
         ArrayList<ResultFormatter> list = new ArrayList<>();
         for(int i=0; i<inputList.size();i++){
             ResultFormatter searchFacet = (ResultFormatter)inputList.get(i);
             String iri = searchFacet.getTermIRI();
-            if(!noDupsList.contains(iri)){
+            String acro = getOntologyFromUri(iri);
+            if(!noDupsList.contains(iri) && validAcronyms.contains(acro)){
                 noDupsList.add(iri);
                 list.add(searchFacet);
             }
@@ -314,6 +321,12 @@ public class CalculateRankings {
         map.put("label",labels);
 
         return map;
+    }
+
+    private static String getOntologyFromUri(String uri){
+        String[] tmpSplit = uri.split("/");
+        String ontology = tmpSplit[(tmpSplit.length-1)].split("_")[0];
+        return ontology;
     }
 
 }

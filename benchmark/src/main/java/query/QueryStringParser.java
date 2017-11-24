@@ -18,7 +18,7 @@ public class QueryStringParser {
         ArrayList<String> stopWords = new ArrayList<>();
 
         try{
-            FileInputStream fstream = new FileInputStream("userinput/stopList.txt");
+            FileInputStream fstream = new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\stopList.txt");
             // Get the object of DataInputStream
             DataInputStream in = new DataInputStream(fstream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));

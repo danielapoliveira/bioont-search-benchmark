@@ -75,7 +75,6 @@ public class DocNormCalculator {
         DocumentNormMap docNormMap = new DocumentNormMap(path);
         try {
             PrimaryTreeMap<String,Double> map = docNormMap.get_doc_norm_map();
-            System.out.println(map);
             if (map.containsKey(docId)) {
                 doc_norm = map.get(docId);
             } else { }

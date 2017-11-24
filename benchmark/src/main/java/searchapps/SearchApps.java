@@ -12,7 +12,7 @@ public class SearchApps {
     public  HashMap<String, LinkedList<SearchResult>> search(String term) throws Exception {
 
         List<String> validAcronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("userinput/acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
         String line;
         while ((line = reader.readLine()) != null) {
             validAcronyms.add(line.trim());
@@ -22,6 +22,7 @@ public class SearchApps {
         term = term.replace(" ","+").trim();
 
         //search solr
+        System.out.println("Starting Solr...");
         SolrSearch s = new SolrSearch();
         LinkedList<SearchResult> results = s.search(term, "label:");
 
@@ -44,6 +45,7 @@ public class SearchApps {
         int tries = 10;
 
         //Bioportal search
+        System.out.println("Starting Bioportal...");
         Search bio = new Search();
         LinkedList<SearchResult> bioResults = new LinkedList<>();
         for (int j = 0; j <= tries; j++) {
@@ -61,6 +63,7 @@ public class SearchApps {
         allResults.put("bioportal", bioResults);
 
         //OLS search
+        System.out.println("Starting OLS...");
         Search ols = new Search();
         LinkedList<SearchResult> olsResults = new LinkedList<>();
         for (int j = 0; j <= tries; j++) {
@@ -78,6 +81,7 @@ public class SearchApps {
         allResults.put("ols", olsResults);
 
         //Zooma search
+        System.out.println("Starting Zooma...");
         Search zooma = new Search();
         LinkedList<SearchResult> zoomaResults = new LinkedList<>();
         for (int j = 0; j <= tries; j++) {

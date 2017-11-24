@@ -35,7 +35,7 @@ public class Search {
     public LinkedList<SearchResult> olsSearch(String term,List<String> validAcronyms){
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURL("https://www.ebi.ac.uk/ols/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25")).get("response").get("docs");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25&ontology=chebi,cl,doid,dron,edam,efo,fma,go,hp,ma,mp,mpath,nbo,ncit,oae,ogg,pato,po,uberon,vt,webphenotype,xao,zfa")).get("response").get("docs");
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
@@ -50,7 +50,8 @@ public class Search {
                 s.setDefinition(result.get("description").toString().replace("\"", ""));
 
             s.setLabel(result.get("label").toString().replace("\"", ""));
-            if(validAcronyms.contains(acronym))
+            String acroFromUri = getOntologyFromUri(purl);
+            if(validAcronyms.contains(acroFromUri))
                 search.add(s);
 
         }
@@ -70,7 +71,9 @@ public class Search {
 
             s.setIri(purl);
             s.setLabel(result.get("annotatedProperty").get("propertyValue").toString().replace("\"", ""));
-            search.add(s);
+            String acroFromUri = getOntologyFromUri(purl);
+            if(validAcronyms.contains(acroFromUri))
+                search.add(s);
         }
         return search;
     }
@@ -79,7 +82,7 @@ public class Search {
 
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURLandKey("http://data.bioontology.org", Configuration.getProperty(Configuration.BIOPORTAL_APIKEY));
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100")).get("collection");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100&ontologies=CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WB-PHENOTYPE,XAO,ZFA")).get("collection");
 
         for(JsonNode result : searchResult) {
             SearchResult s = new SearchResult();
@@ -104,11 +107,18 @@ public class Search {
 
             String acronym = api.jsonToNode(api.get(ontId)).get("acronym").toString().replace("\"", "").toUpperCase();
             s.setAcronym(acronym);
-            if(validAcronyms.contains(acronym))
+            String acroFromUri = getOntologyFromUri(purl);
+            if(validAcronyms.contains(acroFromUri))
                 search.add(s);
 
         }
         return search;
+    }
+
+    private String getOntologyFromUri(String uri){
+        String[] tmpSplit = uri.split("/");
+        String ontology = tmpSplit[(tmpSplit.length-1)].split("_")[0];
+        return ontology;
     }
 
 }

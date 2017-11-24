@@ -64,7 +64,7 @@ public class Configuration {
 	private Configuration() {
 		logger = Logger.getLogger(getClass().getName());
 		try {
-            final BufferedReader reader = new BufferedReader(new FileReader("userinput/config.properties"));
+            final BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\danoli\\Desktop\\CBRBench\\bioont-search-benchmark\\userinput\\config.properties"));
                 properties.load(reader);
 			// Try loading configuration file otherwise fall back to a default path
 			//properties.load(getClass().getResourceAsStream("resources/config.properties"));

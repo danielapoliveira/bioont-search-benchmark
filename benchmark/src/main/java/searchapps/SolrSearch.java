@@ -28,7 +28,7 @@ public class SolrSearch {
 
     public LinkedList<SearchResult> search(String term, String q) throws IOException {
         List<String> validAcronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("userinput/acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
         String line;
         while ((line = reader.readLine()) != null) {
             validAcronyms.add(line.trim());
@@ -51,9 +51,11 @@ public class SolrSearch {
         for(SolrDocument item : list) {
             SearchResult s = new SearchResult();
             String acronym = item.get("ontology_prefix").toString();
-            if(validAcronyms.contains(acronym)) {
-                s.setAcronym(acronym);
-                s.setIri(item.get("iri").toString().replace("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#","http://purl.obolibrary.org/obo/NCIT_"));
+            String iri = item.get("iri").toString().replace("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#","http://purl.obolibrary.org/obo/NCIT_");
+            String acroFromUri = getOntologyFromUri(iri);
+            if(validAcronyms.contains(acroFromUri)) {
+                s.setAcronym(acroFromUri);
+                s.setIri(iri);
                 s.setScore(item.get("score").toString());
                 s.setLabel(item.get("label").toString());
                 try {
@@ -82,5 +84,11 @@ public class SolrSearch {
             acros.add(s.getAcronym());
         }
         return acros;
+    }
+
+    private String getOntologyFromUri(String uri){
+        String[] tmpSplit = uri.split("/");
+        String ontology = tmpSplit[(tmpSplit.length-1)].split("_")[0];
+        return ontology;
     }
 }

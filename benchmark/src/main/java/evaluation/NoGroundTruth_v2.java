@@ -6,36 +6,39 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class NoGroundTruth {
+public class NoGroundTruth_v2 {
 
     String savePath;
     //system=<algorithm,boolean>
     HashMap<String,HashMap<String,Boolean>> evaluationMap = new HashMap<>();
 
-    public NoGroundTruth(String savePath){
+    public NoGroundTruth_v2(String savePath){
         this.savePath = savePath;
     }
 
     public HashMap<String,HashMap<String,Double>> calculate(HashMap<String,List<List<String>>> resultsFile, int k) throws IOException {
 
-        createProbabilityMap(resultsFile.keySet());
         // Update the map for each system to change the document value if the query exists in that document.
         for(Map.Entry<String,List<List<String>>> entry : resultsFile.entrySet() ) {
             String algorithm = entry.getKey();
-            List<List<String>> searchResults = entry.getValue();
-            List<String> parseResults = parseResults(searchResults);
-            int i = 0;
-            while(i < k && i < parseResults.size()){
-                String result = parseResults.get(i);
-                String ontology = getOntologyFromUri(result);
-                HashMap<String,Boolean> status = evaluationMap.get(algorithm);
-                status.put(ontology, true);
-                evaluationMap.put(algorithm, status);
-                i++;
+                if (!evaluationMap.containsKey(algorithm)) {
+                    evaluationMap.put(algorithm, new HashMap<>());
+
+                List<List<String>> searchResults = entry.getValue();
+                List<String> parseResults = parseResults(searchResults);
+
+                int i = 0;
+                while (i < k && i < parseResults.size()) {
+                    String result = parseResults.get(i);
+                    HashMap<String, Boolean> status = evaluationMap.get(algorithm);
+                    status.putIfAbsent(result, true);
+                    evaluationMap.put(algorithm, status);
+                    i++;
+                }
             }
         }
-
         HashMap<String,Double> ontologyProbabilityMap = getOntologyProbabilityMap(resultsFile.keySet().size());
+        //System.out.println(ontologyProbabilityMap);
         double documentProbabilitySum = getOntologyProbabilitySum(ontologyProbabilityMap);
 
         HashMap<String,Double> systemProbabilityMap = new HashMap<>();
@@ -112,6 +115,8 @@ public class NoGroundTruth {
             ontologyProbabilityMap.put(entry3.getKey(),probability);
 
         }
+        //System.out.println(ontologyProbabilityMap);
+        //System.out.println();
         return ontologyProbabilityMap;
     }
 

@@ -46,6 +46,8 @@ public class Configuration {
 	
 	public static final String SAVE_PATH = "save.path";
 
+	public static final String GROUND_TRUTH_PATH = "gt.path";
+
 	/** Default instance of this class */
 	private static Configuration instance;
 

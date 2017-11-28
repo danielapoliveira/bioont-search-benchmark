@@ -1,18 +1,21 @@
 package evaluation;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.*;
+import utils.MapUtil;
 
-public class NoGroundTruth {
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class NoGroundTruth_v3 {
 
     String savePath;
     //system=<algorithm,boolean>
     HashMap<String,HashMap<String,Boolean>> evaluationMap = new HashMap<>();
 
-    public NoGroundTruth(String savePath){
+    public NoGroundTruth_v3(String savePath){
         this.savePath = savePath;
     }
 
@@ -36,41 +39,52 @@ public class NoGroundTruth {
         }
 
         HashMap<String,Double> ontologyProbabilityMap = getOntologyProbabilityMap(resultsFile.keySet().size());
-        double documentProbabilitySum = getOntologyProbabilitySum(ontologyProbabilityMap);
+        //System.out.println(ontologyProbabilityMap);
 
-        HashMap<String,Double> systemProbabilityMap = new HashMap<>();
-        HashMap<String,Double> systemSumMap = new HashMap<>();
-        for(Map.Entry<String, HashMap<String,Boolean>> entry : evaluationMap.entrySet()){
-            String system = entry.getKey();
-            HashMap<String,Boolean> documentsValue = entry.getValue();
-            double systemSum = getSystemSum(documentsValue);
-            systemSumMap.put(system, systemSum);
+        String gt_path = "C:\\Users\\danoli\\Desktop\\CBRBench\\bioont-search-benchmark\\userinput\\ground_truth\\";
+        List<String> gt_files = getListOfFiles(gt_path, ".tsv");
 
-            double ontologyProbabilitySum = getProbabilityOfRelevance(ontologyProbabilityMap,system);
-            systemProbabilityMap.put(system, ontologyProbabilitySum);
-        }
+        for(String file : gt_files){
+            try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream("C:\\Users\\danoli\\Desktop\\CBRBench\\bioont-search-benchmark\\userinput\\no_gt\\"+file), "utf-8"))) {
 
-        HashMap<String,Double> precisionMap = new HashMap<>();
-        HashMap<String,Double> recallMap = new HashMap<>();
-
-        //System.out.println(systemSumMap);
-        //System.out.println(systemProbabilityMap);
-        //System.out.println(documentProbabilitySum);
-        for(Map.Entry<String,Double> entry : systemProbabilityMap.entrySet()){
-            double precision =  entry.getValue() / systemSumMap.get(entry.getKey());
-            precisionMap.put(entry.getKey(),precision);
-
-            double recall = entry.getValue() / documentProbabilitySum;
-            recallMap.put(entry.getKey(), recall);
+                List<String> readFile = readFiletoList(gt_path + file);
+                Map<String,Double> ranking = new HashMap<>();
+                for (String line : readFile) {
+                    String[] split_line = line.split("\t");
+                    String uri = split_line[0].split(" - ")[0];
+                    String acro = getOntologyFromUri(split_line[0].split(" - ")[0]);
+                    Double probability = ontologyProbabilityMap.get(acro);
+                    ranking.put(split_line[0], probability);
+                }
+                Map<String,Double> sortedRankings = MapUtil.sortByValue(ranking);
+                for(Map.Entry<String,Double> entry : sortedRankings.entrySet()){
+                    writer.write(entry.getKey()+"\t"+entry.getValue()+"\n");
+                }
+            }
         }
 
         HashMap<String,HashMap<String,Double>> finalResult = new HashMap<>();
-        finalResult.put("precision", precisionMap);
-        //System.out.println(precisionMap);
-        //System.out.println(recallMap);
-        //System.out.println();
-        finalResult.put("recall", recallMap);
         return finalResult;
+
+    }
+
+    private List<String> readFiletoList(String fileName){
+        List<String> list = new ArrayList<>();
+        try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
+
+            //1. filter line 3
+            //2. convert all content to upper case
+            //3. convert it into a List
+            list = stream
+                    .collect(Collectors.toList());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return list;
+
     }
 
     private double getProbabilityOfRelevance(HashMap<String,Double> ontologyProbabilityMap, String system){
@@ -169,6 +183,18 @@ public class NoGroundTruth {
 
         reader.close();
         return acronyms;
+    }
+
+    private List<String> getListOfFiles(String path, String endswith) throws IOException {
+        List<String> results = new ArrayList<>();
+        File[] files = new File(path).listFiles();
+
+        for (File file : files) {
+            if (file.isFile() && file.getName().endsWith(endswith)) {
+                results.add(file.getName());
+            }
+        }
+        return results;
     }
 
     public List<String> parseResults(List<List<String>> results){

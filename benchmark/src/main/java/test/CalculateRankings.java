@@ -59,11 +59,11 @@ public class CalculateRankings {
 
             FileWriter writer = new FileWriter(fileName);
 
-           /* Model model = measureDao.getSearchResults(queryWords);
+            Model model = measureDao.getSearchResults(queryWords);
 
             BooleanModel rankModel = new BooleanModel();
             ArrayList<ResultFormatter> rankedClassList = rankModel.getRankedClasses(model);
-            HashMap<String, ArrayList<String>> map = getTopTen(rankedClassList);
+            HashMap<String, ArrayList<String>> map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append('\n');
             writer.append("boolean");
@@ -85,7 +85,7 @@ public class CalculateRankings {
             System.out.println("Starting TF-IDF...");
             TF_IDFModel rankModel2 = new TF_IDFModel(path);
             rankedClassList = rankModel2.getRankedClasses(model);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList,query);
             rankedClassList.clear();
             writer.append("tf_idf");
             writer.append('\n');
@@ -106,7 +106,7 @@ public class CalculateRankings {
             System.out.println("Starting BM25...");
             BM25Model rankModel3 = new BM25Model(path);
             rankedClassList = rankModel3.getRankedClasses(model);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append("bm25");
             writer.append('\n');
@@ -127,7 +127,7 @@ public class CalculateRankings {
             System.out.println("Starting VSM...");
             VectorSpaceModel rankModel4 = new VectorSpaceModel(path);
             rankedClassList = rankModel4.getRankedClasses(model, queryWords);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append("vector-space");
             writer.append('\n');
@@ -149,7 +149,7 @@ public class CalculateRankings {
             System.out.println("Starting PageRank...");
             PageRank rankModel8 = new PageRank(path);
             rankedClassList = rankModel8.getRankedClasses(model, queryWords);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append("pagerank");
             writer.append('\n');
@@ -171,7 +171,7 @@ public class CalculateRankings {
 
             ClassMatchMeasure rankModel5 = new ClassMatchMeasure(path);
             rankedClassList = rankModel5.getRankedClasses(model, queryWords,classMatchScoreMap);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append("class-match-measure");
             writer.append('\n');
@@ -193,7 +193,7 @@ public class CalculateRankings {
             System.out.println("Starting SSM...");
             SemanticSimilarityMeasure rankModel7 = new SemanticSimilarityMeasure(path);
             rankedClassList = rankModel7.getRankedClasses(model, queryWords);
-            map = getTopTen(rankedClassList);
+            map = getTopTen(rankedClassList, query);
             rankedClassList.clear();
             writer.append("semantic-similarity");
             writer.append('\n');
@@ -209,7 +209,7 @@ public class CalculateRankings {
                 finalMap.get(query).get("semantic-similarity").add(tmpList);
             }
             writer.append('\n');
-            map.clear();*/
+            map.clear();
 
 
 				/*System.out.println("Starting DM...");
@@ -281,7 +281,7 @@ public class CalculateRankings {
     }
 
 
-    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList) throws IOException {
+    public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList, String query) throws IOException {
         List<String> validAcronyms = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
         String line;
@@ -294,7 +294,8 @@ public class CalculateRankings {
             ResultFormatter searchFacet = (ResultFormatter)inputList.get(i);
             String iri = searchFacet.getTermIRI();
             String acro = getOntologyFromUri(iri);
-            if(!noDupsList.contains(iri) && validAcronyms.contains(acro)){
+            String label = searchFacet.getTermLabel().trim().toLowerCase();
+            if(!noDupsList.contains(iri) && validAcronyms.contains(acro) && label.equals(query.toLowerCase())){
                 noDupsList.add(iri);
                 list.add(searchFacet);
             }

@@ -1,17 +1,20 @@
 package evaluation;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Daniela Oliveira on 22/03/2017.
  */
-public class Evaluation {
+public class Evaluation_gt {
 
     String path;
     List<String> groundTruth;
 
-    public Evaluation(String path) throws IOException {
+    public Evaluation_gt(String path) throws IOException {
         this.path = path;
     }
 
@@ -22,8 +25,7 @@ public class Evaluation {
      * @param k k to consider in the P@k and AP@k.
      * @throws IOException
      */
-    public void calculate(HashMap<String,HashMap<String,List<List<String>>>> resultsFile, String groundPath, int k) throws IOException {
-        HashMap<String, Double> mapk = new HashMap<>();
+    public void calculate(HashMap<String,HashMap<String,List<List<String>>>> resultsFile, int k) throws IOException {
         HashMap<String,HashMap<String,HashMap<String,Double>>> evaluationMap =  new HashMap<>();
         HashMap<String,HashMap<String,HashMap<String,Double>>> ngtMap = new HashMap<>();
 
@@ -39,77 +41,15 @@ public class Evaluation {
 
             NoGroundTruth ngt = new NoGroundTruth(path);
             ngtMap.put(term, ngt.calculate(map, k));
-
-
-            groundTruth = parseGroundTruthFile(new File(groundPath+term.toLowerCase()+".tsv"));
-
-
-            for(Map.Entry<String,List<List<String>>> entry2 : map.entrySet()){
-                float relevant = 0;
-                String algorithm = entry2.getKey();
-
-                if(!evaluationMap.get(term).containsKey(algorithm)) {
-                    evaluationMap.get(term).put(algorithm,new HashMap<>());
-                }
-
-                List<List<String>> searchResults = entry2.getValue();
-                List<String> parseResults = parseResults(searchResults);
-
-                // Calculate NGT
-
-
-
-                // Calculate NDCG
-                double ndcg = NDCG.compute(parseResults,groundTruth,null);
-                evaluationMap.get(term).get(algorithm).put("ndcg",ndcg);
-
-                // Calculate AP@k
-                double apk = MAP.apk(parseResults,groundTruth,k);
-                evaluationMap.get(term).get(algorithm).put("apk",apk);
-                if(!mapk.keySet().contains(algorithm)){
-                    mapk.put(algorithm,apk);
-                }
-                else{
-                    mapk.put(algorithm,mapk.get(algorithm)+apk);
-                }
-
-                // Calculate P@k
-                int i = 0;
-                while(i < k && i < searchResults.size()){
-                    List<String> result = searchResults.get(i);
-                    if(groundTruth.contains(result.get(0)))
-                        relevant++;
-                    i++;
-                }
-                evaluationMap.get(term).get(algorithm).put("pak",pak(relevant,k));
-            }
-
-
         }
-
-        // Calculate MAP@k
-        HashMap<String,Double> mapkMap = new HashMap<>();
-        for(Map.Entry<String,Double> entry : mapk.entrySet()){
-            double apk = entry.getValue();
-            double mapkFinal = apk / resultsFile.keySet().size();
-            mapkMap.put(entry.getKey(),mapkFinal);
-        }
-
-
-
 
         //Write evaluation to file
         FileWriter writer = new FileWriter(path+"evaluation2K"+ k +".tsv");
-        writer.write("\t\tndcg\tpak\tapk\tmap\tno gt precision\tno gt recall\n");
+        writer.write("\t\tno gt precision\tno gt recall\n");
         for(Map.Entry<String,HashMap<String,HashMap<String,Double>>> entry : evaluationMap.entrySet()){
             writer.write(entry.getKey().trim()+"\t");
             for(Map.Entry<String,HashMap<String,Double>> entry2 : entry.getValue().entrySet()){
                 writer.write(entry2.getKey()+"\t");
-                HashMap<String,Double> eval = entry2.getValue();
-                writer.write(eval.get("ndcg")+"\t");
-                writer.write(eval.get("pak")+"\t");
-                writer.write(eval.get("apk")+"\t");
-                writer.write(mapkMap.get(entry2.getKey()).toString()+"\t");
                 writer.write(ngtMap.get(entry.getKey()).get("precision").get(entry2.getKey())+"\t");
                 writer.write(ngtMap.get(entry.getKey()).get("recall").get(entry2.getKey())+"\t");
                 writer.write("\n\t");

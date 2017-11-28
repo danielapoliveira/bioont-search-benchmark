@@ -37,7 +37,8 @@ public class SolrSearch {
         SolrClient solrServer = new HttpSolrClient(Configuration.getProperty(Configuration.SOLR_INSTANCE));
         SolrQuery query = new SolrQuery();
         query.setFields("iri","label","synonym","ontology_prefix","score","description");
-        query.set("q",q+term);
+        query.set("q",q+"\""+term.replace("+"," ")+"\"");
+
 
         QueryResponse response = null;
         try {

@@ -35,7 +35,7 @@ public class Search {
     public LinkedList<SearchResult> olsSearch(String term,List<String> validAcronyms){
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURL("https://www.ebi.ac.uk/ols/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25&ontology=chebi,cl,doid,dron,edam,efo,fma,go,hp,ma,mp,mpath,nbo,ncit,oae,ogg,pato,po,uberon,vt,webphenotype,xao,zfa")).get("response").get("docs");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25&ontology=chebi,cl,doid,dron,edam,efo,fma,go,hp,ma,mp,mpath,nbo,ncit,oae,ogg,pato,po,uberon,vt,webphenotype,xao,zfa&exact=true")).get("response").get("docs");
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
@@ -82,7 +82,7 @@ public class Search {
 
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURLandKey("http://data.bioontology.org", Configuration.getProperty(Configuration.BIOPORTAL_APIKEY));
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100&ontologies=CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WB-PHENOTYPE,XAO,ZFA")).get("collection");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100&ontologies=CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WB-PHENOTYPE,XAO,ZFA&require_exact_match=true")).get("collection");
 
         for(JsonNode result : searchResult) {
             SearchResult s = new SearchResult();

@@ -2,6 +2,7 @@ package test;
 
 import dataload.LoadDataClass;
 import evaluation.Evaluation;
+import evaluation.Evaluation_gt;
 import evaluation.NoGroundTruth;
 import store.QuadStore;
 
@@ -16,9 +17,10 @@ import java.util.List;
 public class Test {
     //Choose to run the full framework or just part of it.
     private static boolean loadData = false;
-    private static boolean preprocess = false;
+    private static boolean preprocess = true;
     private static boolean search = true;
-    private static boolean evaluate = true;
+    private static boolean evaluate = false;
+    private static boolean evaluateGtOnly = true;
 
     //Choose precalculations to execute.
     private static boolean tfidf = true;
@@ -27,7 +29,7 @@ public class Test {
     private static boolean bm = false;
     private static boolean dm = false;
 
-    private static int k = 5;
+    private static int k = 3;
 
     private static void createDir(String dirName){
         File dir = new File(dirName);
@@ -97,8 +99,15 @@ public class Test {
          *******************/
         if(evaluate){
             Evaluation eval = new Evaluation(evaluationPath);
-            eval.calculate(resultsMap, "C:\\Users\\danoli\\Desktop\\CBRBench\\bioont-search-benchmark\\userinput\\ground_truth\\",k);
+            eval.calculate(resultsMap, Configuration.getProperty(Configuration.GROUND_TRUTH_PATH),k);
 
         }
+
+        if(evaluateGtOnly){
+            Evaluation_gt eval_gt = new Evaluation_gt(evaluationPath);
+            eval_gt.calculate(resultsMap, k);
+        }
+
+
     }
 }

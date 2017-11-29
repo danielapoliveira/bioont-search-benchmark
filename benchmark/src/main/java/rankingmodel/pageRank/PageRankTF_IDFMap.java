@@ -108,7 +108,7 @@ public class PageRankTF_IDFMap {
 			} catch(Exception e){
 				logger.info(e.toString());
 			}
-			logger.info(classList.toString());
+			//logger.info(classList.toString());
 		return classList;
 	}
 	

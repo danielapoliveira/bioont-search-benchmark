@@ -63,7 +63,7 @@ public class DensityCalculator {
                 map.put(classURI, classDensiy);
             }
 
-            logger.info(map.toString());
+            //logger.info(map.toString());
             densityMap.save_density_map(graphIRI, map);
         }
 

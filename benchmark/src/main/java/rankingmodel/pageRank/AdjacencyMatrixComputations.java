@@ -36,7 +36,7 @@ public class AdjacencyMatrixComputations {
                 String graphIRI = graphs.get(i);
                 ArrayList<String> inlinks = this.getInlinks(graphIRI);
                 classInstance.save_domain_adjacency_matrix_map(graphIRI, inlinks);
-                logger.info("inlinks :" + inlinks );
+                //logger.info("inlinks :" + inlinks );
                 //inlinks.clear();
             }
         }catch(Exception e){

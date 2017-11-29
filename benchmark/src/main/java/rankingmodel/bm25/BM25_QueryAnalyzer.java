@@ -61,7 +61,7 @@ public class BM25_QueryAnalyzer {
                 + "WHERE { { {?term ?p ?o.} UNION {?s ?k ?term} UNION {?t ?term ?q}} "
                 + "FILTER (!(isBlank(?term)))"
                 + "FILTER (isIRI(?term)) } GROUP BY ?term";
-        logger.info(sparql);
+        //logger.info(sparql);
 
         VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
         try{

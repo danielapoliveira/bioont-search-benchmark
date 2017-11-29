@@ -39,15 +39,15 @@ public class TF_IDFCalculator_Parallel {
 
 			/* From termCountMap get maximum term count for a term that belongs to this ontology*/
 
-                double HIGHEST_FREQUENCY_TERM_COUNT = 0;
+                /*double HIGHEST_FREQUENCY_TERM_COUNT = 0;
                 for (Map.Entry<String, Integer> entry : termCountMap.entrySet()) {
                     double value = Double.parseDouble(entry.getValue().toString());
                     if (value > HIGHEST_FREQUENCY_TERM_COUNT) {
                         HIGHEST_FREQUENCY_TERM_COUNT = value;
                     }
-                }
+                }*/
 
-                //double HIGHEST_FREQUENCY_TERM_COUNT = termCountMap.entrySet().stream().max(Map.Entry.comparingByValue()).get().getValue();
+                double HIGHEST_FREQUENCY_TERM_COUNT = termCountMap.entrySet().stream().max(Map.Entry.comparingByValue()).get().getValue();
 
                 logger.info("HIGHEST_FREQUENCY_TERM_COUNT" + HIGHEST_FREQUENCY_TERM_COUNT);
 			/* Initialize a hashmap "term_tf_IdfMapPerOntology".

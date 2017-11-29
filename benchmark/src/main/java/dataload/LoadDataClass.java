@@ -51,10 +51,11 @@ public class LoadDataClass {
         List<String> identifiers = new ArrayList<String>();
         for (int i=0; i<graphs.size(); i++){
             String graphIRI = graphs.get(i);
-            System.out.println("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"******************");
+            if(graphIRI.endsWith(".owl")) {
+                System.out.println("***************** Getting Values for Graph No" + i + " : Graph URI is :" + graphIRI + "******************");
 
-            ontoPersistance.insertMetadata(graphIRI, identifiers);
-
+                ontoPersistance.insertMetadata(graphIRI, identifiers);
+            }
         }
 
     }

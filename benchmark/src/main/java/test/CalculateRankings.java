@@ -283,7 +283,7 @@ public class CalculateRankings {
 
     public static HashMap<String,ArrayList<String>> getTopTen (ArrayList<ResultFormatter> inputList, String query) throws IOException {
         List<String> validAcronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(Configuration.getProperty(Configuration.ACRONYM_PATH))));
         String line;
         while ((line = reader.readLine()) != null) {
             validAcronyms.add(line.trim());

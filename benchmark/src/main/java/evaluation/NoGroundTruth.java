@@ -1,5 +1,7 @@
 package evaluation;
 
+import test.Configuration;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -161,7 +163,7 @@ public class NoGroundTruth {
     }
     private List<String> getAcronyms() throws IOException {
         List<String> acronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(Configuration.getProperty(Configuration.ACRONYM_PATH))));
         String line;
         while ((line = reader.readLine()) != null) {
             acronyms.add(line.trim());

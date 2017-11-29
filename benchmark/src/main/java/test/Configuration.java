@@ -48,6 +48,8 @@ public class Configuration {
 
 	public static final String GROUND_TRUTH_PATH = "gt.path";
 
+	public static final String ACRONYM_PATH = "acronym.path";
+
 	/** Default instance of this class */
 	private static Configuration instance;
 

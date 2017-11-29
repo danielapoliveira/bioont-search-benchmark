@@ -1,5 +1,7 @@
 package searchapps;
 
+import test.Configuration;
+
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -12,7 +14,7 @@ public class SearchApps {
     public  HashMap<String, LinkedList<SearchResult>> search(String term) throws Exception {
 
         List<String> validAcronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(Configuration.getProperty(Configuration.ACRONYM_PATH))));
         String line;
         while ((line = reader.readLine()) != null) {
             validAcronyms.add(line.trim());

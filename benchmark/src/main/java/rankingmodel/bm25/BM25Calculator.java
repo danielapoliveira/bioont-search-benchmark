@@ -31,13 +31,13 @@ public class BM25Calculator {
             for(int i=0;i<ontologies.size();i++){
 
                 String graphIRI = ontologies.get(i);
+                if(graphIRI.endsWith(".owl")) {
+                    int count = query_analyzer.getTotalOntologyTerms(graphIRI);
 
-                int count =  query_analyzer.getTotalOntologyTerms(graphIRI);
+                    logger.info("********** For Ontology " + i + " : " + graphIRI + "  number of terms : " + count);
 
-                logger.info("********** For Ontology "+i+" : "+ graphIRI+"  number of terms : " + count);
-
-                diskmap.save_bm25_ontology_lengths_Value(graphIRI, count);
-
+                    diskmap.save_bm25_ontology_lengths_Value(graphIRI, count);
+                }
             }
         } catch(Exception e){
             logger.info(e.toString());

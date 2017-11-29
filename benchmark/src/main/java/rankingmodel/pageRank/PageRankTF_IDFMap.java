@@ -46,25 +46,27 @@ public class PageRankTF_IDFMap {
  		/************************************************************************/
  		ArrayList<String> graphs = this.getExistingLoadedOntology();
  		
- 		for (int i=0; i<graphs.size(); i++){
- 		
- 			String graphIRI = graphs.get(i);
- 			
- 			logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"******************");
- 			
- 			ArrayList<String> classList = this.getClassList(graphIRI);
- 			
- 			for (int j=0; j<classList.size() ; j++) {
- 				String classIRI = classList.get(j);
- 				double tf_Idf = this.getTF_IDFValues(classIRI, graphIRI);
- 				if(tf_Idf_map.containsKey(classIRI)){ 
- 					tf_Idf = tf_Idf + tf_Idf_map.get(classIRI);
- 					classInstance.save_tf_Idf_map(classIRI, tf_Idf);
- 				} else {
- 					classInstance.save_tf_Idf_map(classIRI, tf_Idf);
- 				}
- 			}
- 		}
+ 		for (int i=0; i<graphs.size(); i++) {
+
+			String graphIRI = graphs.get(i);
+			if (graphIRI.endsWith(".owl")) {
+				logger.info("***************** Getting Values for Graph No" + i + " : Graph URI is :" + graphIRI + "******************");
+
+				ArrayList<String> classList = this.getClassList(graphIRI);
+
+				for (int j = 0; j < classList.size(); j++) {
+					String classIRI = classList.get(j);
+					double tf_Idf = this.getTF_IDFValues(classIRI, graphIRI);
+					if (tf_Idf_map.containsKey(classIRI)) {
+						tf_Idf = tf_Idf + tf_Idf_map.get(classIRI);
+						classInstance.save_tf_Idf_map(classIRI, tf_Idf);
+					}
+					else {
+						classInstance.save_tf_Idf_map(classIRI, tf_Idf);
+					}
+				}
+			}
+		}
  		//classInstance.closeConnection();
  	  }
 	

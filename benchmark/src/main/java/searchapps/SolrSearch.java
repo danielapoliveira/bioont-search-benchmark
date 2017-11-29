@@ -28,7 +28,7 @@ public class SolrSearch {
 
     public LinkedList<SearchResult> search(String term, String q) throws IOException {
         List<String> validAcronyms = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\danoli\\Google Drive\\CBRBench\\bioont-search-benchmark\\userinput\\acronyms.txt")));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(Configuration.getProperty(Configuration.ACRONYM_PATH))));
         String line;
         while ((line = reader.readLine()) != null) {
             validAcronyms.add(line.trim());

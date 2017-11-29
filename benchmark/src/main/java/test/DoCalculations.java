@@ -7,6 +7,7 @@ import rankingmodel.pageRank.PageRankTF_IDFMap;
 import rankingmodel.structuralMetrices.BetweenessMeasureCal;
 import rankingmodel.structuralMetrices.DensityCalculator;
 import rankingmodel.tf_Idf.TF_IDFCalculator;
+import rankingmodel.tf_Idf.TF_IDFCalculator_Parallel;
 
 /**
  * Created by Daniela Oliveira.
@@ -24,8 +25,13 @@ public class DoCalculations {
      */
     public void calculate(boolean tfidf, boolean bm25, boolean pageRank, boolean bm, boolean dm){
         if(tfidf) {
-            TF_IDFCalculator tc = new TF_IDFCalculator(path);
+            long tStart = System.currentTimeMillis();;
+            TF_IDFCalculator_Parallel tc = new TF_IDFCalculator_Parallel(path);
             tc.tf_IdfCalculations();
+            long tEnd = System.currentTimeMillis();
+            long tDelta = tEnd - tStart;
+            double elapsedSeconds = tDelta / 1000.0;
+            System.out.println("Elapsed time: "+elapsedSeconds + " seconds.");
         }
 
         if(bm25) {

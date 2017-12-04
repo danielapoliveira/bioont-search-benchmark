@@ -235,9 +235,9 @@ public class PageRank {
                 intermediate_rank_value = 	intermediate_rank_value + (rank_value_table.get(inlink_url)/ (outlinks.get(inlink_url)));
                 intermediate_rvt.put(source_url,intermediate_rank_value);
             }
-            System.out.println(rank_value_table);
+            //System.out.println(rank_value_table);
 			/* Special case for dangling node with no outbound link */
-            System.out.println(source_url);
+            //System.out.println(source_url);
             if(outlinks.get(source_url)==0 ) {
                 dangling_value+=rank_value_table.get(source_url);
             }
@@ -256,7 +256,7 @@ public class PageRank {
             intermediate_rvt.put(key, value);
         }
 
-        System.out.println(" intermediate_rvt value updated : ");
+        //System.out.println(" intermediate_rvt value updated : ");
 
 		/*Final page rank value for given page for given number of iteration. 
 		 * Page rank is calculated by considering two scenarios, first is booleanModel surfer

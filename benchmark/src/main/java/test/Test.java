@@ -3,7 +3,6 @@ package test;
 import dataload.LoadDataClass;
 import evaluation.Evaluation;
 import evaluation.Evaluation_gt;
-import evaluation.NoGroundTruth;
 import store.QuadStore;
 
 import java.io.*;
@@ -17,15 +16,16 @@ import java.util.List;
 public class Test {
     //Choose to run the full framework or just part of it.
     private static boolean loadData = false;
-    private static boolean preprocess = true;
+    private static boolean preprocess = false;
     private static boolean search = true;
-    private static boolean evaluate = false;
-    private static boolean evaluateGtOnly = true;
+    private static boolean evaluate = true;
+    private static boolean evaluateGtOnly = false;
 
     //Choose precalculations to execute.
     private static boolean tfidf = true;
-    private static boolean bm25 = true;
-    private static boolean pageRank = true;
+    private static boolean bm25 = false;
+    private static boolean vsm = false;
+    private static boolean pageRank = false;
     private static boolean bm = false;
     private static boolean dm = false;
 
@@ -80,8 +80,8 @@ public class Test {
          * Calculations     *
          *******************/
         if(preprocess) {
-            DoCalculations calc = new DoCalculations(preprocessingPath);
-            calc.calculate(tfidf, bm25, pageRank, bm, dm);
+            DoCalculationsParallel calc = new DoCalculationsParallel(preprocessingPath);
+            calc.calculate(tfidf, bm25, vsm, pageRank, bm, dm);
         }
 
         /********************

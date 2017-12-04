@@ -25,14 +25,14 @@ public class ImportsFinder {
 		String queryString = "PREFIX owl:<http://www.w3.org/2002/07/owl#> "+
 				"CONSTRUCT {?uri owl:imports ?ontology} FROM <"+graph+"> WHERE {?uri owl:imports ?ontology. FILTER ((?ontology != <"+graph+">) && (?uri != ?ontology))}";
 
-		System.out.println(queryString);
+		//System.out.println(queryString);
 
 		Model result = store.execConstruct(queryString, false);
 		StmtIterator iter = result.listStatements();
 		while (iter.hasNext()){
 			Statement stmt = iter.nextStatement();
 			String ontology = stmt.getObject().toString();
-			System.out.println(" Ontology : " + ontology);
+			//System.out.println(" Ontology : " + ontology);
 			if(existingOntologiesList.contains(ontology)){
 
 			} else {

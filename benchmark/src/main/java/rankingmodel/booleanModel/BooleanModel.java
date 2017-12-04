@@ -12,7 +12,7 @@ public class BooleanModel {
 
    		ArrayList<ResultFormatter> rf = new ArrayList<ResultFormatter>();
    		
-   		System.out.println("In boolean ");
+   		//System.out.println("In boolean ");
    		
         Property props = model.getProperty("http://www.biomeanalytics.com/model/orthoOntology.owl#hasProperty");
         Property label = model.getProperty("http://www.w3.org/2000/01/rdf-schema#label");
@@ -20,7 +20,7 @@ public class BooleanModel {
         NodeIterator propertyIterator = model.listObjectsOfProperty(props);
         
         while(propertyIterator.hasNext()){
-        	System.out.println("In while ");
+        	//System.out.println("In while ");
         	ResultFormatter rsf = new ResultFormatter();
         	String propertyURI = propertyIterator.next().toString();
         	        	

@@ -51,7 +51,7 @@ public class CalculateRankings {
             ArrayList<String> queryWords = stringParser.parserQueryString(query);
 
             finalMap.put(query, new HashMap<>());
-            logger.info("Query words: "+query);
+            //logger.info("Query words: "+query);
             String fileName = resultPath + query + ".tsv";
             MeasureDAO measureDao = new MeasureDAO();
 

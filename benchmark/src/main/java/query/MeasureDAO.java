@@ -65,8 +65,8 @@ public class MeasureDAO extends LoggerService {
 		String last =  " )}}" ;
 
 		String sparql = first+middle+last;
-		logger.info("GET query prepared");
-		logger.info(sparql);
+		//logger.info("GET query prepared");
+		//logger.info(sparql);
 		return sparql;
 	}
 

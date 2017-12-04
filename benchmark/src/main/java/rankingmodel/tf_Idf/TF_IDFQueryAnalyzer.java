@@ -81,7 +81,7 @@ public class TF_IDFQueryAnalyzer {
                 + "FROM <"+ontologyIRI+">"
                 + "WHERE {?s ?p ?o }";
 
-        System.out.println(sparql);
+        //System.out.println(sparql);
         VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, connection);
 
         try{

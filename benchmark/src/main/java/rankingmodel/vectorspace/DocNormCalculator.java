@@ -26,12 +26,11 @@ public class DocNormCalculator {
     }
 
     public void saveDocNormforCorpus(){
-        ArrayList<String> ontologies= new ArrayList<String>();
         TF_IDFQueryAnalyzer query_analyzer= new TF_IDFQueryAnalyzer();
         DocumentNormMap diskmap = new DocumentNormMap(path);
         try {
 
-            ontologies = query_analyzer.getExistingLoadedOntology();
+            ArrayList<String> ontologies = query_analyzer.getExistingLoadedOntology();
             for(int i=0;i<ontologies.size();i++){
                 String graphIRI = ontologies.get(i);
 
@@ -70,7 +69,7 @@ public class DocNormCalculator {
     }
 
     public double getDocNormValue(String docId){
-        System.out.println("docId: "+docId);
+        //System.out.println("docId: "+docId);
         double doc_norm = 0.0;
         DocumentNormMap docNormMap = new DocumentNormMap(path);
         try {

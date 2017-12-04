@@ -62,7 +62,7 @@ public class BM25Model {
         for (int i=0; i<graphList.size() ; i++){
         	
         	String graphIRI = graphList.get(i);
-        	System.out.println(" /********** "+graphIRI +" *********/");
+        	//System.out.println(" /********** "+graphIRI +" *********/");
 
         	int DOC_LENGTH = diskmap.getDocLength(graphIRI);
         	

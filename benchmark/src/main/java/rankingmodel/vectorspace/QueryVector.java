@@ -81,7 +81,7 @@ public class QueryVector {
         while (results.hasNext()) {
             QuerySolution result = (QuerySolution) results.nextSolution();
             DOC_FREQUENCY = Double.parseDouble(result.getLiteral("count").toString().split("\\^")[0]);
-            System.out.println(DOC_FREQUENCY);
+            //System.out.println(DOC_FREQUENCY);
         }
         return DOC_FREQUENCY;
     }
@@ -90,11 +90,11 @@ public class QueryVector {
         double q=0.0;
         for (Map.Entry entry : queryVector.entrySet()) {
             q = q + Math.pow(Double.parseDouble(entry.getValue().toString()),2);
-            System.out.println(q);
+            //System.out.println(q);
         }
 
         q = Math.sqrt(q);
-        System.out.println("Square root of q is :" + q);
+        //System.out.println("Square root of q is :" + q);
         return q;
     }
 }

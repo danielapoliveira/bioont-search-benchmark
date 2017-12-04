@@ -31,7 +31,7 @@ public class DocumentNormMap {
 			recMan = RecordManagerFactory.createRecordManager(fileName);
 			String recordName = "document_norm_table";
 			doc_norm_materialized_map = recMan.treeMap(recordName);
-			System.out.println("connection established :");
+			//System.out.println("connection established :");
 		} catch (IOException e) {
 			System.out.println("can not connect because of :" + e);}
 	}

@@ -106,7 +106,7 @@ public class QuadStore {
 
         GraphUtil.add(metagraph,triple);
         //metagraph.getBulkUpdateHandler().add(triple);
-        logger.info("Triple loaded successfully");
+        //logger.info("Triple loaded successfully");
         //} catch (Exception e) {
         //	logger.severe("Error[" + e + "]");
         //}
@@ -121,7 +121,7 @@ public class QuadStore {
             VirtuosoUpdateRequest vur = VirtuosoUpdateFactory.create(loadString, connection);
             vur.exec();
             flag = true;
-            logger.info("File loaded successfully");
+            //logger.info("File loaded successfully");
         } catch (Exception e){
 
 

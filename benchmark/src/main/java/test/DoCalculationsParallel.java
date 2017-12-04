@@ -8,9 +8,11 @@ import rankingmodel.structuralMetrices.BetweenessMeasureCal;
 import rankingmodel.structuralMetrices.DensityCalculator;
 import rankingmodel.tf_Idf.TF_IDFCalculator;
 import rankingmodel.tf_Idf.TF_IDFCalculator_Parallel;
+import rankingmodel.vectorspace.DocNormCalculator;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -27,7 +29,7 @@ public class DoCalculationsParallel {
     /**
      * Class that preprocesses for every algorithm chosen for the ontologies loaded in the Virtuoso database.
      */
-    public void calculate(boolean tfidf, boolean bm25, boolean pageRank, boolean bm, boolean dm){
+    public void calculate(boolean tfidf, boolean bm25, boolean vsm, boolean pageRank, boolean bm, boolean dm){
         if(tfidf) {
             long tStart = System.currentTimeMillis();;
             TF_IDFCalculator_Parallel tc = new TF_IDFCalculator_Parallel(path);
@@ -44,7 +46,14 @@ public class DoCalculationsParallel {
                 BM25Calculator calc = new BM25Calculator(path);
                 calc.calculateOntologyTermStatistics();
             }
+
         });
+        executor.submit(() -> {
+            if(vsm){
+                DocNormCalculator dnc = new DocNormCalculator(path);
+                dnc.saveDocNormforCorpus();
+            }
+                });
 
         executor.submit(() -> {
             if(pageRank) {

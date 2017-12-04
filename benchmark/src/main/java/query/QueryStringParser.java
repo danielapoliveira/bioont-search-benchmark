@@ -20,7 +20,8 @@ public class QueryStringParser {
         ArrayList<String> stopWords = new ArrayList<>();
 
         try{
-            FileInputStream fstream = new FileInputStream(Configuration.getProperty(Configuration.SAVE_PATH+"stopList.txt"));
+
+            FileInputStream fstream = new FileInputStream(Configuration.getProperty(Configuration.SAVE_PATH)+"stopList.txt");
             // Get the object of DataInputStream
             DataInputStream in = new DataInputStream(fstream);
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
@@ -45,6 +46,8 @@ public class QueryStringParser {
 
         }catch (Exception e){//Catch exception if any
             System.err.println("WAJA Error: " + e.getMessage());
+            e.printStackTrace();
+
         }
 
         return queryWords;

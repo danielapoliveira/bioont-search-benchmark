@@ -3,6 +3,11 @@ package rankingmodel.tf_Idf;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Logger;
 import java.util.stream.IntStream;
 
@@ -25,7 +30,25 @@ public class TF_IDFCalculator_Parallel {
 
         ArrayList<String> ontologies = query_analyzer.getExistingLoadedOntology();
         int CORPUS_SIZE = ontologies.size();
-        IntStream.range(0,CORPUS_SIZE).parallel().forEach(i-> {
+
+        AtomicInteger counter = new AtomicInteger(0);
+        ScheduledExecutorService es = Executors.newScheduledThreadPool(1);
+
+        ScheduledFuture<?> f = es.scheduleWithFixedDelay(new Runnable() {
+            int lastReported = -1;
+            public void run() {
+                int newValue = counter.get();
+                if(newValue != lastReported) {
+                    lastReported = newValue;
+                    System.out.append("\r"+newValue*100/CORPUS_SIZE+"%").flush();
+                }
+            }
+        }, 100, 100, TimeUnit.MILLISECONDS);
+
+        IntStream.range(0,CORPUS_SIZE)
+                .parallel()
+                .peek(i -> counter.incrementAndGet())
+                .forEach(i-> {
         /* Get ontology uri as ONTOLOGY_ID*/
             String ONTOLOGY_ID="";
             ONTOLOGY_ID = ontologies.get(i);

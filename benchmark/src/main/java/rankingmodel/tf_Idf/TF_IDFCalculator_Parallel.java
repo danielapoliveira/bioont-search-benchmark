@@ -55,7 +55,7 @@ public class TF_IDFCalculator_Parallel {
             if(ONTOLOGY_ID.endsWith(".owl")) {
 
 
-                logger.info("******************* " + ONTOLOGY_ID + "**********************");
+                //logger.info("******************* " + ONTOLOGY_ID + "**********************");
 			/* For this ontology get all unique terms and number of times that term is in corpus as term-count in a hashmap of type <String, Integer>
 			 * Here terms refers to IRIs only (i.e. excluding literals and blank nodes)*/
                 HashMap<String, Integer> termCountMap = query_analyzer.getTermCountForOntology(ONTOLOGY_ID);

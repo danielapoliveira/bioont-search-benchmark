@@ -73,7 +73,7 @@ public class VectorSpaceModel {
             DocNormCalculator docNormCal = new DocNormCalculator(path);
             doc_norm = docNormCal.getDocNormValue(graphIRI.toString());
 
-            logger.info(doc_norm+"");
+            //logger.info(doc_norm+"");
 
             double TF_Value = 0.0;
             double IDF_Value =0.0;
@@ -238,7 +238,7 @@ public class VectorSpaceModel {
             doc_norm= doc_norm_map.get(docId);
         } catch (IOException e) {
             // TODO Auto-generated catch block
-            logger.info("Can not get map becasue :" + e);
+            logger.info("Can not get map because :" + e);
             //e.printStackTrace();
         }
 

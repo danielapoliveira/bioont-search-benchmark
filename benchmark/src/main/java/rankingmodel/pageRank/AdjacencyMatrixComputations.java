@@ -57,7 +57,7 @@ public class AdjacencyMatrixComputations {
                 logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"******************");
                 int outlinkCount = this.getOutlinksCount(graphIRI);
                 classInstance.save_outlinks_map(graphIRI, outlinkCount);
-                logger.info("outlinkCount :" + outlinkCount );
+                //logger.info("outlinkCount :" + outlinkCount );
                 //inlinks.clear();
             }
         }catch(Exception e){

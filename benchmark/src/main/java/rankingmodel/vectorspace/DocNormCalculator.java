@@ -36,7 +36,7 @@ public class DocNormCalculator {
                 String graphIRI = ontologies.get(i);
 
                 double count =  calculateDocumentNorm(graphIRI);
-                logger.info("For Ontology "+i+" : "+ graphIRI+"  doc_norm is : " + count);
+                //logger.info("For Ontology "+i+" : "+ graphIRI+"  doc_norm is : " + count);
                 diskmap.save_doc_norm_map(graphIRI, count);
             }
         } catch(Exception e) {
@@ -60,7 +60,7 @@ public class DocNormCalculator {
                 doc_norm = doc_norm + Math.pow(score,2);
             }
             doc_norm = Math.sqrt(doc_norm);
-            logger.info(doc_norm+"");
+            //logger.info(doc_norm+"");
         } catch(Exception e) {
             logger.info("can not calculate  doc norm because :" + e +term);
         }finally {

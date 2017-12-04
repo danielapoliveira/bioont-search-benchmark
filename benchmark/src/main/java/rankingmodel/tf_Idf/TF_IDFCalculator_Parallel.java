@@ -49,7 +49,7 @@ public class TF_IDFCalculator_Parallel {
 
                 //double HIGHEST_FREQUENCY_TERM_COUNT = termCountMap.entrySet().stream().max(Map.Entry.comparingByValue()).get().getValue();
 
-                logger.info("HIGHEST_FREQUENCY_TERM_COUNT" + HIGHEST_FREQUENCY_TERM_COUNT);
+                //logger.info("HIGHEST_FREQUENCY_TERM_COUNT" + HIGHEST_FREQUENCY_TERM_COUNT);
 			/* Initialize a hashmap "term_tf_IdfMapPerOntology".
 			 * This map will store all the terms as key and their tf, Idf and tf_Idf values as a value. */
 
@@ -96,7 +96,7 @@ public class TF_IDFCalculator_Parallel {
 			 * put this ontology and map contining tf_Idfs for all term into the map that is stored on the disk */
                 map.save_tfIdf_Value(ONTOLOGY_ID, term_tf_IdfMapPerOntology);
                 termCountMap.clear();
-                logger.info(ONTOLOGY_ID + " added into map " + i);
+                //logger.info(ONTOLOGY_ID + " added into map " + i);
 
             }
         });

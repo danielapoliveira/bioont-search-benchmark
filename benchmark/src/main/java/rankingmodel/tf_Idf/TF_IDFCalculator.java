@@ -63,7 +63,7 @@ public class TF_IDFCalculator {
                         }
                     }
 
-                    logger.info("HIGHEST_FREQUENCY_TERM_COUNT" + HIGHEST_FREQUENCY_TERM_COUNT);
+                    //logger.info("HIGHEST_FREQUENCY_TERM_COUNT" + HIGHEST_FREQUENCY_TERM_COUNT);
 			/* Initialize a hashmap "term_tf_IdfMapPerOntology".
 			 * This map will store all the terms as key and their tf, Idf and tf_Idf values as a value. */
 

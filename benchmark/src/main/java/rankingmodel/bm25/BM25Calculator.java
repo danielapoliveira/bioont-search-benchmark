@@ -61,9 +61,9 @@ public class BM25Calculator {
         }
 
         avgLength = (totalLength/numberOFontologies);
-        logger.info("Total Lenght" + totalLength);
-        logger.info("Total Ontologies" + numberOFontologies);
-        logger.info("Average Lenght" + avgLength);
+        //logger.info("Total Lenght" + totalLength);
+        //logger.info("Total Ontologies" + numberOFontologies);
+        //logger.info("Average Lenght" + avgLength);
 
         return avgLength;
     }

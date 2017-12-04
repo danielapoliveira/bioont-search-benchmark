@@ -55,7 +55,7 @@ public class BM25_QueryAnalyzer {
 
         int totalcount=0;
 
-        logger.info("For ontology " + ontologyIRI);
+        //logger.info("For ontology " + ontologyIRI);
         String sparql = "SELECT DISTINCT ?term (count(?term) as ?count) "
                 + "FROM <"+ontologyIRI+">"
                 + "WHERE { { {?term ?p ?o.} UNION {?s ?k ?term} UNION {?t ?term ?q}} "
@@ -78,7 +78,7 @@ public class BM25_QueryAnalyzer {
         } finally{
             vqe.close();
         }
-        logger.info(totalcount+"");
+        //logger.info(totalcount+"");
         return totalcount;
     }
 

@@ -55,7 +55,7 @@ public class PageRank {
 
         total_num_nodes = initialMapClass.getTotalNumberOfNodes();
 
-        logger.info(" total_num_nodes : " + total_num_nodes);
+        //logger.info(" total_num_nodes : " + total_num_nodes);
     }
 
     public ArrayList<ResultFormatter> getRankedClasses(Model model, ArrayList<String> queryWords){
@@ -153,7 +153,7 @@ public class PageRank {
         int iteration=50;
         while(iteration>0){
             iteration--;
-            logger.info(" this is iteration number  : " + iteration);
+            //logger.info(" this is iteration number  : " + iteration);
 			/*Following code store the stale value of page rank in a hashmap rank_values_table before it calls the function join_rvt_am. 
 			 * These values are then compared against new page rank values in rank_values_table after this function has finished execution
 			*/
@@ -164,7 +164,7 @@ public class PageRank {
                 stale_pagerank_sum+=entry.getValue();
             }
 
-            logger.info(" stale_pagerank_sum : " + stale_pagerank_sum);
+            //logger.info(" stale_pagerank_sum : " + stale_pagerank_sum);
             join_rvt_am();
 
 			/* Loop calculates difference between current and old page rank value for each URL.
@@ -174,12 +174,12 @@ public class PageRank {
             for(Map.Entry<String, Double> entry: rank_value_table.entrySet()) {
                 current_pagerank_sum+=entry.getValue();
             }
-            logger.info(" current_pagerank_sum : " + current_pagerank_sum);
+            //logger.info(" current_pagerank_sum : " + current_pagerank_sum);
 
             double difference = current_pagerank_sum - stale_pagerank_sum;
 
 
-            logger.info(" difference : " + difference);
+            //logger.info(" difference : " + difference);
             if(difference<threshold) {
                 break;
             }	else {
@@ -245,7 +245,7 @@ public class PageRank {
 
         dangling_value_per_page= dangling_value /(double)total_num_nodes;
 
-        logger.info("dangling_value_per_page " + dangling_value_per_page);
+        //logger.info("dangling_value_per_page " + dangling_value_per_page);
 		
 		/*Page rank of all the dangling links is calculated and is distributed among all the webpages to minimize effect of dangling nodes.
 		 * Without this facility, average page rank of given graph will be less than 1 with poor utilization */

@@ -31,7 +31,8 @@ public class DoCalculationsParallel {
      */
     public void calculate(boolean tfidf, boolean bm25, boolean vsm, boolean pageRank, boolean bm, boolean dm){
         if(tfidf) {
-            long tStart = System.currentTimeMillis();;
+            long tStart = System.currentTimeMillis();
+            System.out.println("Starting tf-idf...");
             TF_IDFCalculator_Parallel tc = new TF_IDFCalculator_Parallel(path);
             tc.tf_IdfCalculations();
             long tEnd = System.currentTimeMillis();
@@ -43,6 +44,7 @@ public class DoCalculationsParallel {
         ExecutorService executor = Executors.newCachedThreadPool();
         executor.submit(() -> {
             if(bm25) {
+                System.out.println("Starting BM25...");
                 BM25Calculator calc = new BM25Calculator(path);
                 calc.calculateOntologyTermStatistics();
             }
@@ -50,6 +52,7 @@ public class DoCalculationsParallel {
         });
         executor.submit(() -> {
             if(vsm){
+                System.out.println("Starting VSM...");
                 DocNormCalculator dnc = new DocNormCalculator(path);
                 dnc.saveDocNormforCorpus();
             }
@@ -57,6 +60,7 @@ public class DoCalculationsParallel {
 
         executor.submit(() -> {
             if(pageRank) {
+                System.out.println("Starting PageRank...");
                 PageRankTF_IDFMap prtf = new PageRankTF_IDFMap(path);
                 prtf.initializePageRankScore();
                 prtf.initializePageRankScoreForOntologyGraphs();

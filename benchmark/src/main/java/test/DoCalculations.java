@@ -6,7 +6,6 @@ import rankingmodel.pageRank.PageRank;
 import rankingmodel.pageRank.PageRankTF_IDFMap;
 import rankingmodel.structuralMetrices.BetweenessMeasureCal;
 import rankingmodel.structuralMetrices.DensityCalculator;
-import rankingmodel.tf_Idf.TF_IDFCalculator;
 import rankingmodel.tf_Idf.TF_IDFCalculator_Parallel;
 
 /**

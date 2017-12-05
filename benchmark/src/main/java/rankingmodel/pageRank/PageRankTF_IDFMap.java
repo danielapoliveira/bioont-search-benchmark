@@ -47,7 +47,7 @@ public class PageRankTF_IDFMap {
  		ArrayList<String> graphs = this.getExistingLoadedOntology();
  		
  		for (int i=0; i<graphs.size(); i++) {
-
+			System.out.append("\r"+i*100/graphs.size()+"%").flush();
 			String graphIRI = graphs.get(i);
 			if (graphIRI.endsWith(".owl")) {
 				logger.info("***************** Getting Values for Graph No" + i + " : Graph URI is :" + graphIRI + "******************");
@@ -78,6 +78,7 @@ public class PageRankTF_IDFMap {
  		double size = graphs.size();
  		double initscore = 1/size;
  		for (int i=0; i<size; i++){
+            System.out.append("\r"+i*100/size+"%").flush();
  			String graphIRI = graphs.get(i);
  				logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"initscore : " +initscore+"******************");	
  				classInstance.save_tf_Idf_map(graphIRI, initscore);

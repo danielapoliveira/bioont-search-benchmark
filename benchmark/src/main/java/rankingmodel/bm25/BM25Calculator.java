@@ -29,7 +29,7 @@ public class BM25Calculator {
             ontologies = query_analyzer.getExistingLoadedOntology();
 
             for(int i=0;i<ontologies.size();i++){
-
+                System.out.append("\r"+i*100/ontologies.size()+"%").flush();
                 String graphIRI = ontologies.get(i);
                 if(graphIRI.endsWith(".owl")) {
                     int count = query_analyzer.getTotalOntologyTerms(graphIRI);

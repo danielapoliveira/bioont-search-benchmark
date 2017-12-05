@@ -32,6 +32,7 @@ public class DocNormCalculator {
 
             ArrayList<String> ontologies = query_analyzer.getExistingLoadedOntology();
             for(int i=0;i<ontologies.size();i++){
+                System.out.append("\r"+i*100/ontologies.size()+"%").flush();
                 String graphIRI = ontologies.get(i);
 
                 double count =  calculateDocumentNorm(graphIRI);

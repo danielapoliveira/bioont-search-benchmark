@@ -34,10 +34,12 @@ public class AdjacencyMatrixComputations {
             for (int i=0; i<graphs.size(); i++){
                 System.out.append("\rAM: "+i*100/graphs.size()+"%").flush();
                 String graphIRI = graphs.get(i);
-                ArrayList<String> inlinks = this.getInlinks(graphIRI);
-                classInstance.save_domain_adjacency_matrix_map(graphIRI, inlinks);
-                //logger.info("inlinks :" + inlinks );
-                //inlinks.clear();
+                if (graphIRI.endsWith(".owl")) {
+                    ArrayList<String> inlinks = this.getInlinks(graphIRI);
+                    classInstance.save_domain_adjacency_matrix_map(graphIRI, inlinks);
+                    //logger.info("inlinks :" + inlinks );
+                    //inlinks.clear();
+                }
             }
         }catch(Exception e){
             logger.info(e.toString());
@@ -54,11 +56,13 @@ public class AdjacencyMatrixComputations {
             for (int i=0; i<graphs.size(); i++){
                 System.out.append("\rOutlinks: "+i*100/graphs.size()+"%").flush();
                 String graphIRI = graphs.get(i);
-                logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"******************");
-                int outlinkCount = this.getOutlinksCount(graphIRI);
-                classInstance.save_outlinks_map(graphIRI, outlinkCount);
-                //logger.info("outlinkCount :" + outlinkCount );
-                //inlinks.clear();
+                if (graphIRI.endsWith(".owl")) {
+                    logger.info("***************** Getting Values for Graph No" + i + " : Graph URI is :" + graphIRI + "******************");
+                    int outlinkCount = this.getOutlinksCount(graphIRI);
+                    classInstance.save_outlinks_map(graphIRI, outlinkCount);
+                    //logger.info("outlinkCount :" + outlinkCount );
+                    //inlinks.clear();
+                }
             }
         }catch(Exception e){
             logger.info(e.toString());

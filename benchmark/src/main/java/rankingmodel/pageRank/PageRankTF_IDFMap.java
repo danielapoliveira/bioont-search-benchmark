@@ -80,8 +80,10 @@ public class PageRankTF_IDFMap {
  		for (int i=0; i<size; i++){
             System.out.append("\rPR2: "+i*100/size+"%").flush();
  			String graphIRI = graphs.get(i);
- 				logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"initscore : " +initscore+"******************");	
- 				classInstance.save_tf_Idf_map(graphIRI, initscore);
+			if (graphIRI.endsWith(".owl")) {
+				logger.info("***************** Getting Values for Graph No" + i + " : Graph URI is :" + graphIRI + "initscore : " + initscore + "******************");
+				classInstance.save_tf_Idf_map(graphIRI, initscore);
+			}
  				}
  		//classInstance.closeConnection();
  	  }

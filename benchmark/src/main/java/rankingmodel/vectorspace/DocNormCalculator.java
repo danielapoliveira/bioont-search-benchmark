@@ -34,10 +34,12 @@ public class DocNormCalculator {
             for(int i=0;i<ontologies.size();i++){
                 System.out.append("\r"+"VSM: "+i*100/ontologies.size()+"%").flush();
                 String graphIRI = ontologies.get(i);
+                if (graphIRI.endsWith(".owl")) {
 
-                double count =  calculateDocumentNorm(graphIRI);
-                //logger.info("For Ontology "+i+" : "+ graphIRI+"  doc_norm is : " + count);
-                diskmap.save_doc_norm_map(graphIRI, count);
+                    double count = calculateDocumentNorm(graphIRI);
+                    //logger.info("For Ontology "+i+" : "+ graphIRI+"  doc_norm is : " + count);
+                    diskmap.save_doc_norm_map(graphIRI, count);
+                }
             }
         } catch(Exception e) {
             logger.info("can not save doc norm because :" + e);

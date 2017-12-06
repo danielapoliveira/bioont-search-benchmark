@@ -32,7 +32,7 @@ public class TF_IDFCalculator_Parallel {
         int CORPUS_SIZE = ontologies.size();
 
         for(int i=0; i < CORPUS_SIZE; i++){
-            System.out.println(i + " / " + CORPUS_SIZE);
+            System.out.println(i+1 + " / " + CORPUS_SIZE);
         /* Get ontology uri as ONTOLOGY_ID*/
             String ONTOLOGY_ID="";
             ONTOLOGY_ID = ontologies.get(i);

@@ -32,7 +32,7 @@ public class AdjacencyMatrixComputations {
             ArrayList<String> graphs = this.getExistingLoadedOntology();
 
             for (int i=0; i<graphs.size(); i++){
-                System.out.append("\r"+i*100/graphs.size()+"%").flush();
+                System.out.append("\rAM: "+i*100/graphs.size()+"%").flush();
                 String graphIRI = graphs.get(i);
                 ArrayList<String> inlinks = this.getInlinks(graphIRI);
                 classInstance.save_domain_adjacency_matrix_map(graphIRI, inlinks);
@@ -52,7 +52,7 @@ public class AdjacencyMatrixComputations {
             ArrayList<String> graphs = this.getExistingLoadedOntology();
 
             for (int i=0; i<graphs.size(); i++){
-                System.out.append("\r"+i*100/graphs.size()+"%").flush();
+                System.out.append("\rOutlinks: "+i*100/graphs.size()+"%").flush();
                 String graphIRI = graphs.get(i);
                 logger.info("***************** Getting Values for Graph No"+ i +" : Graph URI is :"+graphIRI+"******************");
                 int outlinkCount = this.getOutlinksCount(graphIRI);

@@ -152,6 +152,7 @@ public class PageRank {
          * ****************************************************************************/
         int iteration=50;
         while(iteration>0){
+            System.out.append("\rPRC: "+(50-iteration)*100/50+"%").flush();
             iteration--;
             //logger.info(" this is iteration number  : " + iteration);
 			/*Following code store the stale value of page rank in a hashmap rank_values_table before it calls the function join_rvt_am. 

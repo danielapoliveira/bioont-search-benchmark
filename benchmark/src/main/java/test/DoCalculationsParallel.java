@@ -77,7 +77,7 @@ public class DoCalculationsParallel {
         try {
             System.out.println("attempt to shutdown executor");
             executor.shutdown();
-            executor.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
+            executor.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
         }
         catch (InterruptedException e) {
             System.err.println("tasks interrupted");

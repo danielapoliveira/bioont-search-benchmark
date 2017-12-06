@@ -83,7 +83,7 @@ public class DocNormCalculator {
         } catch (Exception e) {
             System.out.println( "can not find doc norm value becasue : " + e);
         } finally {
-            //docNormMap.closeConnection();
+            docNormMap.closeConnection();
         }
         return doc_norm;
     }

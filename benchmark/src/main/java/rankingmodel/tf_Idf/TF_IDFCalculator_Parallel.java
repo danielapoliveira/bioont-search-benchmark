@@ -30,9 +30,9 @@ public class TF_IDFCalculator_Parallel {
 
         ArrayList<String> ontologies = query_analyzer.getExistingLoadedOntology();
         int CORPUS_SIZE = ontologies.size();
-        IntStream.range(0,CORPUS_SIZE)
-                .parallel()
-                .forEach(i-> {
+
+        for(int i=0; i < CORPUS_SIZE; i++){
+            System.out.println(i + " / " + CORPUS_SIZE);
         /* Get ontology uri as ONTOLOGY_ID*/
             String ONTOLOGY_ID="";
             ONTOLOGY_ID = ontologies.get(i);
@@ -62,7 +62,8 @@ public class TF_IDFCalculator_Parallel {
 
                 HashMap<String, HashMap<Integer, Double>> term_tf_IdfMapPerOntology = new HashMap<String, HashMap<Integer, Double>>();
                 double finalHIGHEST_FREQUENCY_TERM_COUNT = HIGHEST_FREQUENCY_TERM_COUNT;
-                termCountMap.entrySet().parallelStream().forEach(entry -> {
+
+                for(Map.Entry<String,HashMap<Integer, Double>> entry : term_tf_IdfMapPerOntology.entrySet()){
                     String TERM = entry.getKey().toString();
 
 				/*Initialize a hashmap that stores tf, Idf, tf_Idf values.
@@ -97,7 +98,7 @@ public class TF_IDFCalculator_Parallel {
 				/* Add this term and map containing tf, Idf, tf_Idf*/
                     term_tf_IdfMapPerOntology.put(TERM, tfIdfs);
 
-                });
+                }
 
 			/*Once calculations are done for all terms of this ontology,
 			 * put this ontology and map contining tf_Idfs for all term into the map that is stored on the disk */
@@ -106,7 +107,7 @@ public class TF_IDFCalculator_Parallel {
                 logger.info(ONTOLOGY_ID + " added into map " + i);
 
             }
-        });
+        }
     }
 
 }

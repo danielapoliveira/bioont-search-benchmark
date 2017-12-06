@@ -30,24 +30,8 @@ public class TF_IDFCalculator_Parallel {
 
         ArrayList<String> ontologies = query_analyzer.getExistingLoadedOntology();
         int CORPUS_SIZE = ontologies.size();
-
-        AtomicInteger counter = new AtomicInteger(0);
-        ScheduledExecutorService es = Executors.newScheduledThreadPool(1);
-
-        ScheduledFuture<?> f = es.scheduleWithFixedDelay(new Runnable() {
-            int lastReported = -1;
-            public void run() {
-                int newValue = counter.get();
-                if(newValue != lastReported) {
-                    lastReported = newValue;
-                    System.out.append("\r"+newValue*100/CORPUS_SIZE+"%").flush();
-                }
-            }
-        }, 100, 100, TimeUnit.MILLISECONDS);
-
         IntStream.range(0,CORPUS_SIZE)
                 .parallel()
-                .peek(i -> counter.incrementAndGet())
                 .forEach(i-> {
         /* Get ontology uri as ONTOLOGY_ID*/
             String ONTOLOGY_ID="";
@@ -55,7 +39,7 @@ public class TF_IDFCalculator_Parallel {
             if(ONTOLOGY_ID.endsWith(".owl")) {
 
 
-                //logger.info("******************* " + ONTOLOGY_ID + "**********************");
+                logger.info("******************* " + ONTOLOGY_ID + "**********************");
 			/* For this ontology get all unique terms and number of times that term is in corpus as term-count in a hashmap of type <String, Integer>
 			 * Here terms refers to IRIs only (i.e. excluding literals and blank nodes)*/
                 HashMap<String, Integer> termCountMap = query_analyzer.getTermCountForOntology(ONTOLOGY_ID);
@@ -123,7 +107,6 @@ public class TF_IDFCalculator_Parallel {
 
             }
         });
-
     }
 
 }

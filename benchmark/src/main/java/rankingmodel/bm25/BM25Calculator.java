@@ -31,14 +31,14 @@ public class BM25Calculator {
             for(int i=0;i<ontologies.size();i++){
                 System.out.append("\rBM25: "+i*100/ontologies.size()+"%").flush();
                 String graphIRI = ontologies.get(i);
-                if(graphIRI.endsWith(".owl")) {
-                    int count = query_analyzer.getTotalOntologyTerms(graphIRI);
 
-                    logger.info("********** For Ontology " + i + " : " + graphIRI + "  number of terms : " + count);
+                int count = query_analyzer.getTotalOntologyTerms(graphIRI);
 
-                    diskmap.save_bm25_ontology_lengths_Value(graphIRI, count);
-                }
+                logger.info("********** For Ontology " + i + " : " + graphIRI + "  number of terms : " + count);
+
+                diskmap.save_bm25_ontology_lengths_Value(graphIRI, count);
             }
+
         } catch(Exception e){
             logger.info(e.toString());
         } finally{

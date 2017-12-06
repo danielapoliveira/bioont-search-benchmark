@@ -152,7 +152,7 @@ public class PageRank {
          * ****************************************************************************/
         int iteration=50;
         while(iteration>0){
-            System.out.append("\rPRC: "+(50-iteration)*100/50+"%").flush();
+            System.out.append("\rPR: "+(50-iteration)*100/50+"%").flush();
             iteration--;
             //logger.info(" this is iteration number  : " + iteration);
 			/*Following code store the stale value of page rank in a hashmap rank_values_table before it calls the function join_rvt_am. 
@@ -220,12 +220,14 @@ public class PageRank {
 
 		/* Iterate over all the URLs in given input file */
         Iterator<String> ite=adjacency_matrix.keySet().iterator();
-
+        int size = adjacency_matrix.keySet().size();
+        int count = 0;
         while(ite.hasNext()) {
-
-            source_url= ite.next();
-            inlink_list=adjacency_matrix.get(source_url);
-            inlinkCount=inlink_list.size();
+            System.out.println(count+1 + " / " + size);
+            count++;
+            source_url = ite.next();
+            inlink_list = adjacency_matrix.get(source_url);
+            inlinkCount = inlink_list.size();
 
 			/* Assign updated page rank value to all the successors of current node 
 			 * Page rank value is equal to page rank value of predecessor node 

@@ -103,7 +103,7 @@ public class TF_IDFCalculator_Parallel {
 			 * put this ontology and map contining tf_Idfs for all term into the map that is stored on the disk */
                 map.save_tfIdf_Value(ONTOLOGY_ID, term_tf_IdfMapPerOntology);
                 termCountMap.clear();
-                //logger.info(ONTOLOGY_ID + " added into map " + i);
+                logger.info(ONTOLOGY_ID + " added into map " + i);
 
             }
         });

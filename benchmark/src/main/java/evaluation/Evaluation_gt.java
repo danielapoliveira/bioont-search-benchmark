@@ -21,7 +21,6 @@ public class Evaluation_gt {
     /**
      * Gets the results of P@k, AP@k and NDCG.
      * @param resultsFile map with the search results
-     * @param groundPath path for the ground truth file
      * @param k k to consider in the P@k and AP@k.
      * @throws IOException
      */

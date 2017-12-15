@@ -36,13 +36,15 @@ public class Evaluation {
             }
 
             HashMap<String,List<List<String>>> map = entry.getValue();
+            groundTruth = parseGroundTruthFile(new File(groundPath+term.toLowerCase()+".tsv"));
+            if(groundTruth.size() <= k) {
+                k = groundTruth.size();
+            } else{
+                k = 5;
+            }
 
             NoGroundTruth ngt = new NoGroundTruth(path);
             ngtMap.put(term, ngt.calculate(map, k));
-
-
-            groundTruth = parseGroundTruthFile(new File(groundPath+term.toLowerCase()+".tsv"));
-
 
             for(Map.Entry<String,List<List<String>>> entry2 : map.entrySet()){
                 float relevant = 0;
@@ -54,10 +56,6 @@ public class Evaluation {
 
                 List<List<String>> searchResults = entry2.getValue();
                 List<String> parseResults = parseResults(searchResults);
-
-                // Calculate NGT
-
-
 
                 // Calculate NDCG
                 double ndcg = NDCG.compute(parseResults,groundTruth,null);
@@ -99,7 +97,7 @@ public class Evaluation {
 
 
         //Write evaluation to file
-        FileWriter writer = new FileWriter(path+"evaluation2K"+ k +".tsv");
+        FileWriter writer = new FileWriter(path+"evaluation_nogt.tsv");
         writer.write("\t\tndcg\tpak\tapk\tmap\tno gt precision\tno gt recall\n");
         for(Map.Entry<String,HashMap<String,HashMap<String,Double>>> entry : evaluationMap.entrySet()){
             writer.write(entry.getKey().trim()+"\t");

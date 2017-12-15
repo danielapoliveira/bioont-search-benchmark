@@ -10,7 +10,7 @@ import static java.lang.Double.min;
 public class MAP {
     private MAP(){}
 
-    public static double apk( List<String> ranked_items, List<String> correct_items,int k){
+    public static double apk( List<String> ranked_items, List<String> correct_items, int k){
         if(ranked_items.size() > k){
             ranked_items = ranked_items.subList(0,k);
         }

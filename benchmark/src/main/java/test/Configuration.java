@@ -50,6 +50,8 @@ public class Configuration {
 
 	public static final String ACRONYM_PATH = "acronym.path";
 
+	public static final String EVALUATION_SAVE = "evaluation.save";
+
 	/** Default instance of this class */
 	private static Configuration instance;
 

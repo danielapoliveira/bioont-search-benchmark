@@ -1,5 +1,7 @@
 package evaluation;
 
+import test.Configuration;
+
 import java.io.*;
 import java.util.*;
 
@@ -97,7 +99,7 @@ public class Evaluation {
 
 
         //Write evaluation to file
-        FileWriter writer = new FileWriter(path+"evaluation_nogt.tsv");
+        FileWriter writer = new FileWriter(path+ Configuration.getProperty(Configuration.EVALUATION_SAVE));
         writer.write("\t\tndcg\tpak\tapk\tmap\tno gt precision\tno gt recall\n");
         for(Map.Entry<String,HashMap<String,HashMap<String,Double>>> entry : evaluationMap.entrySet()){
             writer.write(entry.getKey().trim()+"\t");

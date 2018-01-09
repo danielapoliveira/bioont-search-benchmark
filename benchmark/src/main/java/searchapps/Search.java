@@ -35,7 +35,8 @@ public class Search {
     public LinkedList<SearchResult> olsSearch(String term,List<String> validAcronyms){
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURL("https://www.ebi.ac.uk/ols/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25&ontology=chebi,cl,doid,dron,edam,efo,fma,go,hp,ma,mp,mpath,nbo,ncit,oae,ogg,pato,po,uberon,vt,webphenotype,xao,zfa&exact=true")).get("response").get("docs");
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "search?q=" + term.toLowerCase() + "&rows=25&exact=true")).get("response").get("docs");
+		if(searchResult != null){
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
@@ -50,12 +51,19 @@ public class Search {
                 s.setDefinition(result.get("description").toString().replace("\"", ""));
 
             s.setLabel(result.get("label").toString().replace("\"", ""));
-            String acroFromUri = getOntologyFromUri(purl);
-            if(validAcronyms.contains(acroFromUri))
+            //String acroFromUri = getOntologyFromUri(purl);
+			//if (acroFromUri.matches("[0-9]+"))
+				//acroFromUri = acronym;
+			
+			//System.out.println(acronym);
+			//System.out.println(validAcronyms.contains(acronym));
+            if(validAcronyms.contains(acronym)){
+				
                 search.add(s);
+		}
 
         }
-
+		}
         return search;
     }
 
@@ -63,7 +71,8 @@ public class Search {
         //System.out.println(term);
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURL("https://www.ebi.ac.uk/spot/zooma/v2/api/");
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "services/annotate?propertyValue=" + term.toLowerCase() + "&filter=ontologies:[CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WBPHENOTYPE,XAO,ZFA]"));
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "services/annotate?propertyValue=" + term.toLowerCase()));
+		if(searchResult != null){
         for(JsonNode result : searchResult)
         {
             SearchResult s = new SearchResult();
@@ -71,10 +80,11 @@ public class Search {
 
             s.setIri(purl);
             s.setLabel(result.get("annotatedProperty").get("propertyValue").toString().replace("\"", ""));
-            String acroFromUri = getOntologyFromUri(purl);
-            if(validAcronyms.contains(acroFromUri))
+            //String acroFromUri = getOntologyFromUri(purl);
+            //if(validAcronyms.contains(acronym))
                 search.add(s);
         }
+		}
         return search;
     }
 
@@ -82,11 +92,12 @@ public class Search {
 
         LinkedList<SearchResult> search = new LinkedList<>();
         api.setURLandKey("http://data.bioontology.org", Configuration.getProperty(Configuration.BIOPORTAL_APIKEY));
-        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100&ontologies=CHEBI,CL,DOID,DRON,EDAM,EFO,FMA,GO,HP,MA,MP,MPATH,NBO,NCIT,OAE,OGG,PATO,PO,UBERON,VT,WB-PHENOTYPE,XAO,ZFA&require_exact_match=true")).get("collection");
-
+        JsonNode searchResult = api.jsonToNode(api.get(api.getUrl() + "/search?q=" + term.replace("+","+")+ "&pagesize=100&require_exact_match=true")).get("collection");
+		if(searchResult != null){
         for(JsonNode result : searchResult) {
             SearchResult s = new SearchResult();
             String purl = result.get("@id").toString().replace("\"", "");
+			//System.out.println(purl);
             if(purl.contains("http://purl.org/sig/ont/fma/fma"))
                 purl = purl.replace("http://purl.org/sig/ont/fma/fma","http://purl.obolibrary.org/obo/FMA_");
             if(purl.contains("http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#")) {
@@ -107,11 +118,12 @@ public class Search {
 
             String acronym = api.jsonToNode(api.get(ontId)).get("acronym").toString().replace("\"", "").toUpperCase();
             s.setAcronym(acronym);
-            String acroFromUri = getOntologyFromUri(purl);
-            if(validAcronyms.contains(acroFromUri))
+            //String acroFromUri = getOntologyFromUri(purl);
+            if(validAcronyms.contains(acronym))
                 search.add(s);
 
         }
+		}
         return search;
     }
 

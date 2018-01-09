@@ -83,7 +83,7 @@ public class SearchApps {
         allResults.put("ols", olsResults);
 
         //Zooma search
-        System.out.println("Starting Zooma...");
+       System.out.println("Starting Zooma...");
         Search zooma = new Search();
         LinkedList<SearchResult> zoomaResults = new LinkedList<>();
         for (int j = 0; j <= tries; j++) {

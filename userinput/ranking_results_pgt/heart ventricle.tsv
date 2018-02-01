@@ -1,0 +1,58 @@
+
+boolean
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+tf_idf
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+bm25
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+vector-space
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+pagerank
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+class-match-measure
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+semantic-similarity
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0002082	heart ventricle
+
+bioportal
+http://purl.obolibrary.org/obo/BTO_0000862	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/NCIT_C12730	Cardiac Ventricle
+http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
+
+solr
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/MP_0005294	abnormal heart ventricle morphology
+http://purl.obolibrary.org/obo/UBERON_0004784	heart ventricle wall
+http://purl.obolibrary.org/obo/CVDO_0000555	heart ventricle disorder
+http://purl.obolibrary.org/obo/CVDO_0000580	heart ventricle disease
+http://purl.obolibrary.org/obo/CMO_0000339	heart ventricle morphological measurement
+http://purl.obolibrary.org/obo/CMO_0001316	total heart ventricle weight
+http://purl.obolibrary.org/obo/CMO_0000688	heart ventricle weight
+http://purl.obolibrary.org/obo/OBA_0003468	heart ventricle wall size
+
+ols
+http://purl.obolibrary.org/obo/BTO_0000862	heart ventricle
+http://purl.obolibrary.org/obo/MA_0000091	heart ventricle
+http://purl.obolibrary.org/obo/EMAPA_17331	heart ventricle
+http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
+http://purl.obolibrary.org/obo/NCIT_C12730	Cardiac Ventricle
+

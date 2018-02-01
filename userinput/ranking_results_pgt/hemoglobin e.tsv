@@ -1,0 +1,30 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://www.orpha.net/ORDO/Orphanet_231249	hemoglobin e/beta thalassemia disease
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C35287	Hemoglobin E Disease
+http://purl.obolibrary.org/obo/MONDO_0016243	hemoglobin E disease
+http://purl.obolibrary.org/obo/MONDO_0003416	obsolete hemoglobin E disease
+http://purl.obolibrary.org/obo/DOID_5379	hemoglobin E disease
+http://purl.obolibrary.org/obo/MONDO_0016491	hemoglobin E-beta-thalassemia syndrome
+http://purl.obolibrary.org/obo/MONDO_0016671	sickle cell-hemoglobin E disease syndrome
+
+ols
+

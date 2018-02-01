@@ -1,0 +1,46 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://www.ebi.ac.uk/cmpo/CMPO_0000241	Proliferating cells
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C18081	Cell Proliferation
+http://purl.obolibrary.org/obo/GO_0008283	cell proliferation
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C18081	Cell Proliferation
+http://purl.obolibrary.org/obo/GO_1990922	hepatic stellate cell proliferation
+http://purl.obolibrary.org/obo/NCIT_C19107	Viral Cell Proliferation
+http://purl.obolibrary.org/obo/GO_1990863	acinar cell proliferation
+http://purl.obolibrary.org/obo/GO_1990789	thyroid gland epithelial cell proliferation
+http://purl.obolibrary.org/obo/GO_0035988	chondrocyte proliferation
+http://purl.obolibrary.org/obo/GO_0008283	cell proliferation
+http://purl.obolibrary.org/obo/GO_0035172	hemocyte proliferation
+http://purl.obolibrary.org/obo/GO_0001787	natural killer cell proliferation
+http://purl.obolibrary.org/obo/GO_0001834	trophectodermal cell proliferation
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C18081	Cell Proliferation
+http://purl.obolibrary.org/obo/GO_0008283	cell proliferation
+http://purl.obolibrary.org/obo/NCIT_C54391	TUSC2 wt Allele
+http://purl.obolibrary.org/obo/NCIT_C54331	MTCP1 wt Allele
+http://purl.obolibrary.org/obo/NCIT_C54290	LGI1 wt Allele
+http://purl.obolibrary.org/obo/NCIT_C53099	TAL1 wt Allele
+http://purl.obolibrary.org/obo/NCIT_C49534	PCNA wt Allele
+http://purl.obolibrary.org/obo/NCIT_C49532	MKI67 wt Allele
+http://purl.obolibrary.org/obo/NCIT_C49538	SFN wt Allele
+http://purl.obolibrary.org/obo/NCIT_C49541	SKP2 wt Allele
+

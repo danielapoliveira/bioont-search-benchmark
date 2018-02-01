@@ -1,0 +1,60 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+
+zooma
+http://www.orpha.net/ORDO/Orphanet_656	steroid-resistant nephrotic syndrome
+http://www.orpha.net/ORDO/Orphanet_839	finnish congenital nephrotic syndrome
+http://www.ebi.ac.uk/efo/EFO_0004255	nephrotic syndrome, type 9
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+http://purl.obolibrary.org/obo/HP_0000100	Nephrotic syndrome
+http://www.ebi.ac.uk/efo/EFO_0004255	nephrotic syndrome
+http://purl.obolibrary.org/obo/MONDO_0005377	nephrotic syndrome
+
+solr
+http://purl.obolibrary.org/obo/MONDO_0005377	nephrotic syndrome
+http://purl.obolibrary.org/obo/HP_0000100	Nephrotic syndrome
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+http://purl.obolibrary.org/obo/MONDO_0002350	familial nephrotic syndrome
+http://purl.obolibrary.org/obo/DOID_2590	familial nephrotic syndrome
+http://purl.obolibrary.org/obo/NCIT_C122801	Prevalent Nephrotic Syndrome
+http://purl.obolibrary.org/obo/NCIT_C122800	Incident Nephrotic Syndrome
+http://purl.obolibrary.org/obo/NCIT_C123088	Nephrotic Syndrome - ITGB4 Associated
+http://purl.obolibrary.org/obo/NCIT_C123089	Nephrotic Syndrome - LAMB2 Associated
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C34845	Nephrotic Syndrome
+http://purl.obolibrary.org/obo/DOID_1184	nephrotic syndrome
+http://purl.obolibrary.org/obo/HP_0000100	Nephrotic syndrome
+http://www.ebi.ac.uk/efo/EFO_0004255	nephrotic syndrome
+http://purl.obolibrary.org/obo/MONDO_0005377	nephrotic syndrome
+

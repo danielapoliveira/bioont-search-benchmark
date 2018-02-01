@@ -1,0 +1,57 @@
+
+boolean
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+http://purl.obolibrary.org/obo/MA_0001247	harderian gland
+http://purl.obolibrary.org/obo/OMIT_0007416	Harderian Gland
+http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
+http://purl.obolibrary.org/obo/BTO_0000557	harderian gland
+http://purl.obolibrary.org/obo/EMAPA_19153	Harderian gland
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+http://purl.obolibrary.org/obo/BTO_0000557	harderian gland
+http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
+http://purl.obolibrary.org/obo/MA_0001247	harderian gland
+http://purl.obolibrary.org/obo/EMAPA_19153	Harderian gland
+http://purl.obolibrary.org/obo/UBERON_0015153	medial gland of ocular region
+
+solr
+http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+http://purl.obolibrary.org/obo/MA_0001247	harderian gland
+http://purl.obolibrary.org/obo/EMAPA_19153	Harderian gland
+http://purl.obolibrary.org/obo/UBERON_0004694	Harderian gland epithelium
+http://purl.obolibrary.org/obo/UBERON_0022282	secretion of Harderian gland
+http://purl.obolibrary.org/obo/NCIT_C22719	Mouse Harderian Gland
+http://purl.obolibrary.org/obo/MP_0005248	abnormal Harderian gland morphology
+http://purl.obolibrary.org/obo/MP_0013444	Harderian gland hypoplasia
+http://purl.obolibrary.org/obo/MP_0013447	Harderian gland hypertrophy
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C77619	Harderian Gland
+http://purl.obolibrary.org/obo/BTO_0000557	harderian gland
+http://purl.obolibrary.org/obo/MA_0001247	harderian gland
+http://purl.obolibrary.org/obo/EMAPA_19153	Harderian gland
+http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
+

@@ -1,0 +1,39 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://edamontology.org/topic_0204	Gene regulation
+http://purl.obolibrary.org/obo/NCIT_C21050	Gene Regulation Process
+
+bioportal
+http://edamontology.org/topic_0204	Gene regulation
+http://purl.obolibrary.org/obo/NCIT_C21050	Gene Regulation Process
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C21050	Gene Regulation Process
+http://purl.obolibrary.org/obo/NCIT_C39197	PPAR-alpha Gene Regulation Pathway
+http://purl.obolibrary.org/obo/NCIT_C16609	Regulation of Gene Expression
+http://purl.obolibrary.org/obo/NCIT_C111818	CTCFL Gene
+http://purl.obolibrary.org/obo/NCIT_C18446	ELK3 Gene
+http://purl.obolibrary.org/obo/NCIT_C126595	PSMC3IP Gene
+http://purl.obolibrary.org/obo/ERO_0100230	gene regulatory network construction objective
+http://purl.obolibrary.org/obo/NCIT_C111823	Transcriptional Repressor CTCFL
+http://purl.obolibrary.org/obo/GO_0061614	pri-miRNA transcription from RNA polymerase II promoter
+http://purl.obolibrary.org/obo/MI_0887	histone acetylase assay
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C21050	Gene Regulation Process
+http://edamontology.org/topic_0204	Gene regulation
+

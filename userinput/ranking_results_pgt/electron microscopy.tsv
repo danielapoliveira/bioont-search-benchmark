@@ -1,0 +1,81 @@
+
+boolean
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+
+tf_idf
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+
+pagerank
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+
+semantic-similarity
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://edamontology.org/topic_0611	Electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/NCIT_C91923	Device Electron Microscopy Evaluation Method
+http://purl.obolibrary.org/obo/NCIT_C16043	Electron Microscopy Facility
+http://purl.obolibrary.org/obo/NCIT_C18876	Electron Microscopy, Other
+http://purl.obolibrary.org/obo/NCIT_C39394	Electron Microscopy Shared Resource
+http://purl.obolibrary.org/obo/NCIT_C18113	Cryo-Electron Microscopy
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C16854	Electron Microscopy
+http://purl.obolibrary.org/obo/ERO_0000328	electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068	electron microscopy
+http://purl.obolibrary.org/obo/MI_0040	electron microscopy
+http://purl.obolibrary.org/obo/FIX_0000051	electron microscopy
+http://edamontology.org/topic_0611	Electron microscopy
+

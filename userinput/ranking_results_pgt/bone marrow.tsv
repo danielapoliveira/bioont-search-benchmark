@@ -1,0 +1,83 @@
+
+boolean
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+
+tf_idf
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+
+bm25
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+
+pagerank
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+
+class-match-measure
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+
+semantic-similarity
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/BTO_0000141	bone marrow
+http://purl.obolibrary.org/obo/MA_0000134	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C23365	Murine Bone Marrow
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/NCIT_C77686	Bone Marrow, Femur
+http://purl.obolibrary.org/obo/NCIT_C77690	Bone Marrow, Sternum
+http://purl.obolibrary.org/obo/NCIT_C35370	Bone Marrow Neoplasm
+http://purl.obolibrary.org/obo/NCIT_C35167	Hypocellular Bone Marrow
+http://purl.obolibrary.org/obo/HP_0005528	Bone marrow hypocellularity
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C12431	Bone Marrow
+http://purl.obolibrary.org/obo/BTO_0000141	bone marrow
+http://purl.obolibrary.org/obo/MA_0000134	bone marrow
+http://purl.obolibrary.org/obo/XAO_0000123	bone marrow
+http://purl.obolibrary.org/obo/EMAPA_32760	bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/FMA_9608	Bone marrow
+

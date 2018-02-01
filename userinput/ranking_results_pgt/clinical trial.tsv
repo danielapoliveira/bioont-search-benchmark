@@ -1,0 +1,64 @@
+
+boolean
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/OMIT_0016936	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+http://scdontology.h3abionet.org/ontology/SCDO_0000254	Clinical Trial
+http://semanticscience.org/resource/SIO_001000	clinical trial
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+http://purl.obolibrary.org/obo/dinto_004360	clinical trial
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C15207	Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+http://purl.obolibrary.org/obo/NCIT_C95750	Controlled Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C93043	Nonrandomized Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C15864	Vaccine Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C82497	Clinical Trial Branch
+http://purl.obolibrary.org/obo/NCIT_C39496	Preventive Clinical Trial
+http://purl.obolibrary.org/obo/NCIT_C71737	Clinical Trial Period
+http://purl.obolibrary.org/obo/NCIT_C46079	Randomized Controlled Clinical Trial
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C71104	Clinical Trial
+http://purl.obolibrary.org/obo/ERO_0000016	clinical trial
+

@@ -1,0 +1,51 @@
+
+boolean
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+tf_idf
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+bm25
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+vector-space
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+pagerank
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C138050	Bevacizumab/Paclitaxel Regimen
+http://purl.obolibrary.org/obo/NCIT_C138051	Paclitaxel/Trastuzumab Regimen
+http://purl.obolibrary.org/obo/NCIT_C11767	Oblimersen/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11775	Capecitabine/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11778	Paclitaxel/SU5416
+http://purl.obolibrary.org/obo/NCIT_C61078	Paclitaxel Preparation
+http://purl.obolibrary.org/obo/NCIT_C11698	Oxaliplatin/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11935	Calcitriol/Paclitaxel
+
+ols
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+

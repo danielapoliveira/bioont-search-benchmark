@@ -1,0 +1,36 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C127803	Dose Response Study
+http://purl.obolibrary.org/obo/NCIT_C120841	Dose Response Control
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C127803	Dose Response Study
+http://purl.obolibrary.org/obo/NCIT_C120841	Dose Response Control
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C127803	Dose Response Study
+http://purl.obolibrary.org/obo/NCIT_C120841	Dose Response Control
+http://purl.obolibrary.org/obo/OBI_0001172	dose response curve
+http://purl.obolibrary.org/obo/OBI_0001418	dose response design
+http://purl.obolibrary.org/obo/MI_2127	tmax/cmax
+http://purl.obolibrary.org/obo/NCIT_C39537	Therapeutic Confirmatory Study
+http://purl.obolibrary.org/obo/NCIT_C27987	Ultraviolet B Radiation
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C127803	Dose Response Study
+http://purl.obolibrary.org/obo/NCIT_C120841	Dose Response Control
+

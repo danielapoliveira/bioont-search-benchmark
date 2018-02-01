@@ -1,0 +1,52 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+tf_idf
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+bm25
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+vector-space
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+pagerank
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+http://purl.obolibrary.org/obo/MONDO_0008170	ovarian cancer
+http://purl.obolibrary.org/obo/NCIT_C7431	Malignant Ovarian Neoplasm
+http://purl.obolibrary.org/obo/NCIT_C4908	Ovarian Carcinoma
+http://purl.obolibrary.org/obo/HP_0100615	Ovarian neoplasm
+http://www.ebi.ac.uk/efo/EFO_0001075	ovarian carcinoma
+http://purl.obolibrary.org/obo/MONDO_0005140	ovarian carcinoma
+
+solr
+http://purl.obolibrary.org/obo/MONDO_0008170	ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+http://purl.obolibrary.org/obo/NCIT_C15591	Prevention of Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C15576	Screening for Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C6258	Stage IIIA Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C7831	Stage III Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C7830	Stage II Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C7832	Stage IV Ovarian Cancer
+http://purl.obolibrary.org/obo/NCIT_C7829	Stage I Ovarian Cancer
+http://purl.obolibrary.org/obo/OAE_0001263	ovarian cancer AE
+
+ols
+http://purl.obolibrary.org/obo/MONDO_0008170	ovarian cancer
+http://purl.obolibrary.org/obo/DOID_2394	ovarian cancer
+http://purl.obolibrary.org/obo/NCIT_C7431	Malignant Ovarian Neoplasm
+http://purl.obolibrary.org/obo/NCIT_C4908	Ovarian Carcinoma
+http://www.ebi.ac.uk/efo/EFO_0001075	ovarian carcinoma
+

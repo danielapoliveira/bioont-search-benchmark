@@ -1,0 +1,48 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+tf_idf
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+bm25
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+vector-space
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+pagerank
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0003581	ovarian embryonal carcinoma
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C30049	Mouse Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0006334	obsolete ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004441	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/MONDO_0003581	ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C6546	Childhood Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_8036	childhood ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8728	Stage III Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C8725	Stage II Ovarian Embryonal Carcinoma
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C8108	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/DOID_5681	ovarian embryonal carcinoma
+http://www.ebi.ac.uk/efo/EFO_1000415	Ovarian Embryonal Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0003581	ovarian embryonal carcinoma
+

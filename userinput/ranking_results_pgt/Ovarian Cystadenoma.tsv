@@ -1,0 +1,52 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+
+tf_idf
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+
+pagerank
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+http://purl.obolibrary.org/obo/MONDO_0005183	simple cystadenoma
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C30039	Mouse Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/MONDO_0002583	mucinous ovarian cystadenoma
+http://purl.obolibrary.org/obo/DOID_3267	mucinous ovarian cystadenoma
+http://purl.obolibrary.org/obo/MPATH_305	serous cystadenoma
+http://purl.obolibrary.org/obo/NCIT_C22762	Mucinous Cystadenoma of the Mouse Ovary
+http://purl.obolibrary.org/obo/NCIT_C22745	Serous Cystadenoma of the Mouse Ovary
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C4060	Ovarian Cystadenoma
+http://purl.obolibrary.org/obo/DOID_3269	ovarian cystadenoma
+http://www.ebi.ac.uk/efo/EFO_0002511	simple cystadenoma
+

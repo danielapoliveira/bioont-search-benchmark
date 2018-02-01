@@ -1,0 +1,36 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C53291	Activity of Daily Living
+http://purl.obolibrary.org/obo/OMIT_0001638	Activities of Daily Living
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C142468	Daily Living
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C53291	Activity of Daily Living
+http://purl.obolibrary.org/obo/NCIT_C121298	Activities of Daily Living Scale
+http://purl.obolibrary.org/obo/NCIT_C110966	Instrumental Activities of Daily Living
+http://purl.obolibrary.org/obo/NCIT_C110947	Activities of Daily Living Dimension of Functioning Questionnaire
+http://purl.obolibrary.org/obo/NCIT_C100915	UPDRS - Activities of Daily Living: Walking
+http://purl.obolibrary.org/obo/NCIT_C100916	UPDRS - Activities of Daily Living: Tremor
+http://purl.obolibrary.org/obo/NCIT_C131914	Barthel Index of Activities of Daily Living
+http://purl.obolibrary.org/obo/NCIT_C111614	UPDRS - Activities of Daily Living Sub-total
+http://purl.obolibrary.org/obo/OAE_0004335	activities of daily living impaired AE
+http://purl.obolibrary.org/obo/HP_0031058	Impairment of activities of daily living
+
+ols
+

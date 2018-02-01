@@ -1,0 +1,46 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/CL_0000501	granulosa cell
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C12587	Granulosa Cell
+http://purl.obolibrary.org/obo/CL_0000501	granulosa cell
+http://purl.obolibrary.org/obo/BTO_0000542	granulosa cell
+http://purl.obolibrary.org/obo/ZFA_0009227	granulosa cell
+http://purl.obolibrary.org/obo/FMA_18718	Granulosa cell of ovary
+http://purl.obolibrary.org/obo/EMAPA_31247	follicle cell of primordial follicle
+
+solr
+http://purl.obolibrary.org/obo/FMA_18718	Granulosa cell of ovary
+http://purl.obolibrary.org/obo/ZFA_0009227	granulosa cell
+http://purl.obolibrary.org/obo/NCIT_C12587	Granulosa Cell
+http://purl.obolibrary.org/obo/CL_0000501	granulosa cell
+http://purl.obolibrary.org/obo/NCIT_C3070	Granulosa Cell Tumor
+http://purl.obolibrary.org/obo/MONDO_0020541	Maligant granulosa cell tumor of ovary
+http://purl.obolibrary.org/obo/NCIT_C22662	Mouse Granulosa Cell
+http://purl.obolibrary.org/obo/NCIT_C41607	Ovarian Granulosa Cell
+http://purl.obolibrary.org/obo/NCIT_C36894	Neoplastic Granulosa Cell
+http://purl.obolibrary.org/obo/NCIT_C24000	Mouse Granulosa Cell Tumor
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C12587	Granulosa Cell
+http://purl.obolibrary.org/obo/FMA_18718	Granulosa cell of ovary
+http://purl.obolibrary.org/obo/BTO_0000542	granulosa cell
+http://purl.obolibrary.org/obo/ZFA_0009227	granulosa cell
+http://purl.obolibrary.org/obo/CL_0000501	granulosa cell
+http://purl.obolibrary.org/obo/EMAPA_31247	follicle cell of primordial follicle
+

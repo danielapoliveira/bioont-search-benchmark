@@ -1,0 +1,69 @@
+
+boolean
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+
+tf_idf
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+
+bm25
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+
+vector-space
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+
+pagerank
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0003144	heart failure
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+http://www.ebi.ac.uk/efo/EFO_0003144	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/HP_0001635	Congestive heart failure
+http://purl.obolibrary.org/obo/OAE_0000779	cardiac failure AE
+http://purl.obolibrary.org/obo/MONDO_0005009	congestive heart failure
+
+solr
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+http://purl.obolibrary.org/obo/NCIT_C80477	Heart Failure During Hospitalization
+http://purl.obolibrary.org/obo/NCIT_C66926	History of Heart Failure
+http://purl.obolibrary.org/obo/HP_0005130	Restrictive heart failure
+http://purl.obolibrary.org/obo/DOID_14172	rheumatic congestive heart failure
+http://purl.obolibrary.org/obo/HP_0001635	Congestive heart failure
+http://purl.obolibrary.org/obo/DOID_6000	congestive heart failure
+http://purl.obolibrary.org/obo/DOID_9651	systolic heart failure
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C50577	Heart Failure
+http://purl.obolibrary.org/obo/SYMP_0000292	heart failure
+http://www.ebi.ac.uk/efo/EFO_0003144	heart failure
+http://purl.obolibrary.org/obo/MONDO_0005252	heart failure
+http://purl.obolibrary.org/obo/HP_0001635	Congestive heart failure
+http://purl.obolibrary.org/obo/OAE_0000779	cardiac failure AE
+http://purl.obolibrary.org/obo/MONDO_0005009	congestive heart failure
+

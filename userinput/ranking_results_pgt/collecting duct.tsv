@@ -1,0 +1,55 @@
+
+boolean
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+tf_idf
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+bm25
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+vector-space
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+pagerank
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+class-match-measure
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+semantic-similarity
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0004203	cortical collecting duct
+
+bioportal
+http://purl.obolibrary.org/obo/BTO_0000761	collecting duct
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+http://purl.obolibrary.org/obo/PLANA_0000047	collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28407	collecting duct
+http://purl.obolibrary.org/obo/NCIT_C32344	Collecting Tube
+http://purl.obolibrary.org/obo/UBERON_0001232	collecting duct of renal tubule
+http://purl.obolibrary.org/obo/XAO_0000151	mesonephric collecting duct
+
+solr
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+http://purl.obolibrary.org/obo/PLANA_0000047	collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28407	collecting duct
+http://purl.obolibrary.org/obo/UBERON_0005185	renal medulla collecting duct
+http://purl.obolibrary.org/obo/UBERON_0004100	renal collecting system
+http://purl.obolibrary.org/obo/UBERON_0004737	metanephric collecting duct
+http://purl.obolibrary.org/obo/UBERON_0004203	cortical collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28130	cortical collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28061	medullary collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28477	primitive collecting duct group
+
+ols
+http://purl.obolibrary.org/obo/BTO_0000761	collecting duct
+http://purl.obolibrary.org/obo/PLANA_0000047	collecting duct
+http://purl.obolibrary.org/obo/EMAPA_28407	collecting duct
+http://purl.obolibrary.org/obo/ZFA_0005294	collecting duct
+http://purl.obolibrary.org/obo/XAO_0000151	mesonephric collecting duct
+http://purl.obolibrary.org/obo/NCIT_C32344	Collecting Tube
+http://purl.obolibrary.org/obo/UBERON_0001232	collecting duct of renal tubule
+

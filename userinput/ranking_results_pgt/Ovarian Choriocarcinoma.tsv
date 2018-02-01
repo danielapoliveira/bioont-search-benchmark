@@ -1,0 +1,47 @@
+
+boolean
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_5550	choriocarcinoma of ovary
+http://purl.obolibrary.org/obo/MONDO_0003507	choriocarcinoma of ovary
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C39991	Non-Gestational Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C40442	Gestational Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C8733	Stage IV Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C8732	Stage III Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C8731	Stage II Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C8730	Stage I Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/NCIT_C6549	Childhood Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_7591	gestational ovarian choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_7665	non-gestational ovarian choriocarcinoma
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C4515	Ovarian Choriocarcinoma
+http://www.ebi.ac.uk/efo/EFO_1000413	Ovarian Choriocarcinoma
+http://purl.obolibrary.org/obo/DOID_5550	choriocarcinoma of ovary
+

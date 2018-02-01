@@ -1,0 +1,27 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0000369	compound based treatment
+http://purl.obolibrary.org/obo/OBI_0000951	compound treatment design
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/OBI_0000951	compound treatment design
+http://purl.obolibrary.org/obo/OBI_0001199	in vivo design
+
+ols
+

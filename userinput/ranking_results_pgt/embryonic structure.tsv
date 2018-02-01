@@ -1,0 +1,98 @@
+
+boolean
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+
+tf_idf
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+
+bm25
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+
+pagerank
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+
+semantic-similarity
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/BTO_0000174	embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://www.ebi.ac.uk/efo/EFO_0000795	animal developmental tissue
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.bioontology.org/ontology/STY/T018	Embryonic Structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/BTO_0000174	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://www.ebi.ac.uk/efo/EFO_0000795	animal developmental tissue
+
+solr
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0000478	extraembryonic structure
+http://purl.obolibrary.org/obo/NCIT_C124570	Persistent Embryonic Structure
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://purl.obolibrary.org/obo/UBERON_0006590	remnant of embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0003921	pancreas primordium
+http://purl.obolibrary.org/obo/ZFA_0000038	margin
+http://purl.obolibrary.org/obo/UBERON_0004348	optic eminence
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C13229	Embryonic Structure
+http://www.ebi.ac.uk/efo/EFO_0000795	animal developmental tissue
+http://purl.obolibrary.org/obo/BTO_0000174	embryonic structure
+http://purl.obolibrary.org/obo/XAO_0003042	embryonic structure
+http://purl.obolibrary.org/obo/PLANA_0000117	embryonic structure
+http://purl.obolibrary.org/obo/ZFA_0001105	embryonic structure
+http://purl.obolibrary.org/obo/UBERON_0002050	embryonic structure
+http://purl.obolibrary.org/obo/FMA_69067	Embryonic structure
+

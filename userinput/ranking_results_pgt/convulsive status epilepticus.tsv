@@ -1,0 +1,28 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/NBO_0000691	non-convulsive status epilepticus
+http://purl.obolibrary.org/obo/NBO_0000692	generalised convulsive status epilepticus
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/NBO_0000691	non-convulsive status epilepticus
+http://purl.obolibrary.org/obo/NBO_0000692	generalised convulsive status epilepticus
+http://purl.obolibrary.org/obo/NBO_0000693	complex partial status epilepticus
+
+ols
+

@@ -1,0 +1,52 @@
+
+boolean
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+
+bm25
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+
+vector-space
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+http://purl.obolibrary.org/obo/MONDO_0008559	thrombophilia due to thrombin defect
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+http://purl.obolibrary.org/obo/HP_0005305	Cerebral venous thrombosis
+http://purl.obolibrary.org/obo/HP_0030248	Mesenteric venous thrombosis
+http://purl.obolibrary.org/obo/HP_0002625	Deep venous thrombosis
+http://purl.obolibrary.org/obo/NCIT_C101339	Venous Thrombosis Related to Vascular Access Complication
+http://purl.obolibrary.org/obo/NCIT_C116715	Venous Stroke
+http://purl.obolibrary.org/obo/NCIT_C49343	Deep Vein Thrombosis
+http://purl.obolibrary.org/obo/HP_0004850	Recurrent deep vein thrombosis
+http://purl.obolibrary.org/obo/OAE_0002817	Grade 2 thromboembolic event AE
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C99107	Venous Thrombosis
+http://purl.obolibrary.org/obo/HP_0004936	Venous thrombosis
+

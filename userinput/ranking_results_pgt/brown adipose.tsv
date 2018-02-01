@@ -1,0 +1,34 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/OBA_VT0001778	brown adipose amount
+http://purl.obolibrary.org/obo/MA_0003062	interscapular brown adipose tissue
+http://purl.obolibrary.org/obo/UBERON_0001348	brown adipose tissue
+http://purl.obolibrary.org/obo/MA_0000057	brown adipose tissue
+http://purl.obolibrary.org/obo/FMA_20118	Brown adipose tissue
+http://purl.obolibrary.org/obo/OBA_0005517	brown adipose tissue functionality
+http://purl.obolibrary.org/obo/MP_0014169	decreased brown adipose tissue mass
+http://purl.obolibrary.org/obo/OBA_VT0002971	brown adipose morphology trait
+http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
+http://purl.obolibrary.org/obo/VT_0001778	brown adipose amount
+
+ols
+

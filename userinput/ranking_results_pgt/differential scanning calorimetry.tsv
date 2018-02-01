@@ -1,0 +1,73 @@
+
+boolean
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+
+tf_idf
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+
+bm25
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+
+vector-space
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+
+pagerank
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+
+class-match-measure
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+
+semantic-similarity
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+
+zooma
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+
+bioportal
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+
+solr
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000914	differential scanning calorimetry curve
+http://purl.obolibrary.org/obo/CHMO_0002084	modulated differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0002083	dynamic differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000685	heat-flux differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000686	power-compensation differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0002085	temperature-modulated differential scanning calorimetry
+
+ols
+http://purl.obolibrary.org/obo/ERO_0001615	differential scanning calorimetry
+http://purl.obolibrary.org/obo/CHMO_0000684	differential scanning calorimetry
+http://purl.obolibrary.org/obo/MI_1311	differential scanning calorimetry
+http://purl.obolibrary.org/obo/FIX_0000387	differential scanning calorimetry
+

@@ -1,0 +1,53 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+tf_idf
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+bm25
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+vector-space
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+pagerank
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0000305	breast cancer
+
+bioportal
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+http://purl.obolibrary.org/obo/MONDO_0007254	breast cancer
+http://purl.obolibrary.org/obo/NCIT_C4872	Breast Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004989	breast carcinoma
+http://purl.obolibrary.org/obo/HP_0003002	Breast carcinoma
+http://www.ebi.ac.uk/efo/EFO_0000305	breast carcinoma
+
+solr
+http://purl.obolibrary.org/obo/HP_0003002	Breast carcinoma
+http://purl.obolibrary.org/obo/MONDO_0007254	breast cancer
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+http://purl.obolibrary.org/obo/NCIT_C15774	Breast Cancer Therapeutic Procedure
+http://purl.obolibrary.org/obo/NCIT_C15775	Breast Cancer Detection Research
+http://purl.obolibrary.org/obo/NCIT_C18663	Breast Cancer Genetics
+http://purl.obolibrary.org/obo/NCIT_C18665	Breast Cancer Epidemiology
+http://purl.obolibrary.org/obo/NCIT_C18662	Breast Cancer Education
+http://purl.obolibrary.org/obo/NCIT_C15957	Breast Cancer, Basic Research
+http://purl.obolibrary.org/obo/NCIT_C23889	Murine Breast Cancer Cells
+
+ols
+http://purl.obolibrary.org/obo/MONDO_0007254	breast cancer
+http://purl.obolibrary.org/obo/HP_0003002	Breast carcinoma
+http://purl.obolibrary.org/obo/DOID_1612	breast cancer
+http://purl.obolibrary.org/obo/NCIT_C4872	Breast Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004989	breast carcinoma
+http://www.ebi.ac.uk/efo/EFO_0000305	breast carcinoma
+

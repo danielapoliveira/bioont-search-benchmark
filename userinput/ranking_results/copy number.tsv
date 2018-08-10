@@ -1,0 +1,52 @@
+
+boolean
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+zooma
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+http://purl.obolibrary.org/obo/SO_0001743	copy_number_loss
+http://purl.obolibrary.org/obo/SO_0001742	copy_number_gain
+http://purl.obolibrary.org/obo/SO_0001912	copy_number_decrease
+http://purl.obolibrary.org/obo/SO_0001911	copy_number_increase
+http://purl.obolibrary.org/obo/SO_0001563	copy_number_change
+http://purl.obolibrary.org/obo/NCIT_C40207	Copy Number Polymorphism
+http://purl.obolibrary.org/obo/OBI_0000537	copy number variation profiling
+http://purl.obolibrary.org/obo/FYPO_0004823	abnormal rDNA copy number
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C49142	Copy Number
+http://purl.obolibrary.org/obo/GENO_0000872	copy number
+

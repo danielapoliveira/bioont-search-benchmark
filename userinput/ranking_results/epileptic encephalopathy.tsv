@@ -1,0 +1,43 @@
+
+boolean
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+tf_idf
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+bm25
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+vector-space
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+pagerank
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+class-match-measure
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+semantic-similarity
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+zooma
+http://purl.obolibrary.org/obo/HP_0200134	epileptic encephalopathy
+
+bioportal
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+
+solr
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+http://purl.obolibrary.org/obo/MONDO_0006508	obsolete infantile epileptic encephalopathy
+http://purl.obolibrary.org/obo/MONDO_0016021	early infantile epileptic encephalopathy
+http://purl.obolibrary.org/obo/MONDO_0014150	childhood onset epileptic encephalopathy
+http://purl.obolibrary.org/obo/MONDO_0013387	KCNQ2-related epileptic encephalopathy
+http://purl.obolibrary.org/obo/NCIT_C122814	Early Infantile Epileptic Encephalopathy
+http://purl.obolibrary.org/obo/DOID_0060475	childhood onset epileptic encephalopathy
+http://purl.obolibrary.org/obo/DOID_2481	infantile epileptic encephalopathy
+http://purl.obolibrary.org/obo/DOID_0050709	Ohtahara syndrome
+http://purl.obolibrary.org/obo/MONDO_0014625	epileptic encephalopathy, early infantile, 33
+
+ols
+http://purl.obolibrary.org/obo/HP_0200134	Epileptic encephalopathy
+

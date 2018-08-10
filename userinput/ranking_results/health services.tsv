@@ -1,0 +1,34 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/OMIT_0007468	Health Services
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C15245	Health Services Research
+http://purl.obolibrary.org/obo/NCIT_C16000	Health Services Delivery, Other
+http://purl.obolibrary.org/obo/NCIT_C15829	Outcomes and Health Services Research
+http://purl.obolibrary.org/obo/NCIT_C15315	Rehabilitation
+http://purl.obolibrary.org/obo/NCIT_C39522	Substance Abuse and Mental Health Services Administration
+http://purl.obolibrary.org/obo/NCIT_C39450	Master of Health Services Administration
+http://purl.obolibrary.org/obo/NCIT_C18864	Low Prevalence
+http://purl.obolibrary.org/obo/NCIT_C17352	Facility Construction
+http://purl.obolibrary.org/obo/NCIT_C15219	Health Care Delivery
+http://purl.obolibrary.org/obo/NCIT_C15242	Health Maintenance Organization
+
+ols
+

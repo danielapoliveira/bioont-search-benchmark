@@ -1,0 +1,46 @@
+
+boolean
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+tf_idf
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+bm25
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+vector-space
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+pagerank
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+class-match-measure
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+semantic-similarity
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+zooma
+
+bioportal
+http://edamontology.org/data_0863	Sequence alignment
+http://edamontology.org/operation_0292	Sequence alignment
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+
+solr
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+http://purl.obolibrary.org/obo/ERO_0100219	pairwise sequence alignment objective
+http://purl.obolibrary.org/obo/BCGO_0000011	high throughput sequence alignment
+http://purl.obolibrary.org/obo/ECO_0000200	sequence alignment evidence
+http://purl.obolibrary.org/obo/ECO_0005554	pairwise sequence alignment evidence
+http://purl.obolibrary.org/obo/ECO_0005555	multiple sequence alignment evidence
+http://purl.obolibrary.org/obo/ECO_0000247	sequence alignment evidence used in manual assertion
+http://www.ebi.ac.uk/swo/SWO_0000065	CRG TCoffee
+http://purl.obolibrary.org/obo/ECO_0000248	sequence alignment evidence used in automatic assertion
+http://purl.obolibrary.org/obo/ECO_0000206	BLAST evidence
+
+ols
+http://edamontology.org/operation_0292	Sequence alignment
+http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment
+http://edamontology.org/data_0863	Sequence alignment
+

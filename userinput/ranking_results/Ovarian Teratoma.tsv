@@ -1,39 +1,64 @@
+
+boolean
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+
+tf_idf
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+
+bm25
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+
+vector-space
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+
+pagerank
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
+
 zooma
-http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
 
 bioportal
 http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
 http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
 http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
-http://purl.obolibrary.org/obo/NCIT_C7285	Ovarian Solid Teratoma
-http://purl.obolibrary.org/obo/NCIT_C39996	Ovarian Fetiform Teratoma
-http://purl.obolibrary.org/obo/NCIT_C6554	Childhood Ovarian Teratoma
-http://purl.obolibrary.org/obo/NCIT_C8745	Stage III Ovarian Teratoma
-http://purl.obolibrary.org/obo/NCIT_C7283	Ovarian Cystic Teratoma
-http://purl.obolibrary.org/obo/NCIT_C8744	Stage II Ovarian Teratoma
-http://purl.obolibrary.org/obo/NCIT_C7286	Ovarian Monodermal Teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
+http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
 
 solr
-http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
 http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
-http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
-http://purl.obolibrary.org/obo/NCIT_C7286	Ovarian Monodermal Teratoma
+http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
 http://purl.obolibrary.org/obo/NCIT_C30041	Mouse Benign Ovarian Teratoma
-http://purl.obolibrary.org/obo/NCIT_C39996	Ovarian Fetiform Teratoma
-http://purl.obolibrary.org/obo/NCIT_C7283	Ovarian Cystic Teratoma
-http://purl.obolibrary.org/obo/NCIT_C7285	Ovarian Solid Teratoma
 http://purl.obolibrary.org/obo/HP_0025274	Ovarian dermoid cyst
-http://purl.obolibrary.org/obo/DOID_6314	ovarian fetiform teratoma
+http://purl.obolibrary.org/obo/NCIT_C8745	Stage III Ovarian Teratoma
+http://purl.obolibrary.org/obo/NCIT_C8112	Mature Ovarian Teratoma
+http://purl.obolibrary.org/obo/NCIT_C8111	Immature Ovarian Teratoma
+http://purl.obolibrary.org/obo/NCIT_C6554	Childhood Ovarian Teratoma
+http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C8110	Ovarian Teratoma
 http://purl.obolibrary.org/obo/HP_0012226	Ovarian teratoma
 http://www.ebi.ac.uk/efo/EFO_0006463	ovarian teratoma
+http://purl.obolibrary.org/obo/MONDO_0005602	ovarian teratoma
 http://purl.obolibrary.org/obo/MP_0009442	increased ovarian teratoma incidence
-http://purl.obolibrary.org/obo/NCIT_C3403	Teratoma
-http://purl.obolibrary.org/obo/DOID_5567	ovarian germ cell teratoma
-http://purl.obolibrary.org/obo/DOID_5118	ovarian cystic teratoma
-http://purl.obolibrary.org/obo/DOID_6315	ovarian solid teratoma
-http://purl.obolibrary.org/obo/DOID_6314	ovarian fetiform teratoma
-http://purl.obolibrary.org/obo/NCIT_C8111	Immature Ovarian Teratoma
 

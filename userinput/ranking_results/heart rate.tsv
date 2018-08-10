@@ -1,0 +1,41 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0004351	resting heart rate
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C49677	Heart Rate
+http://www.ebi.ac.uk/efo/EFO_0004326	heart rate
+http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C49677	Heart Rate
+http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+http://purl.obolibrary.org/obo/NCIT_C62095	Mean Heart Rate
+http://purl.obolibrary.org/obo/NCIT_C62096	Minimum Heart Rate
+http://purl.obolibrary.org/obo/NCIT_C37920	Bradycardia
+http://purl.obolibrary.org/obo/NCIT_C102249	Median Heart Rate
+http://purl.obolibrary.org/obo/NCIT_C92741	Baseline Fetal Heart Rate
+http://purl.obolibrary.org/obo/NCIT_C92716	Fetal Heart Rate
+http://purl.obolibrary.org/obo/NCIT_C87172	Heart Rate Finding
+http://purl.obolibrary.org/obo/NCIT_C87103	Newborn Heart Rate
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C49677	Heart Rate
+http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+http://www.ebi.ac.uk/efo/EFO_0004326	heart rate
+http://purl.obolibrary.org/obo/VSO_0000029	pulse rate
+

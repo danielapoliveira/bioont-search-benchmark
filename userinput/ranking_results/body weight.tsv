@@ -1,0 +1,52 @@
+
+boolean
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+tf_idf
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+bm25
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+vector-space
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+pagerank
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+class-match-measure
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+semantic-similarity
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+
+zooma
+http://purl.obolibrary.org/obo/HP_0004325	decreased body weight
+http://purl.obolibrary.org/obo/HP_0004324	increased body weight
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C81328	Body Weight
+http://www.ebi.ac.uk/efo/EFO_0004338	body weight
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+http://purl.obolibrary.org/obo/NCIT_C95085	Body Weight Domain
+http://purl.obolibrary.org/obo/VT_0001259	body mass
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C28742	Body Weight
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+http://purl.obolibrary.org/obo/NCIT_C81328	Body Weight
+http://purl.obolibrary.org/obo/NCIT_C95085	Body Weight Domain
+http://purl.obolibrary.org/obo/NCIT_C117976	Ideal Body Weight
+http://purl.obolibrary.org/obo/NCIT_C119794	Body Weight Test
+http://purl.obolibrary.org/obo/NCIT_C124479	Fetal Body Weight
+http://purl.obolibrary.org/obo/NCIT_C90464	Terminal Body Weight
+http://purl.obolibrary.org/obo/HP_0004324	Increased body weight
+http://purl.obolibrary.org/obo/HP_0004323	Abnormality of body weight
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C81328	Body Weight
+http://purl.obolibrary.org/obo/CMO_0000012	body weight
+http://www.ebi.ac.uk/efo/EFO_0004338	body weight
+http://purl.obolibrary.org/obo/VT_0001259	body mass
+http://purl.obolibrary.org/obo/NCIT_C95085	Body Weight Domain
+

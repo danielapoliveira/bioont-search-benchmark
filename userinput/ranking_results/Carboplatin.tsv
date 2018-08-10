@@ -1,0 +1,51 @@
+
+boolean
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+bm25
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+
+vector-space
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+zooma
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+http://purl.obolibrary.org/obo/CHEBI_31355	Carboplatin
+http://purl.obolibrary.org/obo/NCIT_C11881	Carboplatin/SU5416
+http://purl.obolibrary.org/obo/NCIT_C11822	Carboplatin/Pyrazoloacridine
+http://purl.obolibrary.org/obo/NCIT_C11779	Carboplatin/Fludarabine
+http://purl.obolibrary.org/obo/NCIT_C11692	Carboplatin/Vinorelbine
+http://purl.obolibrary.org/obo/NCIT_C11924	Calcitriol/Carboplatin
+http://purl.obolibrary.org/obo/NCIT_C11934	Carboplatin/Irinotecan
+http://purl.obolibrary.org/obo/NCIT_C12009	Carboplatin/Epirubicin
+http://purl.obolibrary.org/obo/NCIT_C12047	Carboplatin/Flavopiridol
+
+ols
+http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/NCIT_C1282	Carboplatin
+

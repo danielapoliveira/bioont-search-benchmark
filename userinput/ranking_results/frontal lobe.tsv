@@ -1,0 +1,83 @@
+
+boolean
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+
+tf_idf
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+
+bm25
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+
+pagerank
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+
+semantic-similarity
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/BTO_0000484	frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0001870	frontal cortex
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/NCIT_C23287	Murine Frontal Lobe
+http://purl.obolibrary.org/obo/UBERON_0014639	frontal sulcus
+http://purl.obolibrary.org/obo/FMA_242207	Cortex of right frontal lobe
+http://purl.obolibrary.org/obo/FMA_242209	Cortex of left frontal lobe
+http://purl.obolibrary.org/obo/FMA_242199	Cortex of frontal lobe
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C12352	Frontal Lobe
+http://purl.obolibrary.org/obo/HAO_0001820	frontal lobe
+http://purl.obolibrary.org/obo/SIBO_0000089	frontal lobe
+http://purl.obolibrary.org/obo/BTO_0000484	frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0016525	frontal lobe
+http://purl.obolibrary.org/obo/FMA_61824	Frontal lobe
+http://purl.obolibrary.org/obo/UBERON_0001870	frontal cortex
+

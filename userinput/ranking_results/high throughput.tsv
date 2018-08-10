@@ -1,0 +1,33 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C18472	High Throughput Screening
+http://purl.obolibrary.org/obo/STATO_0000239	high throughput screening
+http://purl.obolibrary.org/obo/ERO_0001366	high-throughput virus preparation 
+http://purl.obolibrary.org/obo/ERO_0000696	high throughput sample analysis
+http://purl.obolibrary.org/obo/BCGO_0000011	high throughput sequence alignment
+http://purl.obolibrary.org/obo/ECO_0006055	high throughput evidence
+http://purl.obolibrary.org/obo/ECO_0007001	high throughput mutant phenotype evidence used in manual assertion
+http://purl.obolibrary.org/obo/ECO_0007003	high throughput genetic interaction evidence used in manual assertion
+http://purl.obolibrary.org/obo/ECO_0007005	high throughput direct assay evidence used in manual assertion
+http://purl.obolibrary.org/obo/ECO_0007007	high throughput expression pattern evidence used in manual assertion
+
+ols
+

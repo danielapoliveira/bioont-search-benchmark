@@ -1,0 +1,36 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0000087	inner cell mass
+
+bioportal
+http://purl.obolibrary.org/obo/OBA_1000036	cell mass
+
+solr
+http://purl.obolibrary.org/obo/OBA_1000036	cell mass
+http://purl.obolibrary.org/obo/XAO_0004384	peripheral vegetal yolk mass
+http://purl.obolibrary.org/obo/XAO_0004395	central vegetal yolk mass
+http://purl.obolibrary.org/obo/XAO_0000281	vegetal yolk mass
+http://purl.obolibrary.org/obo/NCIT_C41234	Increased Red Cell Mass
+http://purl.obolibrary.org/obo/NCIT_C13740	Inner Cell Mass
+http://purl.obolibrary.org/obo/MP_0003904	decreased cell mass
+http://purl.obolibrary.org/obo/MP_0010118	abnormal intermediate mesoderm
+http://purl.obolibrary.org/obo/UBERON_2000033	intermediate cell mass of mesoderm
+http://purl.obolibrary.org/obo/ZFA_0000033	intermediate cell mass of mesoderm
+
+ols
+http://purl.obolibrary.org/obo/OBA_1000036	cell mass
+

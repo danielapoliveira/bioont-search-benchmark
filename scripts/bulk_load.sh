@@ -1,5 +1,5 @@
 #!/bin/bash
-PORT=1111
+PORT=1151
 USER=dba
 PASSWORD=dba
 VIRT_DB=$PWD/virt_database
@@ -11,7 +11,8 @@ echo
 echo Downloading ontologies...
 echo
 
-wget -N -P $ONTO_DB -i userinput/uris.txt
+#wget -N -P $ONTO_DB -i userinput/uris.txt
+parallel -- wget -N -P $ONTO_DB  < userinput/uris.txt
 
 for i in $ONTO_DB/*.owl;
 do

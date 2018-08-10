@@ -1,0 +1,44 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0000510	genetic modification
+http://purl.obolibrary.org/obo/NCIT_C22489	Organism Modification
+http://purl.obolibrary.org/obo/NCIT_C126104	Gene Modification
+
+bioportal
+http://www.ebi.ac.uk/efo/EFO_0000510	genetic modification
+http://purl.obolibrary.org/obo/NCIT_C22489	Organism Modification
+http://purl.obolibrary.org/obo/NCIT_C126104	Gene Modification
+http://purl.obolibrary.org/obo/OBI_0600043	genetic transformation
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C22489	Organism Modification
+http://purl.obolibrary.org/obo/OBI_0001460	genetic modification design
+http://purl.obolibrary.org/obo/OBI_0600043	genetic modification technique
+http://purl.obolibrary.org/obo/ERO_0001297	experimental genetic modification
+http://purl.obolibrary.org/obo/NCIT_C126104	Gene Modification
+http://purl.obolibrary.org/obo/ERO_0001174	ex vivo genetic manipulation of cells
+http://purl.obolibrary.org/obo/ERO_0001107	gene trapping
+http://purl.obolibrary.org/obo/ERO_0002165	recombinase-mediated cassette exchange
+http://purl.obolibrary.org/obo/ERO_0000416	targeted homologous recombination
+http://purl.obolibrary.org/obo/OBI_0001867	establishing cell line
+
+ols
+http://www.ebi.ac.uk/efo/EFO_0000510	genetic modification
+http://purl.obolibrary.org/obo/NCIT_C22489	Organism Modification
+http://purl.obolibrary.org/obo/NCIT_C126104	Gene Modification
+http://purl.obolibrary.org/obo/OBI_0600043	genetic transformation
+

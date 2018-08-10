@@ -1,0 +1,43 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/OMIT_0007678	Hepatitis B
+http://purl.obolibrary.org/obo/DOID_2043	hepatitis B
+http://purl.obolibrary.org/obo/MONDO_0005344	hepatitis B
+http://purl.obolibrary.org/obo/NCIT_C3097	Hepatitis B Infection
+
+bioportal
+http://purl.obolibrary.org/obo/DOID_2043	hepatitis B
+http://purl.obolibrary.org/obo/MONDO_0005344	hepatitis B
+http://purl.obolibrary.org/obo/NCIT_C3097	Hepatitis B Infection
+
+solr
+http://purl.obolibrary.org/obo/DOID_2043	hepatitis B
+http://purl.obolibrary.org/obo/NCIT_C3097	Hepatitis B Infection
+http://purl.obolibrary.org/obo/NCIT_C62795	Hepatitis B Virus Antibody
+http://purl.obolibrary.org/obo/NCIT_C92806	Hepatitis B Screening
+http://purl.obolibrary.org/obo/NCIT_C75676	Hepatitis B Virus Antigen
+http://purl.obolibrary.org/obo/NCIT_C14215	Hepatitis B Virus
+http://purl.obolibrary.org/obo/MONDO_0005344	hepatitis b infection
+http://purl.obolibrary.org/obo/NCIT_C17550	Hepatitis B X-Protein
+http://purl.obolibrary.org/obo/NCIT_C125944	Hepatitis B Virus Antibody Measurement
+http://purl.obolibrary.org/obo/OAE_0001033	hepatitis B AE
+
+ols
+http://purl.obolibrary.org/obo/DOID_2043	hepatitis B
+http://purl.obolibrary.org/obo/MONDO_0005344	hepatitis B
+http://purl.obolibrary.org/obo/NCIT_C3097	Hepatitis B Infection
+

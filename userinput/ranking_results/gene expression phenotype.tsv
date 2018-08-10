@@ -1,0 +1,39 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+http://purl.obolibrary.org/obo/OMP_0000253	gene expression phenotype
+http://purl.obolibrary.org/obo/FYPO_0000142	gene expression phenotype
+
+bioportal
+http://purl.obolibrary.org/obo/FYPO_0000142	gene expression phenotype
+http://purl.obolibrary.org/obo/OMP_0000253	gene expression phenotype
+
+solr
+http://purl.obolibrary.org/obo/OMP_0000253	gene expression phenotype
+http://purl.obolibrary.org/obo/FYPO_0000142	gene expression phenotype
+http://purl.obolibrary.org/obo/OMP_0007106	transcription phenotype
+http://purl.obolibrary.org/obo/FYPO_0000289	translation regulation phenotype
+http://purl.obolibrary.org/obo/OMP_0007107	translation phenotype
+http://purl.obolibrary.org/obo/OMP_0007163	transcription regulation phenotype
+http://purl.obolibrary.org/obo/FYPO_0000263	abnormal regulation of translation in response to stress
+http://purl.obolibrary.org/obo/FYPO_0000143	transcription regulation phenotype
+http://purl.obolibrary.org/obo/OMP_0006115	abolished gene expression
+http://purl.obolibrary.org/obo/OMP_0007080	altered gene expression
+
+ols
+http://purl.obolibrary.org/obo/FYPO_0000142	gene expression phenotype
+http://purl.obolibrary.org/obo/OMP_0000253	gene expression phenotype
+

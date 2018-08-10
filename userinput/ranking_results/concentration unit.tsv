@@ -1,0 +1,48 @@
+
+boolean
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+tf_idf
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+bm25
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+vector-space
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+pagerank
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+class-match-measure
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+semantic-similarity
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+
+zooma
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+http://www.bioassayontology.org/bao#BAO_0190000	concentration unit
+http://purl.obolibrary.org/obo/NCIT_C48207	Unit of Concentration
+
+bioportal
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+http://www.semanticweb.org/ontologies/epo.owl#ConcentrationUnit	concentration unit
+http://purl.obolibrary.org/obo/NCIT_C48207	Unit of Concentration
+
+solr
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+http://purl.obolibrary.org/obo/NCIT_C69438	Radioactivity Concentration Unit
+http://purl.obolibrary.org/obo/NCIT_C48207	Unit of Concentration
+http://purl.obolibrary.org/obo/NCIT_C67442	Miscellaneous Concentration Unit
+http://purl.obolibrary.org/obo/NCIT_C111129	Antibody Unit
+http://purl.obolibrary.org/obo/NCIT_C73737	Milliequivalent per Milliliter
+http://purl.obolibrary.org/obo/NCIT_C130192	Nanogram Equivalents Per Liter
+http://purl.obolibrary.org/obo/NCIT_C70578	Milliequivalent per Microliter
+http://purl.obolibrary.org/obo/UO_0000215	plaque forming unit per milliliter
+http://purl.obolibrary.org/obo/UO_0000214	plaque forming unit per volume
+
+ols
+http://purl.obolibrary.org/obo/UO_0000051	concentration unit
+http://purl.obolibrary.org/obo/NCIT_C48207	Unit of Concentration
+

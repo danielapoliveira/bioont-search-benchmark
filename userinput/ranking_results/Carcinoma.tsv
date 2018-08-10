@@ -1,39 +1,81 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+
+bm25
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+
+vector-space
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
+http://purl.obolibrary.org/obo/DOID_305	carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
+http://purl.obolibrary.org/obo/MPATH_549	carcinoma
+
 zooma
-http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
 
 bioportal
 http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
 http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
 http://purl.obolibrary.org/obo/MP_0002038	increased carcinoma incidence
-http://purl.obolibrary.org/obo/NCIT_C3775	Adnexal Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C9465	Hypopharyngeal Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C9466	Pharyngeal Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C9291	Anal Carcinoma
-http://purl.obolibrary.org/obo/NCIT_C8500	Bilateral Carcinoma
 
 solr
 http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
-http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://purl.obolibrary.org/obo/MPATH_549	carcinoma
-http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
-http://purl.obolibrary.org/obo/NCIT_C27949	Metaplastic Carcinoma
+http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://purl.obolibrary.org/obo/NCIT_C60366	Rat Carcinoma
-http://purl.obolibrary.org/obo/DOID_4451	renal carcinoma
-http://purl.obolibrary.org/obo/DOID_4531	mucoepidermoid carcinoma
-http://www.ebi.ac.uk/efo/EFO_0006772	undifferentiated carcinoma
+http://purl.obolibrary.org/obo/NCIT_C27949	Metaplastic Carcinoma
+http://purl.obolibrary.org/obo/NCIT_C7629	Common Carcinoma
+http://purl.obolibrary.org/obo/HP_0030410	Sebaceous gland carcinoma
+http://purl.obolibrary.org/obo/NCIT_C2927	Papillary Carcinoma
+http://purl.obolibrary.org/obo/DOID_4001	ovarian carcinoma
 
 ols
 http://purl.obolibrary.org/obo/NCIT_C2916	Carcinoma
+http://purl.obolibrary.org/obo/MONDO_0004993	carcinoma
 http://purl.obolibrary.org/obo/DOID_305	carcinoma
 http://purl.obolibrary.org/obo/HP_0030731	Carcinoma
 http://www.ebi.ac.uk/efo/EFO_0000313	carcinoma
 http://purl.obolibrary.org/obo/MPATH_549	carcinoma
 http://purl.obolibrary.org/obo/MP_0002038	increased carcinoma incidence
-http://purl.obolibrary.org/obo/DOID_3963	thyroid carcinoma
-http://purl.obolibrary.org/obo/DOID_3948	adrenocortical carcinoma
-http://purl.obolibrary.org/obo/DOID_3950	adrenal carcinoma
-http://purl.obolibrary.org/obo/DOID_3904	bronchus carcinoma
 

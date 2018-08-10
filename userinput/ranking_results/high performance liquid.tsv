@@ -1,0 +1,33 @@
+
+boolean
+
+tf_idf
+
+bm25
+
+vector-space
+
+pagerank
+
+class-match-measure
+
+semantic-similarity
+
+zooma
+
+bioportal
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C16434	High Performance Liquid Chromatography
+http://purl.obolibrary.org/obo/MMO_0000394	high-performance liquid chromatography
+http://purl.obolibrary.org/obo/ERO_0000185	high performance liquid chromatography
+http://purl.obolibrary.org/obo/CHMO_0001009	high-performance liquid chromatography
+http://purl.obolibrary.org/obo/OBI_0001057	high performance liquid chromatography instrument
+http://purl.obolibrary.org/obo/CHMO_0000795	ultra high performance liquid chromatography
+http://purl.obolibrary.org/obo/CHMO_0001278	capillary high-performance liquid chromatography
+http://purl.obolibrary.org/obo/CHMO_0001279	nanoflow high-performance liquid chromatography
+http://purl.obolibrary.org/obo/CHMO_0000976	high-performance liquid chromatography column
+http://purl.obolibrary.org/obo/ECO_0001052	high-performance liquid chromatography evidence
+
+ols
+

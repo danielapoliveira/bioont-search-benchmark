@@ -1,0 +1,50 @@
+
+boolean
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+tf_idf
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+bm25
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+vector-space
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+pagerank
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+class-match-measure
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+semantic-similarity
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+
+zooma
+http://www.orpha.net/ORDO/Orphanet_79292	fish-eye disease
+
+bioportal
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+http://www.ebi.ac.uk/efo/EFO_0003966	eye disease
+http://purl.obolibrary.org/obo/MONDO_0005328	eye disease
+http://purl.obolibrary.org/obo/NCIT_C26767	Eye Disorder
+http://purl.obolibrary.org/obo/HP_0000478	Abnormality of the eye
+
+solr
+http://purl.obolibrary.org/obo/MONDO_0005328	eye disease
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+http://purl.obolibrary.org/obo/MONDO_0010446	X-linked cone dysfunction syndrome with myopia
+http://purl.obolibrary.org/obo/MONDO_0020004	rare eye disease
+http://purl.obolibrary.org/obo/NCIT_C84420	Diabetic Eye Disease
+http://purl.obolibrary.org/obo/NCIT_C26767	Eye Disorder
+http://purl.obolibrary.org/obo/MONDO_0010371	Aland island eye disease
+http://purl.obolibrary.org/obo/MONDO_0015937	rare inflammatory eye disease
+http://purl.obolibrary.org/obo/MONDO_0007620	fish-eye disease
+http://purl.obolibrary.org/obo/DOID_0050630	Aland Island eye disease
+
+ols
+http://purl.obolibrary.org/obo/MONDO_0005328	eye disease
+http://purl.obolibrary.org/obo/DOID_5614	eye disease
+http://www.ebi.ac.uk/efo/EFO_0003966	eye disease
+http://purl.obolibrary.org/obo/NCIT_C26767	Eye Disorder
+

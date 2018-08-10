@@ -16,13 +16,13 @@ import java.util.List;
 public class Test {
     //Choose to run the full framework or just part of it.
     private static boolean loadData = false;
-    private static boolean preprocess = true;
+    private static boolean preprocess = false;
     private static boolean search = true;
     private static boolean evaluate = true;
     private static boolean evaluateGtOnly = false;
 
     //Choose precalculations to execute.
-    private static boolean tfidf = false;
+    private static boolean tfidf = true;
     private static boolean bm25 = true;
     private static boolean vsm = true;
     private static boolean pageRank = true;
@@ -54,7 +54,6 @@ public class Test {
 
 
         String urisFile = Configuration.getProperty(Configuration.URIS_FILENAME);
-        System.out.println(urisFile);
         String queriesFile = Configuration.getProperty(Configuration.QUERY_FILENAME);
         String savePath = Configuration.getProperty(Configuration.SAVE_PATH);
 

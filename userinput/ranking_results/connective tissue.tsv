@@ -1,0 +1,94 @@
+
+boolean
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+
+tf_idf
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+
+bm25
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+
+vector-space
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+
+pagerank
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+
+class-match-measure
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+
+zooma
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+
+bioportal
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/CL_0000388	connective tissue
+http://purl.obolibrary.org/obo/BTO_0000421	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/FMA_9640	Portion of connective tissue
+
+solr
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/FMA_9640	Portion of connective tissue
+http://purl.obolibrary.org/obo/NCIT_C23309	Murine Connective Tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/MONDO_0003900	connective tissue disease
+http://purl.obolibrary.org/obo/NCIT_C23489	Murine Connective Tissue Cells
+http://purl.obolibrary.org/obo/NCIT_C22699	Mouse Connective Tissue
+
+ols
+http://purl.obolibrary.org/obo/NCIT_C12374	Connective Tissue
+http://purl.obolibrary.org/obo/FMA_9640	Portion of connective tissue
+http://purl.obolibrary.org/obo/BTO_0000421	connective tissue
+http://purl.obolibrary.org/obo/MA_0000011	connective tissue
+http://purl.obolibrary.org/obo/XAO_0001017	connective tissue
+http://purl.obolibrary.org/obo/EMAPA_35251	connective tissue
+http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
+http://www.ebi.ac.uk/efo/EFO_0000952	connective tissue
+http://purl.obolibrary.org/obo/CL_0000388	connective tissue
+

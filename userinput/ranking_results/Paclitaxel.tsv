@@ -1,39 +1,51 @@
-zooma
+
+boolean
 http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+tf_idf
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+bm25
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+vector-space
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+pagerank
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+
+class-match-measure
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+
+zooma
 
 bioportal
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
 http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C11430	Gemcitabine/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10476	Doxorubicin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C2688	Nab-paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C37842	Paclitaxel/Pegfilgrastim
-http://purl.obolibrary.org/obo/NCIT_C10909	Paclitaxel/Thiotepa
-http://purl.obolibrary.org/obo/NCIT_C10662	Carboplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10664	Etoposide/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C2649	DHA-Paclitaxel
 
 solr
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
-http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
+http://purl.obolibrary.org/obo/CHEBI_45863	Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C138050	Bevacizumab/Paclitaxel Regimen
+http://purl.obolibrary.org/obo/NCIT_C138051	Paclitaxel/Trastuzumab Regimen
+http://purl.obolibrary.org/obo/NCIT_C11767	Oblimersen/Paclitaxel
+http://purl.obolibrary.org/obo/NCIT_C11775	Capecitabine/Paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C11778	Paclitaxel/SU5416
+http://purl.obolibrary.org/obo/NCIT_C61078	Paclitaxel Preparation
 http://purl.obolibrary.org/obo/NCIT_C11698	Oxaliplatin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C12105	Bevacizumab/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C12115	Paclitaxel/R101933
-http://purl.obolibrary.org/obo/NCIT_C9759	Herceptin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C37844	Paclitaxel/Trastuzumab
-http://purl.obolibrary.org/obo/NCIT_C37842	Paclitaxel/Pegfilgrastim
-http://purl.obolibrary.org/obo/NCIT_C37843	Paclitaxel/Suramin
+http://purl.obolibrary.org/obo/NCIT_C11935	Calcitriol/Paclitaxel
 
 ols
 http://purl.obolibrary.org/obo/CHEBI_45863	paclitaxel
 http://purl.obolibrary.org/obo/NCIT_C1411	Paclitaxel
-http://purl.obolibrary.org/obo/DRON_00731597	Paclitaxel Injection
-http://purl.obolibrary.org/obo/NCIT_C29256	Micellar Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C37578	Bortezomib/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10476	Doxorubicin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C11278	Flavopiridol/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C11254	Epirubicin/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C11247	Irinotecan/Paclitaxel
-http://purl.obolibrary.org/obo/NCIT_C10687	Dexverapamil/Paclitaxel
 

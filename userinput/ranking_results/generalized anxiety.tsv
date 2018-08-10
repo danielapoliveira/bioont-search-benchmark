@@ -1,0 +1,43 @@
+
+boolean
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+tf_idf
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+bm25
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+vector-space
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+pagerank
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+class-match-measure
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+semantic-similarity
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+zooma
+http://www.ebi.ac.uk/efo/EFO_0006788	anxiety
+
+bioportal
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+
+solr
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+http://purl.obolibrary.org/obo/NCIT_C92622	Generalized Anxiety Disorder
+http://purl.obolibrary.org/obo/NCIT_C88893	Generalized Anxiety Disorder Questionnaire
+http://purl.obolibrary.org/obo/MONDO_0001942	generalized anxiety disorder
+http://purl.obolibrary.org/obo/DOID_14320	generalized anxiety disorder
+http://purl.obolibrary.org/obo/NCIT_C103519	Generalized Anxiety Disorder - 7 Questionnaire
+http://purl.obolibrary.org/obo/NCIT_C113886	GAD-7 - Total Score
+http://purl.obolibrary.org/obo/NCIT_C103568	GAD-7 - Trouble Relaxing
+http://purl.obolibrary.org/obo/NCIT_C103565	GAD-7 - Feeling Nervous Anxious or On Edge
+http://purl.obolibrary.org/obo/NCIT_C103566	GAD-7 - Not Being Able to Stop or Control Worrying
+
+ols
+http://purl.obolibrary.org/obo/NBO_0000245	generalized anxiety
+

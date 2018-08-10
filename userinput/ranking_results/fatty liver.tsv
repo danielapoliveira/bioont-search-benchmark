@@ -1,0 +1,49 @@
+
+boolean
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+tf_idf
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+bm25
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+vector-space
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+pagerank
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+class-match-measure
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+semantic-similarity
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+
+zooma
+http://purl.obolibrary.org/obo/OMIT_0006456	Fatty Liver
+http://purl.obolibrary.org/obo/MP_0002628	hepatic steatosis
+http://purl.obolibrary.org/obo/HP_0001397	Hepatic steatosis
+
+bioportal
+http://purl.obolibrary.org/obo/HP_0001397	Hepatic steatosis
+http://purl.obolibrary.org/obo/MP_0002628	hepatic steatosis
+http://purl.obolibrary.org/obo/MONDO_0004790	fatty liver disease
+
+solr
+http://purl.obolibrary.org/obo/MONDO_0005317	fatty liver
+http://purl.obolibrary.org/obo/HP_0006573	Acute hepatic steatosis
+http://purl.obolibrary.org/obo/MONDO_0007026	non-alcoholic fatty liver
+http://purl.obolibrary.org/obo/MONDO_0004790	fatty liver disease
+http://purl.obolibrary.org/obo/MONDO_0000031	fatty liver disease, Nonalcoholic
+http://purl.obolibrary.org/obo/NCIT_C84444	Nonalcoholic Fatty Liver Disease
+http://purl.obolibrary.org/obo/DOID_9452	fatty liver disease
+http://purl.obolibrary.org/obo/MONDO_0013771	transient infantile hypertriglyceridemia and hepatosteatosis
+http://purl.obolibrary.org/obo/MP_0002628	hepatic steatosis
+http://purl.obolibrary.org/obo/HP_0001397	Hepatic steatosis
+
+ols
+http://purl.obolibrary.org/obo/HP_0001397	Hepatic steatosis
+http://purl.obolibrary.org/obo/MP_0002628	hepatic steatosis
+http://purl.obolibrary.org/obo/MONDO_0004790	fatty liver disease
+

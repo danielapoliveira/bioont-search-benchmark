@@ -1,6 +1,10 @@
 # bioont-search-benchmark
 This is a Maven project that contains source code in Java and ground truth data for a biomedical ontology benchmark.
 
+More details in the research paper:
+> D. Oliveira, A. S. Butt, A. Haller, D. Rebholz-Schuhmann, and R. Sahay, “Where to search top-K biomedical ontologies?,” Brief Bioinform, vol. 20, no. 4, pp. 1477–1491, Jul. 2019, doi: 10.1093/bib/bby015.
+
+
 To run this project you will need the following:
 * A Linux machine.
 * [Virtuoso Jena Provider](https://github.com/srdc/virt-jena):
